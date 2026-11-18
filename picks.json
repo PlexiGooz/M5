@@ -1,9 +1,9 @@
 {
- "generated_at": 1795030560,
+ "generated_at": 1795031453,
  "date": "2026-11-18",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:35 PT",
- "summary": "Risk-off tilt: Dow lower, Nasdaq mixed, Nvidia back to falling after its beat-and-raise faded; Fed minutes mildly hawkish, Anthropic prices its IPO tonight. Since 11:20: no change (no fresh intraday quotes found, prices are estimates).",
+ "run": "update 11:50 PT",
+ "summary": "Risk-off tilt: Dow lower, Nasdaq mixed, Nvidia back to falling after its beat-and-raise faded; Fed minutes due 2 PM ET, Anthropic prices its IPO tonight. Since 11:35: no change (no fresh intraday quotes found, prices are estimates).",
  "picks": [
   {
    "symbol": "TTWO",
