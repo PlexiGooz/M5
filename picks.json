@@ -1,9 +1,9 @@
 {
- "generated_at": 1795031453,
+ "generated_at": 1795032384,
  "date": "2026-11-18",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:50 PT",
- "summary": "Risk-off tilt: Dow lower, Nasdaq mixed, Nvidia back to falling after its beat-and-raise faded; Fed minutes due 2 PM ET, Anthropic prices its IPO tonight. Since 11:35: no change (no fresh intraday quotes found, prices are estimates).",
+ "run": "update 12:05 PT",
+ "summary": "Mixed tape after hawkish Fed minutes (hike talk): Dow about -1%, S&P slightly red, Nasdaq slightly green while Nvidia stays down ~2.4%; Anthropic prices its IPO tonight. Since 11:50: Nvidia slipped to ~151.9 under its 152 trigger, so its breakdown moves to 150; QQQ put trimmed 2 points as the Nasdaq turned green (single unverified source, prices are estimates).",
  "picks": [
   {
    "symbol": "TTWO",
@@ -78,11 +78,11 @@
    "name": "Nvidia",
    "direction": "put",
    "confidence": 54,
-   "price": 152.3,
+   "price": 151.9,
    "breakout": 157.5,
-   "breakdown": 152.0,
+   "breakdown": 150.0,
    "target_up": 160.5,
-   "target_down": 148.5,
+   "target_down": 147.0,
    "levels_up": [
     {
      "price": 155.6,
@@ -96,14 +96,14 @@
    "levels_down": [
     {
      "price": 150,
-     "why": "round number, 150 put strike"
+     "why": "round number, 150 put strike, new breakdown trigger"
     },
     {
      "price": 145,
      "why": "round number"
     }
    ],
-   "reason": "Beat-and-raise gap failed: up ~3% premarket, now down more than 2% as the post-Huang selling resumes; under 152 extends the fade, reclaiming 157.5 negates."
+   "reason": "Beat-and-raise gap failed and hawkish Fed minutes kept the selling going (~-2.4%), just under 152; under 150 extends the fade, reclaiming 157.5 negates."
   },
   {
    "symbol": "LOW",
@@ -138,38 +138,6 @@
    "reason": "Beat leaned on a tariff refund and the outlook disappointed, but the stock has recovered to about flat by 1 PM; only a fresh break under 215.5 revives the fade, while over 222 (above Tuesday's close) the put fails."
   },
   {
-   "symbol": "QQQ",
-   "name": "Invesco QQQ Trust",
-   "direction": "put",
-   "confidence": 50,
-   "price": 655.8,
-   "breakout": 661.0,
-   "breakdown": 652.0,
-   "target_up": 665.0,
-   "target_down": 647.0,
-   "levels_up": [
-    {
-     "price": 660,
-     "why": "round number"
-    },
-    {
-     "price": 670,
-     "why": "round number"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 650,
-     "why": "round number"
-    },
-    {
-     "price": 640,
-     "why": "round number"
-    }
-   ],
-   "reason": "Nasdaq choppy (reports conflict: slightly green vs red) as the Nvidia relief faded and the Dow slid, after four straight S&P losses; under 652 extends, back over 661 fails."
-  },
-  {
    "symbol": "MRVL",
    "name": "Marvell Technology",
    "direction": "call",
@@ -200,9 +168,43 @@
     }
    ],
    "reason": "Was up ~4% premarket on the post-Nvidia AI bid, but Nvidia's reversal threatens the gap; holding over 158 still runs, under 152 means the gap is fading."
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 48,
+   "price": 655.8,
+   "breakout": 661.0,
+   "breakdown": 652.0,
+   "target_up": 665.0,
+   "target_down": 647.0,
+   "levels_up": [
+    {
+     "price": 660,
+     "why": "round number"
+    },
+    {
+     "price": 670,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 650,
+     "why": "round number"
+    },
+    {
+     "price": 640,
+     "why": "round number"
+    }
+   ],
+   "reason": "Nasdaq edged green after hawkish Fed minutes while the Dow fell ~1%; the put needs a break under 652, back over 661 fails."
   }
  ],
  "sources": [
+  "https://rallies.ai/news/wall-street-mixed-after-nvidia-earnings-fed-minutes-5c09aae03075868e",
+  "https://www.fxstreet.com/analysis/feds-october-meeting-minutes-in-the-spotlight-202611180935",
   "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
   "https://financefeeds.com/nasdaq-composite-nvidia-fed-minutes/",
   "https://www.marketscreener.com/news/nasdaq-gains-in-choppy-trade-after-nvidia-outlook-anthropic-pricing-awaited-ce785eddda8ef625",
@@ -215,8 +217,6 @@
   "https://www.tradingview.com/news/seekingalpha:6a08785ab094b:0-wall-street-falls-as-investors-gauge-nvidia-earnings/",
   "https://www.investing.com/news/earnings/nvidia-quarterly-results-beat-estimates-5033943",
   "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-125812319.html",
-  "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-point-to-a-higher-open-after-nvidia-earnings/",
-  "https://www.tipranks.com/news/u-s-stocks-fall-as-investors-digest-nvidias-q3-results-focus-on-fed-minutes",
-  "https://www.kitco.com/news/off-the-wire/2026-11-18/stocks-slip-investors-mull-nvidia-earnings-anthropic-ipo-test-ai-boom"
+  "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-point-to-a-higher-open-after-nvidia-earnings/"
  ]
 }
