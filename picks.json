@@ -1,9 +1,9 @@
 {
- "generated_at": 1795027875,
+ "generated_at": 1795028789,
  "date": "2026-11-18",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:50 PT",
- "summary": "Risk-off tilt into the 2 PM ET Fed minutes: Dow lower, Nasdaq choppy around flat, Nvidia still about 2% down after its beat-and-raise faded; Anthropic prices its IPO tonight. Since 10:35: no change to picks or confidence; added further up/down levels for each pick (quote pages blocked, prices are estimates).",
+ "run": "update 11:05 PT",
+ "summary": "Risk-off tilt: Dow lower, Nasdaq choppy near flat, Nvidia still about 2% down after its beat-and-raise faded; Fed minutes (2 PM ET) just out with no clear reaction yet, Anthropic prices its IPO tonight. Since 10:50: no change (quote pages blocked, prices are estimates).",
  "picks": [
   {
    "symbol": "TTWO",
