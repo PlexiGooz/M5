@@ -1,9 +1,9 @@
 {
- "generated_at": 1795032384,
+ "generated_at": 1795033258,
  "date": "2026-11-18",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:05 PT",
- "summary": "Mixed tape after hawkish Fed minutes (hike talk): Dow about -1%, S&P slightly red, Nasdaq slightly green while Nvidia stays down ~2.4%; Anthropic prices its IPO tonight. Since 11:50: Nvidia slipped to ~151.9 under its 152 trigger, so its breakdown moves to 150; QQQ put trimmed 2 points as the Nasdaq turned green (single unverified source, prices are estimates).",
+ "run": "update 12:20 PT",
+ "summary": "Mixed tape after hawkish Fed minutes (hike talk): Dow about -1%, S&P slightly red, Nasdaq near flat with Nvidia ~-2.4%; Anthropic prices its IPO tonight. Since 12:05: no change; searches showed no fresh intraday quotes or news on the picks, so levels and confidence are carried over (prices are estimates).",
  "picks": [
   {
    "symbol": "TTWO",
