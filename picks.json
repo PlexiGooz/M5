@@ -1,9 +1,9 @@
 {
- "generated_at": 1795109764,
+ "generated_at": 1795110648,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:35 PT",
- "summary": "Anthropic (ANT) faded from a $115 high to about $101-105 after opening at $111.50 (IPO $83), while the Nasdaq held a gain of about 1% late morning. No change since 09:21: searches returned no fresh quotes or news on the picks, so levels and confidence are held and no pick is at 55+.",
+ "run": "update 09:50 PT",
+ "summary": "Anthropic (ANT) faded from a $115 high to about $101-105 after opening at $111.50 (IPO $83), while the Nasdaq held a gain of about 1%. No change since 09:35: searches returned no fresh quotes or news on the picks, so levels and confidence are held and no pick is at 55+.",
  "picks": [
   {
    "symbol": "BABA",
