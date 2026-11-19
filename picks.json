@@ -1,9 +1,9 @@
 {
- "generated_at": 1795104432,
+ "generated_at": 1795105286,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:06 PT",
- "summary": "Nasdaq up about 1.9% in early trade; ANT (priced $83) was indicated near $104 in the opening auction with no confirmed first trade yet in coverage, and the bias stays long tech with sell-the-news risk once it prints. No change: searches turned up no fresh quotes or news on the picks, so levels and confidence stay as set.",
+ "run": "update 08:21 PT",
+ "summary": "Nasdaq up about 1.9% in early trade on the Anthropic (ANT) debut, bias stays long tech with sell-the-news risk once it prints. No change: searches turned up no fresh quotes or news on the picks, so levels and confidence stay as set.",
  "picks": [
   {
    "symbol": "PANW",
