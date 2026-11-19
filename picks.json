@@ -1,9 +1,9 @@
 {
- "generated_at": 1795113381,
+ "generated_at": 1795114271,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:35 PT",
- "summary": "Risk-off is deepening: Yahoo/CNN show the Dow down about 800 points, the S&P 500 down roughly 1-1.5% and the Nasdaq down about 1-1.4% while Anthropic (ANT) trades above its $83 IPO price. Since 10:20: QQQ likely broke 650, so its levels shift lower; PANW, NVDA and QQQ puts edge up and the CRWD call edges down. Picks unchanged; no pick reaches 55 because prices are still estimates (no live quotes).",
+ "run": "update 10:50 PT",
+ "summary": "Risk-off tape persists: per the last Yahoo/CNN/UPI reads, the Dow is down about 800 points and the Nasdaq about 1-1.4% on Anthropic IPO day. Since 10:35: no change; searches returned no fresher quotes or news, so picks, levels and confidence are held (prices are estimates).",
  "picks": [
   {
    "symbol": "QQQ",
