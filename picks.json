@@ -1,9 +1,9 @@
 {
- "generated_at": 1795102598,
+ "generated_at": 1795103490,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:36 PT",
- "summary": "Nasdaq up about 1.5-1.9% after the open; ANT (priced $83) was indicated at roughly $100-105 for its first trade, and the bias stays long tech with sell-the-news risk once it prints. No change: no fresh quotes or news on the picks, so levels and confidence stay as set.",
+ "run": "update 07:51 PT",
+ "summary": "Nasdaq up about 1.9% in early trade; ANT (priced $83) shows an indicative ~$104 in the opening auction with no first trade yet, and the bias stays long tech with sell-the-news risk once it prints. No change: no fresh quotes or news on the picks, so levels and confidence stay as set.",
  "picks": [
   {
    "symbol": "PANW",
@@ -247,6 +247,8 @@
   }
  ],
  "sources": [
+  "https://cryptoticker.io/en/anthropic-stock-live-ant-first-trading-day-nasdaq/",
+  "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
   "https://qz.com/nasdaq-jumps-anthropic-ipo-debut-stock-111926",
   "https://www.newsquawk.com/headlines/anthropic-ant-shares-indicated-to-open-at-usd-9960-in-nasdaq-debut-vs-ipo-price-usd-83shr",
   "https://www.fastcompany.com/91645598/anthropic-ipo-what-time-trading-start-stock-price-live-update",
@@ -259,8 +261,6 @@
   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
   "https://optionsoracle.substack.com/p/anthropic-prices-at-83-nasdaq-futures",
   "https://currentlogic.substack.com/p/the-morning-brief-november-19-2026",
-  "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026",
-  "https://www.benzinga.com/trading-ideas/movers/26/11/63419193/why-palo-alto-shares-are-trading-higher-by-over-9-here-are-20-stocks-moving-premarket",
-  "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
  ]
 }
