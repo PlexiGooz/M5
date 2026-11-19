@@ -1,9 +1,9 @@
 {
- "generated_at": 1795106159,
+ "generated_at": 1795107101,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:35 PT",
- "summary": "Nasdaq up in early trade on the Anthropic (ANT) debut, though live blogs note the Dow and S&P giving back some gains before ANT opens; bias stays long tech with sell-the-news risk. No change: no fresh quotes or news on the picks, so levels and confidence stay as set.",
+ "run": "update 08:51 PT",
+ "summary": "Nasdaq holding gains as Anthropic (ANT) works through its opening auction (indicated near $104 vs $83 IPO price, per live blogs); bias stays long tech with sell-the-news risk once ANT trades. No change: no fresh quotes or news on the picks, so levels and confidence stay as set.",
  "picks": [
   {
    "symbol": "PANW",
@@ -247,6 +247,7 @@
   }
  ],
  "sources": [
+  "https://www.tradingkey.com/analysis/stocks/us-stocks/262312732-ant-debuts-today-record-81-3-billion-ipo-83-line-to-watch-november-19-2026-tradingkey",
   "https://cryptoticker.io/en/anthropic-stock-live-ant-first-trading-day-nasdaq/",
   "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
   "https://qz.com/nasdaq-jumps-anthropic-ipo-debut-stock-111926",
@@ -260,7 +261,6 @@
   "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-anthropic-ipo-140633699.html",
   "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
   "https://optionsoracle.substack.com/p/anthropic-prices-at-83-nasdaq-futures",
-  "https://currentlogic.substack.com/p/the-morning-brief-november-19-2026",
-  "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+  "https://currentlogic.substack.com/p/the-morning-brief-november-19-2026"
  ]
 }
