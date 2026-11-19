@@ -1,29 +1,266 @@
-{"generated_at": 1795098145, "date": "2026-11-19", "model": "claude-opus-5-5 (routine)", "run": "morning",
-"summary": "Risk-on open: Nasdaq 100 futures about +2% and S&P about +1% ahead of Anthropic's record $83 IPO (ANT trades from about 10 AM ET), with cybersecurity leading on Palo Alto's beat-and-raise; Walmart and Alibaba lag after mixed reports and gold sits at 52-week lows. Bias leans long tech, but watch for sell-the-news once ANT opens. Quote pages were blocked, so prices are premarket estimates from search results.",
-"picks": [
-{"symbol": "PANW", "name": "Palo Alto Networks", "direction": "call", "confidence": 58, "price": 373.5, "breakout": 378.0, "breakdown": 366.0, "target_up": 386.0, "target_down": 358.0,
- "levels_up": [{"price": 380.0, "why": "round number, 380 call strike"}, {"price": 390.0, "why": "round number"}, {"price": 400.0, "why": "round number, call wall area"}],
- "levels_down": [{"price": 365.0, "why": "half-gap support"}, {"price": 355.0, "why": "gap midpoint"}, {"price": 340.0, "why": "gap fill to Wednesday close"}],
- "reason": "Up ~10% premarket after Q1 beat (revenue +39%, NGS ARR +66%) and a materially raised FY guide; holding over 378 extends the gap-and-go, losing 366 starts a gap fade."},
-{"symbol": "QQQ", "name": "Invesco QQQ Trust", "direction": "call", "confidence": 56, "price": 669.0, "breakout": 672.0, "breakdown": 664.0, "target_up": 678.0, "target_down": 658.0,
- "levels_up": [{"price": 671.7, "why": "Nov 16 premarket level"}, {"price": 680.0, "why": "round number"}, {"price": 683.8, "why": "Nov 12 pre-drop level"}],
- "levels_down": [{"price": 661.8, "why": "Nov 16 close area"}, {"price": 656.0, "why": "gap fill to Wednesday close"}, {"price": 650.0, "why": "round number"}],
- "reason": "Nasdaq futures +2% into the Anthropic debut, winning back over half the week's loss; over 672 runs toward 680, under 664 says the gap is being sold."},
-{"symbol": "NVDA", "name": "Nvidia", "direction": "call", "confidence": 54, "price": 155.0, "breakout": 157.5, "breakdown": 152.0, "target_up": 160.5, "target_down": 149.5,
- "levels_up": [{"price": 155.6, "why": "Tuesday close"}, {"price": 160.0, "why": "round number, Wednesday premarket high"}, {"price": 165.0, "why": "round number"}],
- "levels_down": [{"price": 151.9, "why": "gap fill to Wednesday close"}, {"price": 150.0, "why": "round number, 150 put strike"}, {"price": 145.0, "why": "round number"}],
- "reason": "Up ~2% premarket as an Anthropic investor on IPO day after two days of post-earnings selling; reclaiming 157.5 targets 160, under 152 fills the gap and fails."},
-{"symbol": "CRWD", "name": "CrowdStrike", "direction": "call", "confidence": 52, "price": 251.0, "breakout": 254.0, "breakdown": 246.0, "target_up": 260.0, "target_down": 241.0,
- "levels_up": [{"price": 255.0, "why": "round number"}, {"price": 260.0, "why": "round number, 260 call strike"}, {"price": 265.0, "why": "pre-earnings run-up area (reports Nov 25)"}],
- "levels_down": [{"price": 245.0, "why": "half-gap support"}, {"price": 237.0, "why": "gap fill to Wednesday close"}, {"price": 230.0, "why": "round number"}],
- "reason": "Up ~6% premarket on Palo Alto's read-through after an ~8% jump Wednesday; extended two days in a row, so needs 254 to hold, under 246 fades."},
-{"symbol": "BABA", "name": "Alibaba", "direction": "put", "confidence": 52, "price": 82.6, "breakout": 84.4, "breakdown": 81.5, "target_up": 86.0, "target_down": 79.5,
- "levels_up": [{"price": 84.3, "why": "Wednesday close"}, {"price": 86.0, "why": "prior-week support turned resistance"}, {"price": 90.0, "why": "round number"}],
- "levels_down": [{"price": 81.0, "why": "22-month low area"}, {"price": 80.0, "why": "round number, 80 put strike"}, {"price": 77.5, "why": "implied earnings move -6%"}],
- "reason": "Down ~2% premarket at a 22-month low: EPS miss (8.10 vs 10.75 yuan) and cash burn outweigh 53% AI-cloud growth; under 81.5 extends, back over Wednesday's close negates."},
-{"symbol": "WMT", "name": "Walmart", "direction": "put", "confidence": 47, "price": 126.5, "breakout": 128.2, "breakdown": 125.0, "target_up": 130.0, "target_down": 122.5,
- "levels_up": [{"price": 127.4, "why": "Wednesday close"}, {"price": 128.1, "why": "Nov 13 level"}, {"price": 130.0, "why": "round number, 130 call wall"}],
- "levels_down": [{"price": 125.0, "why": "round number"}, {"price": 122.0, "why": "implied earnings move -4%"}, {"price": 120.0, "why": "round number, 120 put wall"}],
- "reason": "Small beat and raised EPS guide, but Flipkart timing drag and rotation into tech have it ~1% lower premarket; under 125 the sell-the-news extends, over 128.2 the put fails."}
-],
-"sources": ["https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html", "https://optionsoracle.substack.com/p/anthropic-prices-at-83-nasdaq-futures", "https://currentlogic.substack.com/p/the-morning-brief-november-19-2026", "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026", "https://www.benzinga.com/trading-ideas/movers/26/11/63419193/why-palo-alto-shares-are-trading-higher-by-over-9-here-are-20-stocks-moving-premarket", "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html", "https://www.gurufocus.com/news/9209563/palo-alto-networks-panw-shares-surge-9-after-strong-q1-fiscal-2027-results", "https://www.investing.com/news/earnings/walmart-beats-third-quarter-expectations-raises-guidance-5038647", "https://www.benzinga.com/markets/equities/26/11/63419275/walmart-shares-slip-premarket-ahead-of-third-quarter-earnings", "https://mlq.ai/news/walmart-raises-its-full-year-outlook-as-third-quarter-e-commerce-sales-jump-17/", "https://www.marketscreener.com/news/china-s-alibaba-beats-quarterly-revenue-estimates-ce785ed2d98af226", "https://blockonomi.com/alibaba-baba-stock-slips-premarket-as-chip-curbs-offset-10-revenue-beat/", "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html", "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-nasdaq-futures-jump-2-ahead-of-record-stock-debut/", "https://finance.yahoo.com/markets/commodities/articles/gold-silver-spotlight-gld-hits-171058200.html"]}
+{
+ "generated_at": 1795098973,
+ "date": "2026-11-19",
+ "model": "claude-opus-5-5 (routine)",
+ "run": "update 06:35 PT",
+ "summary": "Stocks opened higher as expected, Nasdaq up as much as 1.7% early on the Anthropic IPO (ANT eligible to trade from about 10 AM ET), but the rally is narrow and tech-led; bias still leans long tech with sell-the-news risk after ANT opens. No change: no intraday quotes for the picks were available, so levels and confidence stay as set this morning.",
+ "picks": [
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks",
+   "direction": "call",
+   "confidence": 58,
+   "price": 373.5,
+   "breakout": 378.0,
+   "breakdown": 366.0,
+   "target_up": 386.0,
+   "target_down": 358.0,
+   "levels_up": [
+    {
+     "price": 380.0,
+     "why": "round number, 380 call strike"
+    },
+    {
+     "price": 390.0,
+     "why": "round number"
+    },
+    {
+     "price": 400.0,
+     "why": "round number, call wall area"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 365.0,
+     "why": "half-gap support"
+    },
+    {
+     "price": 355.0,
+     "why": "gap midpoint"
+    },
+    {
+     "price": 340.0,
+     "why": "gap fill to Wednesday close"
+    }
+   ],
+   "reason": "Up ~10% premarket after Q1 beat (revenue +39%, NGS ARR +66%) and a materially raised FY guide; holding over 378 extends the gap-and-go, losing 366 starts a gap fade."
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "call",
+   "confidence": 56,
+   "price": 669.0,
+   "breakout": 672.0,
+   "breakdown": 664.0,
+   "target_up": 678.0,
+   "target_down": 658.0,
+   "levels_up": [
+    {
+     "price": 671.7,
+     "why": "Nov 16 premarket level"
+    },
+    {
+     "price": 680.0,
+     "why": "round number"
+    },
+    {
+     "price": 683.8,
+     "why": "Nov 12 pre-drop level"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 661.8,
+     "why": "Nov 16 close area"
+    },
+    {
+     "price": 656.0,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 650.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Nasdaq futures +2% into the Anthropic debut, winning back over half the week's loss; over 672 runs toward 680, under 664 says the gap is being sold."
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "call",
+   "confidence": 54,
+   "price": 155.0,
+   "breakout": 157.5,
+   "breakdown": 152.0,
+   "target_up": 160.5,
+   "target_down": 149.5,
+   "levels_up": [
+    {
+     "price": 155.6,
+     "why": "Tuesday close"
+    },
+    {
+     "price": 160.0,
+     "why": "round number, Wednesday premarket high"
+    },
+    {
+     "price": 165.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 151.9,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 150.0,
+     "why": "round number, 150 put strike"
+    },
+    {
+     "price": 145.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Up ~2% premarket as an Anthropic investor on IPO day after two days of post-earnings selling; reclaiming 157.5 targets 160, under 152 fills the gap and fails."
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "direction": "call",
+   "confidence": 52,
+   "price": 251.0,
+   "breakout": 254.0,
+   "breakdown": 246.0,
+   "target_up": 260.0,
+   "target_down": 241.0,
+   "levels_up": [
+    {
+     "price": 255.0,
+     "why": "round number"
+    },
+    {
+     "price": 260.0,
+     "why": "round number, 260 call strike"
+    },
+    {
+     "price": 265.0,
+     "why": "pre-earnings run-up area (reports Nov 25)"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 245.0,
+     "why": "half-gap support"
+    },
+    {
+     "price": 237.0,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 230.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Up ~6% premarket on Palo Alto's read-through after an ~8% jump Wednesday; extended two days in a row, so needs 254 to hold, under 246 fades."
+  },
+  {
+   "symbol": "BABA",
+   "name": "Alibaba",
+   "direction": "put",
+   "confidence": 52,
+   "price": 82.6,
+   "breakout": 84.4,
+   "breakdown": 81.5,
+   "target_up": 86.0,
+   "target_down": 79.5,
+   "levels_up": [
+    {
+     "price": 84.3,
+     "why": "Wednesday close"
+    },
+    {
+     "price": 86.0,
+     "why": "prior-week support turned resistance"
+    },
+    {
+     "price": 90.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 81.0,
+     "why": "22-month low area"
+    },
+    {
+     "price": 80.0,
+     "why": "round number, 80 put strike"
+    },
+    {
+     "price": 77.5,
+     "why": "implied earnings move -6%"
+    }
+   ],
+   "reason": "Down ~2% premarket at a 22-month low: EPS miss (8.10 vs 10.75 yuan) and cash burn outweigh 53% AI-cloud growth; under 81.5 extends, back over Wednesday's close negates."
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "direction": "put",
+   "confidence": 47,
+   "price": 126.5,
+   "breakout": 128.2,
+   "breakdown": 125.0,
+   "target_up": 130.0,
+   "target_down": 122.5,
+   "levels_up": [
+    {
+     "price": 127.4,
+     "why": "Wednesday close"
+    },
+    {
+     "price": 128.1,
+     "why": "Nov 13 level"
+    },
+    {
+     "price": 130.0,
+     "why": "round number, 130 call wall"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 125.0,
+     "why": "round number"
+    },
+    {
+     "price": 122.0,
+     "why": "implied earnings move -4%"
+    },
+    {
+     "price": 120.0,
+     "why": "round number, 120 put wall"
+    }
+   ],
+   "reason": "Small beat and raised EPS guide, but Flipkart timing drag and rotation into tech have it ~1% lower premarket; under 125 the sell-the-news extends, over 128.2 the put fails."
+  }
+ ],
+ "sources": [
+  "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo",
+  "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159",
+  "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-anthropic-ipo-140633699.html",
+  "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+  "https://optionsoracle.substack.com/p/anthropic-prices-at-83-nasdaq-futures",
+  "https://currentlogic.substack.com/p/the-morning-brief-november-19-2026",
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026",
+  "https://www.benzinga.com/trading-ideas/movers/26/11/63419193/why-palo-alto-shares-are-trading-higher-by-over-9-here-are-20-stocks-moving-premarket",
+  "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+  "https://www.gurufocus.com/news/9209563/palo-alto-networks-panw-shares-surge-9-after-strong-q1-fiscal-2027-results",
+  "https://www.investing.com/news/earnings/walmart-beats-third-quarter-expectations-raises-guidance-5038647",
+  "https://www.benzinga.com/markets/equities/26/11/63419275/walmart-shares-slip-premarket-ahead-of-third-quarter-earnings",
+  "https://mlq.ai/news/walmart-raises-its-full-year-outlook-as-third-quarter-e-commerce-sales-jump-17/",
+  "https://www.marketscreener.com/news/china-s-alibaba-beats-quarterly-revenue-estimates-ce785ed2d98af226",
+  "https://blockonomi.com/alibaba-baba-stock-slips-premarket-as-chip-curbs-offset-10-revenue-beat/"
+ ]
+}
