@@ -1,9 +1,9 @@
 {
- "generated_at": 1795099901,
+ "generated_at": 1795100826,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 06:51 PT",
- "summary": "Stocks opened higher, Nasdaq leading after a five-day S&P losing streak, with ANT (priced $83) eligible to open from about 10 AM ET; bias still leans long tech with sell-the-news risk once ANT trades. No change: no fresh intraday quotes for the picks were found, so levels and confidence stay as set.",
+ "run": "update 07:06 PT",
+ "summary": "Stocks opened higher with the Nasdaq leading after a five-day S&P losing streak; ANT (priced $83) awaits its Nasdaq IPO cross, and the bias still leans long tech with sell-the-news risk once it trades. No change: searches found no fresh intraday quotes or news on the picks, so levels and confidence stay as set.",
  "picks": [
   {
    "symbol": "PANW",
