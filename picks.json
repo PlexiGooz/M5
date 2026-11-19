@@ -1,9 +1,9 @@
 {
- "generated_at": 1795118785,
+ "generated_at": 1795119674,
  "date": "2026-11-19",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:06 PT",
- "summary": "Risk-off tape persists: per the last Yahoo/CNN/UPI reads, the Dow is down about 800 points and the Nasdaq about 1-1.4% on Anthropic IPO day. Since 11:51: no change; searches returned no fresher quotes or news, so picks, levels and confidence are held (prices are estimates).",
+ "run": "update 12:20 PT",
+ "summary": "Risk-off tape persists: per the last Yahoo/CNN/UPI reads, the Dow is down about 800 points and the Nasdaq about 1-1.4% on Anthropic IPO day. Since 12:06: no change; searches returned no fresher quotes or news, so picks, levels and confidence are held (prices are estimates).",
  "picks": [
   {
    "symbol": "QQQ",
