@@ -1,9 +1,9 @@
 {
- "generated_at": 1795201582,
+ "generated_at": 1795202517,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:05 PT",
- "summary": "AI/chip rout persists into the afternoon: S&P ~-2% near correction territory for a 7th straight loss, Nasdaq 100 ~-3.5%; bias bearish. No change since 10:50: fresh searches show no new news or level breaks; prices approximate, quote pages blocked.",
+ "run": "update 11:20 PT",
+ "summary": "AI/chip rout persists into the afternoon: S&P ~-2% near correction territory for a 7th straight loss, Nasdaq 100 ~-3.4%; bias bearish. No change since 11:05: no new news or level breaks found; prices approximate, quote pages blocked.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -273,6 +273,6 @@
   "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
   "https://fresnochamber.com/news/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism/",
   "https://www.whec.com/ap-top-news/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/",
-  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/"
+  "https://www.tradingview.com/news/benzinga:724ec6095094b:0-nasdaq-100-tumbles-over-3-amid-tech-bloodbath-nvidia-sinks-7-on-7th-straight-weekly-loss-stock-market-today/"
  ]
 }
