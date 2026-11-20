@@ -1,9 +1,9 @@
 {
- "generated_at": 1795194430,
+ "generated_at": 1795195287,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:06 PT",
- "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA ~-6.7% near 136, seventh straight loss) while the Dow chops near flat; bias stays bearish. No change since 08:50: no fresh news or reliable new prints (midday index figures conflict), levels and confidence carried over.",
+ "run": "update 09:21 PT",
+ "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA near 136, seventh straight loss) while the Dow holds up; bias stays bearish. No change since 09:06: no fresh news or reliable new prints (latest reports ~12:40 ET), levels and confidence carried over.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -251,6 +251,7 @@
   }
  ],
  "sources": [
+  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-volatility-092827348.html",
   "https://www.nasdaq.com/articles/stocks-pressured-renewed-weakness-chipmakers",
   "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html",
   "https://www.cbsnews.com/news/dow-tumbles-wall-street-ai-fears/",
@@ -264,7 +265,6 @@
   "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
   "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
   "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
-  "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus",
-  "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+  "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus"
  ]
 }
