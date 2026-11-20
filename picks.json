@@ -1,9 +1,9 @@
 {
- "generated_at": 1795197133,
+ "generated_at": 1795198015,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:51 PT",
- "summary": "AI/chip selloff deepened into midday: Nasdaq ~-3.4%, S&P ~-2% toward a 7th straight loss, chip index down sharply; bias stays bearish. Changed since 09:35: QQQ and SPY broke their breakdowns (levels re-anchored, prices approximate from news, quote pages blocked), put confidence up slightly, AMD call weaker.",
+ "run": "update 10:06 PT",
+ "summary": "AI/chip rout still deepening: QQQ ~-3.7%, S&P ~-2% for a 7th straight loss, AMD and AVGO ~-8%; bias bearish. Changed since 09:51: QQQ slipped toward its 620 breakdown (put +1), AMD lost 455 so the bounce call failed and it flips to a put; prices approximate from news, quote pages blocked.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -49,8 +49,8 @@
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 57,
-   "price": 624.0,
+   "confidence": 58,
+   "price": 621.0,
    "breakout": 632.0,
    "breakdown": 620.0,
    "target_up": 637.0,
@@ -87,7 +87,7 @@
      "why": "round number, 600 put strike"
     }
    ],
-   "reason": "Nasdaq 100 down over 3% midday as chips crater; it lost 632, under 620 extends to ~612, back over 632 negates."
+   "reason": "Nasdaq 100 down ~3.7% as chips crater and it presses 620; under 620 extends to ~612, back over 632 negates."
   },
   {
    "symbol": "SPY",
@@ -216,14 +216,22 @@
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
-   "direction": "call",
-   "confidence": 37,
-   "price": 456.0,
-   "breakout": 470.0,
-   "breakdown": 455.0,
-   "target_up": 480.0,
-   "target_down": 445.0,
+   "direction": "put",
+   "confidence": 48,
+   "price": 449.0,
+   "breakout": 458.0,
+   "breakdown": 445.0,
+   "target_up": 470.0,
+   "target_down": 435.0,
    "levels_up": [
+    {
+     "price": 450.0,
+     "why": "round number, 450 put wall (passed)"
+    },
+    {
+     "price": 455.0,
+     "why": "morning support, broken"
+    },
     {
      "price": 475.0,
      "why": "475 strike"
@@ -231,17 +239,9 @@
     {
      "price": 489.19,
      "why": "gap fill to Thursday close"
-    },
-    {
-     "price": 500.0,
-     "why": "round number, 500 call wall"
     }
    ],
    "levels_down": [
-    {
-     "price": 450.0,
-     "why": "round number, 450 put wall"
-    },
     {
      "price": 440.0,
      "why": "round number"
@@ -251,7 +251,7 @@
      "why": "round number, ~-12% from Thursday close"
     }
    ],
-   "reason": "Chip index sliding hard plus the Hunterbrook short report; sitting on the 455 breakdown, the bounce call only works back over 470."
+   "reason": "Down ~8% with the chip index plus the Hunterbrook short report; the bounce call failed at 455, under 445 extends to 435/430, back over 458 negates."
   }
  ],
  "sources": [
@@ -264,6 +264,7 @@
   "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
   "https://fresnochamber.com/news/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism/",
   "https://www.whec.com/ap-top-news/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/",
-  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/"
+  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
+  "https://www.fool.com/investing/2026/11/20/nvidia-is-headed-for-its-7th-straight-decline-history-says-this-happens-next/"
  ]
 }
