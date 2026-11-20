@@ -1,9 +1,9 @@
 {
- "generated_at": 1795187251,
+ "generated_at": 1795188075,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:07 PT",
- "summary": "Risk-off opex: Nasdaq about -1.3% and S&P -0.5% after the open while the Dow holds near flat, with chips and Anthropic leading the drop; bias stays bearish (5 puts, 1 call). Change: AMD call -2 to 40 as reports show it down over 7%, near its 455 breakdown; no fresh live quotes, so other picks unchanged.",
+ "run": "update 07:20 PT",
+ "summary": "Risk-off opex: Nasdaq about -1.3% and S&P -0.5% after the open while the Dow holds near flat, with chips and Anthropic leading the drop; bias stays bearish (5 puts, 1 call). Change: no change since 07:07 PT; searches gave no fresh live quotes or news.",
  "picks": [
   {
    "symbol": "QQQ",
