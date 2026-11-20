@@ -1,9 +1,9 @@
 {
- "generated_at": 1795198884,
+ "generated_at": 1795199771,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:21 PT",
- "summary": "AI/chip rout persists into early afternoon: Nasdaq ~-3.5%, S&P ~-2% for a 7th straight loss and correction territory, XLK -5%; bias bearish. No change since 10:06: indexes holding near the lows, no new catalyst; prices approximate, quote pages blocked.",
+ "run": "update 10:35 PT",
+ "summary": "AI/chip rout persists into the afternoon: S&P ~-2.1% near 7,028 for a 7th straight loss and correction territory, Nasdaq 100 ~-3.5%; bias bearish. Since 10:21 only AMD changed: reported down ~10%, through 445, so its levels moved lower and confidence up a few points; prices approximate, quote pages blocked.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -174,6 +174,50 @@
    "reason": "Down ~10% after an EPS guide below consensus, a Credit Karma outlook cut and the cheap Mailchimp sale; under 275 the gap-and-go extends, over 287 the put fails."
   },
   {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "direction": "put",
+   "confidence": 51,
+   "price": 441.0,
+   "breakout": 450.0,
+   "breakdown": 437.5,
+   "target_up": 458.0,
+   "target_down": 430.0,
+   "levels_up": [
+    {
+     "price": 445.0,
+     "why": "prior breakdown level (passed)"
+    },
+    {
+     "price": 455.0,
+     "why": "morning support, broken"
+    },
+    {
+     "price": 475.0,
+     "why": "475 strike"
+    },
+    {
+     "price": 489.19,
+     "why": "gap fill to Thursday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 430.0,
+     "why": "round number, ~-12% from Thursday close"
+    },
+    {
+     "price": 420.0,
+     "why": "round number"
+    },
+    {
+     "price": 414.05,
+     "why": "recent close area"
+    }
+   ],
+   "reason": "Down ~10% with the chip rout and the Hunterbrook short report, now through 445; under 437.5 extends to 430, back over 450 negates."
+  },
+  {
    "symbol": "ROST",
    "name": "Ross Stores",
    "direction": "put",
@@ -212,49 +256,11 @@
     }
    ],
    "reason": "Down ~3.5% premarket on a soft Q4 guide (comps 4-5% vs 8%) and Truist PT cut; under the 208.75 after-hours low it extends, over 215.5 negates."
-  },
-  {
-   "symbol": "AMD",
-   "name": "Advanced Micro Devices",
-   "direction": "put",
-   "confidence": 48,
-   "price": 449.0,
-   "breakout": 458.0,
-   "breakdown": 445.0,
-   "target_up": 470.0,
-   "target_down": 435.0,
-   "levels_up": [
-    {
-     "price": 450.0,
-     "why": "round number, 450 put wall (passed)"
-    },
-    {
-     "price": 455.0,
-     "why": "morning support, broken"
-    },
-    {
-     "price": 475.0,
-     "why": "475 strike"
-    },
-    {
-     "price": 489.19,
-     "why": "gap fill to Thursday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 440.0,
-     "why": "round number"
-    },
-    {
-     "price": 430.0,
-     "why": "round number, ~-12% from Thursday close"
-    }
-   ],
-   "reason": "Down ~8% with the chip index plus the Hunterbrook short report; the bounce call failed at 455, under 445 extends to 435/430, back over 458 negates."
   }
  ],
  "sources": [
+  "https://www.bnnbloomberg.ca/markets/2026/11/20/tech-stocks-pull-us-markets-lower-early-with-anthropics-historic-debut-doing-little-to-slow-rout/",
+  "https://www.tipranks.com/news/nvidia-amd-and-broadcom-lead-ai-chip-selloff-as-shares-plunge-up-to-8",
   "https://www.wral.com/news/ap/c4c3f-asia-shares-drop-on-ai-worries-echoing-wall-streets-decline-despite-the-strong-anthropic-debut/",
   "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
   "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
