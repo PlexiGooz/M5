@@ -1,9 +1,9 @@
 {
- "generated_at": 1795186258,
+ "generated_at": 1795187251,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 06:50 PT",
- "summary": "Risk-off opex: Nasdaq opened -1.2% and S&P -0.5% with VIX above 30 as chips (NVDA, AMD, MU) and Anthropic slide; bias stays bearish (5 puts, 1 call). Change: prices refreshed from the open, NVDA put +2 as it presses 140, AMD call -2 after opening -6% near its 455 breakdown.",
+ "run": "update 07:07 PT",
+ "summary": "Risk-off opex: Nasdaq about -1.3% and S&P -0.5% after the open while the Dow holds near flat, with chips and Anthropic leading the drop; bias stays bearish (5 puts, 1 call). Change: AMD call -2 to 40 as reports show it down over 7%, near its 455 breakdown; no fresh live quotes, so other picks unchanged.",
  "picks": [
   {
    "symbol": "QQQ",
@@ -213,7 +213,7 @@
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 42,
+   "confidence": 40,
    "price": 458.4,
    "breakout": 470.0,
    "breakdown": 455.0,
@@ -247,10 +247,12 @@
      "why": "round number, ~-12% from Thursday close"
     }
    ],
-   "reason": "Opened ~-6% extending the Hunterbrook short-report selloff; oversold bounce only over 470, under 455 the call fails with the chip tape."
+   "reason": "Down ~7% early extending the Hunterbrook short-report selloff and sitting near 455; oversold bounce only over 470, under 455 the call fails with the chip tape."
   }
  ],
  "sources": [
+  "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+  "https://journalarta.com/en/2026/11/20/stock-market-today-dow-rises-0-39-while-nasdaq-drops-1-39-at-open/",
   "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
   "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
   "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
@@ -263,8 +265,6 @@
   "https://www.kucoin.com/news/flash/nvidia-stock-hits-52-week-low-amid-leadership-crisis-and-regulatory-pressures",
   "https://www.forbes.com/sites/siladityaray/2026/11/20/nvidia-rival-amd-shares-slump-again-after-short-seller-says-it-has-its-own-china-problem/",
   "https://www.openingbelldailynews.com/p/amd-stock-short-seller-nov-20-2026",
-  "https://invezz.com/news/2026/11/20/intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/",
-  "https://www.tradingkey.com/analysis/stocks/us-stocks/262314593-intuit-slides-toward-279-66-credit-karma-outlook-cut-mailchimp-sale-november-20-2026-tradingkey",
-  "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session"
+  "https://invezz.com/news/2026/11/20/intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/"
  ]
 }
