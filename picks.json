@@ -1,21 +1,25 @@
 {
- "generated_at": 1795190861,
+ "generated_at": 1795191709,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:05 PT",
- "summary": "Risk-off opex: chips and Anthropic keep leading the Nasdaq lower while the Dow holds up; bias stays bearish (5 puts, 1 call). No change: reports still show NVDA down ~3.5-5% heading for a 7th straight loss; quote pages were blocked, so levels and confidence are unchanged.",
+ "run": "update 08:20 PT",
+ "summary": "Risk-off opex: chips and Anthropic still lead the Nasdaq lower (NVDA reported down ~6-7% late morning) while the Dow and S&P funds turned up around 10 a.m.; bias stays bearish. Changed: NVDA moved through 140 toward 136 (140 now passed, breakdown 135), NVDA/QQQ/SPY puts trimmed a few points on the index bounce; quote pages were blocked, so prices are from news reports.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 60,
-   "price": 140.6,
-   "breakout": 144.5,
-   "breakdown": 140.0,
-   "target_up": 146.0,
-   "target_down": 137.0,
+   "confidence": 57,
+   "price": 136.5,
+   "breakout": 140.0,
+   "breakdown": 135.0,
+   "target_up": 144.5,
+   "target_down": 132.0,
    "levels_up": [
+    {
+     "price": 140.0,
+     "why": "round number, 140 strike (passed)"
+    },
     {
      "price": 145.98,
      "why": "gap fill to Thursday close"
@@ -23,33 +27,29 @@
     {
      "price": 150.0,
      "why": "round number, 150 call wall"
-    },
-    {
-     "price": 151.9,
-     "why": "Wednesday close"
     }
    ],
    "levels_down": [
     {
-     "price": 140.0,
-     "why": "round number, 140 put wall"
-    },
-    {
-     "price": 137.5,
-     "why": "137.5 strike"
-    },
-    {
      "price": 135.0,
-     "why": "round number"
+     "why": "round number, 135 put strike"
+    },
+    {
+     "price": 132.5,
+     "why": "132.5 strike"
+    },
+    {
+     "price": 130.0,
+     "why": "round number, ~-11% from Thursday close"
     }
    ],
-   "reason": "Down for a 7th straight session at a 52-week low on the California probe and the chip rout, pressing 140; under 140 opens 137, over 144.5 fails."
+   "reason": "Seventh straight loss at a new 52-week low on the California probe and chip rout; it broke 140, under 135 opens 132, back over 140 fails."
   },
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 58,
+   "confidence": 56,
    "price": 637.0,
    "breakout": 641.0,
    "breakdown": 632.0,
@@ -90,46 +90,6 @@
    "reason": "Gapping down ~1.5% with chips selling off worldwide and VIX over 30; under 632 the AI selloff extends, back over 641 negates."
   },
   {
-   "symbol": "SPY",
-   "name": "SPDR S&P 500 ETF",
-   "direction": "put",
-   "confidence": 54,
-   "price": 712.3,
-   "breakout": 714.6,
-   "breakdown": 708.0,
-   "target_up": 718.0,
-   "target_down": 703.0,
-   "levels_up": [
-    {
-     "price": 715.87,
-     "why": "gap fill to Thursday close"
-    },
-    {
-     "price": 720.0,
-     "why": "round number, 720 call strike"
-    },
-    {
-     "price": 730.2,
-     "why": "Wednesday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 705.0,
-     "why": "round number"
-    },
-    {
-     "price": 700.0,
-     "why": "round number, 700 put wall"
-    },
-    {
-     "price": 690.0,
-     "why": "round number, ~-3.6% from Thursday close"
-    }
-   ],
-   "reason": "Sixth straight down day setup with the Dow on its worst week since April 2025 and VIX above 30; under 708 heads to 703/700, over 714.6 negates."
-  },
-  {
    "symbol": "INTU",
    "name": "Intuit",
    "direction": "put",
@@ -168,6 +128,46 @@
     }
    ],
    "reason": "Down ~10% after an EPS guide below consensus, a Credit Karma outlook cut and the cheap Mailchimp sale; under 275 the gap-and-go extends, over 287 the put fails."
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "direction": "put",
+   "confidence": 51,
+   "price": 712.3,
+   "breakout": 714.6,
+   "breakdown": 708.0,
+   "target_up": 718.0,
+   "target_down": 703.0,
+   "levels_up": [
+    {
+     "price": 715.87,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 720.0,
+     "why": "round number, 720 call strike"
+    },
+    {
+     "price": 730.2,
+     "why": "Wednesday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 705.0,
+     "why": "round number"
+    },
+    {
+     "price": 700.0,
+     "why": "round number, 700 put wall"
+    },
+    {
+     "price": 690.0,
+     "why": "round number, ~-3.6% from Thursday close"
+    }
+   ],
+   "reason": "Dow on its worst week since April 2025 and VIX near 30, but the S&P fund turned higher mid-morning; under 708 heads to 703/700, over 714.6 negates."
   },
   {
    "symbol": "ROST",
@@ -251,6 +251,8 @@
   }
  ],
  "sources": [
+  "https://www.cbsnews.com/news/dow-tumbles-wall-street-ai-fears/",
+  "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
   "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
   "https://blockonomi.com/todays-market-movers-anthropic-nvidia-amd-intuit-bloom-energy-under-pressure",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
@@ -263,8 +265,6 @@
   "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus",
   "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
   "https://theadaptivetrader.substack.com/p/pre-market-note-november-20-2026",
-  "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-20",
-  "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-anthropic-slides-debut-105600121.html",
-  "https://coinpaper.com/39135/nvidia-faces-california-investigation-over-china-chip-risks-and-allegedly-misleading-investors"
+  "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-20"
  ]
 }
