@@ -1,9 +1,9 @@
 {
- "generated_at": 1795193478,
+ "generated_at": 1795194430,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:50 PT",
- "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA ~-6.7% near 136, seventh straight loss) while the Dow chops near flat; bias stays bearish. No change since 08:35: NVDA still holding just above 135, no fresh news, levels and confidence carried over.",
+ "run": "update 09:06 PT",
+ "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA ~-6.7% near 136, seventh straight loss) while the Dow chops near flat; bias stays bearish. No change since 08:50: no fresh news or reliable new prints (midday index figures conflict), levels and confidence carried over.",
  "picks": [
   {
    "symbol": "NVDA",
