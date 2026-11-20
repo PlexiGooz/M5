@@ -1,16 +1,16 @@
 {
- "generated_at": 1795185392,
+ "generated_at": 1795186258,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 06:35 PT",
- "summary": "Risk-off opex open after futures showed Nasdaq-100 -1.5%, S&P -0.6%, VIX ~30; bias stays bearish (5 puts, 1 call). No change: 5 minutes after the open no live quotes or new headlines were reachable, so levels and confidence are carried over from the morning run.",
+ "run": "update 06:50 PT",
+ "summary": "Risk-off opex: Nasdaq opened -1.2% and S&P -0.5% with VIX above 30 as chips (NVDA, AMD, MU) and Anthropic slide; bias stays bearish (5 puts, 1 call). Change: prices refreshed from the open, NVDA put +2 as it presses 140, AMD call -2 after opening -6% near its 455 breakdown.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
    "confidence": 58,
-   "price": 636.0,
+   "price": 637.0,
    "breakout": 641.0,
    "breakdown": 632.0,
    "target_up": 645.0,
@@ -53,8 +53,8 @@
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 56,
-   "price": 142.0,
+   "confidence": 58,
+   "price": 140.6,
    "breakout": 144.5,
    "breakdown": 140.0,
    "target_up": 146.0,
@@ -87,14 +87,14 @@
      "why": "round number"
     }
    ],
-   "reason": "New 52-week low premarket (~141-142) on a California probe into China-risk disclosures and the global chip rout; under 140 opens 137, over 144.5 fails."
+   "reason": "Opened ~-3.7% at a new 52-week low on the California probe and the global chip rout, pressing 140; under 140 opens 137, over 144.5 fails."
   },
   {
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
    "confidence": 54,
-   "price": 711.0,
+   "price": 712.3,
    "breakout": 714.6,
    "breakdown": 708.0,
    "target_up": 718.0,
@@ -213,8 +213,8 @@
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 44,
-   "price": 462.0,
+   "confidence": 42,
+   "price": 458.4,
    "breakout": 470.0,
    "breakdown": 455.0,
    "target_up": 480.0,
@@ -247,10 +247,12 @@
      "why": "round number, ~-12% from Thursday close"
     }
    ],
-   "reason": "Down ~13% in two days on the Hunterbrook short report that AMD and analysts dismiss; oversold bounce only over 470, under 455 the call fails with the chip tape."
+   "reason": "Opened ~-6% extending the Hunterbrook short-report selloff; oversold bounce only over 470, under 455 the call fails with the chip tape."
   }
  ],
  "sources": [
+  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
+  "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
   "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
   "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus",
   "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
@@ -263,8 +265,6 @@
   "https://www.openingbelldailynews.com/p/amd-stock-short-seller-nov-20-2026",
   "https://invezz.com/news/2026/11/20/intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/",
   "https://www.tradingkey.com/analysis/stocks/us-stocks/262314593-intuit-slides-toward-279-66-credit-karma-outlook-cut-mailchimp-sale-november-20-2026-tradingkey",
-  "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session",
-  "https://leprivatebanker.com/2026/11/19/treasury-10-year-yield-holds-near-5-09-as-futures-price-a-december-fed-hike-and-policymakers-flag-more-to-come/",
-  "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
+  "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session"
  ]
 }
