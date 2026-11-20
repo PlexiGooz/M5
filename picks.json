@@ -1,16 +1,16 @@
 {
- "generated_at": 1795202517,
+ "generated_at": 1795203363,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:20 PT",
- "summary": "AI/chip rout persists into the afternoon: S&P ~-2% near correction territory for a 7th straight loss, Nasdaq 100 ~-3.4%; bias bearish. No change since 11:05: no new news or level breaks found; prices approximate, quote pages blocked.",
+ "run": "update 11:35 PT",
+ "summary": "AI/chip rout holds into the afternoon: Nasdaq 100 ~-3.4%, S&P ~-2% at or near correction territory for a 7th straight loss; bias bearish. Since 11:20: NVDA sitting on the 135 breakdown (~135.3), otherwise no change; prices approximate, quote pages blocked.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
    "confidence": 58,
-   "price": 135.5,
+   "price": 135.3,
    "breakout": 140.0,
    "breakdown": 135.0,
    "target_up": 144.5,
@@ -259,6 +259,8 @@
   }
  ],
  "sources": [
+  "https://startupfortune.com/sp-500-falls-into-a-correction-as-the-ai-selloff-drags-it-10-below-its-record/",
+  "https://www.kucoin.com/news/flash/nasdaq-100-drops-3-4-as-nvidia-enters-seventh-consecutive-losing-session",
   "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html",
   "https://www.fool.com/investing/2026/11/20/why-nvidia-stock-is-down-today/",
   "https://www.bnnbloomberg.ca/markets/2026/11/20/tech-stocks-pull-us-markets-lower-early-with-anthropics-historic-debut-doing-little-to-slow-rout/",
@@ -271,8 +273,6 @@
   "https://www.nacionale.com/en/articles/why-is-sp-500-down-today-seventh-straight-loss-ai-selloff-november-20",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
   "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
-  "https://fresnochamber.com/news/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism/",
-  "https://www.whec.com/ap-top-news/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/",
-  "https://www.tradingview.com/news/benzinga:724ec6095094b:0-nasdaq-100-tumbles-over-3-amid-tech-bloodbath-nvidia-sinks-7-on-7th-straight-weekly-loss-stock-market-today/"
+  "https://fresnochamber.com/news/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism/"
  ]
 }
