@@ -1,16 +1,16 @@
 {
- "generated_at": 1795192562,
+ "generated_at": 1795193478,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:35 PT",
- "summary": "Risk-off opex: chips and Anthropic keep leading the Nasdaq lower (NVDA ~-6% at midday, ninth loss in ten days) while the Dow and S&P chop around the flat line; bias stays bearish. No change since 08:20: no fresh news and quote pages blocked, so levels and confidence are carried over.",
+ "run": "update 08:50 PT",
+ "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA ~-6.7% near 136, seventh straight loss) while the Dow chops near flat; bias stays bearish. No change since 08:35: NVDA still holding just above 135, no fresh news, levels and confidence carried over.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
    "confidence": 57,
-   "price": 136.5,
+   "price": 136.2,
    "breakout": 140.0,
    "breakdown": 135.0,
    "target_up": 144.5,
