@@ -1,16 +1,16 @@
 {
- "generated_at": 1795196165,
+ "generated_at": 1795197133,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:35 PT",
- "summary": "Risk-off opex: chips keep leading the Nasdaq lower (NVDA near 136, seventh straight loss; Anthropic shares down ~9%) while the S&P eyes a seventh straight loss; bias stays bearish. No change since 09:21: no reliable new prints, levels and confidence carried over.",
+ "run": "update 09:51 PT",
+ "summary": "AI/chip selloff deepened into midday: Nasdaq ~-3.4%, S&P ~-2% toward a 7th straight loss, chip index down sharply; bias stays bearish. Changed since 09:35: QQQ and SPY broke their breakdowns (levels re-anchored, prices approximate from news, quote pages blocked), put confidence up slightly, AMD call weaker.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 57,
-   "price": 136.2,
+   "confidence": 58,
+   "price": 135.5,
    "breakout": 140.0,
    "breakdown": 135.0,
    "target_up": 144.5,
@@ -43,19 +43,27 @@
      "why": "round number, ~-11% from Thursday close"
     }
    ],
-   "reason": "Seventh straight loss at a new 52-week low on the California probe and chip rout; it broke 140, under 135 opens 132, back over 140 fails."
+   "reason": "Seventh straight loss at a new 52-week low as the chip rout deepens midday; under 135 opens 132.5/130, back over 140 fails."
   },
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 56,
-   "price": 637.0,
-   "breakout": 641.0,
-   "breakdown": 632.0,
-   "target_up": 645.0,
-   "target_down": 625.0,
+   "confidence": 57,
+   "price": 624.0,
+   "breakout": 632.0,
+   "breakdown": 620.0,
+   "target_up": 637.0,
+   "target_down": 612.0,
    "levels_up": [
+    {
+     "price": 625.0,
+     "why": "~3% below Thursday close (passed)"
+    },
+    {
+     "price": 630.0,
+     "why": "round number, 630 put strike (passed)"
+    },
     {
      "price": 639.6,
      "why": "premarket high area"
@@ -63,31 +71,67 @@
     {
      "price": 645.0,
      "why": "gap fill to Thursday close"
-    },
-    {
-     "price": 650.0,
-     "why": "round number, 650 call strike"
-    },
-    {
-     "price": 656.0,
-     "why": "Wednesday close"
     }
    ],
    "levels_down": [
     {
-     "price": 630.0,
-     "why": "round number, 630 put strike"
-    },
-    {
-     "price": 625.0,
-     "why": "~3% below Thursday close"
-    },
-    {
      "price": 620.0,
      "why": "round number"
+    },
+    {
+     "price": 612.8,
+     "why": "-5% from Thursday close"
+    },
+    {
+     "price": 600.0,
+     "why": "round number, 600 put strike"
     }
    ],
-   "reason": "Gapping down ~1.5% with chips selling off worldwide and VIX over 30; under 632 the AI selloff extends, back over 641 negates."
+   "reason": "Nasdaq 100 down over 3% midday as chips crater; it lost 632, under 620 extends to ~612, back over 632 negates."
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "direction": "put",
+   "confidence": 54,
+   "price": 703.0,
+   "breakout": 708.0,
+   "breakdown": 700.0,
+   "target_up": 712.0,
+   "target_down": 694.0,
+   "levels_up": [
+    {
+     "price": 705.0,
+     "why": "round number (passed)"
+    },
+    {
+     "price": 708.0,
+     "why": "morning support, broken"
+    },
+    {
+     "price": 715.87,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 720.0,
+     "why": "round number, 720 call strike"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 700.0,
+     "why": "round number, 700 put wall"
+    },
+    {
+     "price": 690.0,
+     "why": "round number, ~-3.6% from Thursday close"
+    },
+    {
+     "price": 687.2,
+     "why": "-4% from Thursday close"
+    }
+   ],
+   "reason": "S&P down ~2% midday, on track for a 7th straight loss and correction territory; it broke 708, under 700 heads to 694/690, back over 708 negates."
   },
   {
    "symbol": "INTU",
@@ -128,46 +172,6 @@
     }
    ],
    "reason": "Down ~10% after an EPS guide below consensus, a Credit Karma outlook cut and the cheap Mailchimp sale; under 275 the gap-and-go extends, over 287 the put fails."
-  },
-  {
-   "symbol": "SPY",
-   "name": "SPDR S&P 500 ETF",
-   "direction": "put",
-   "confidence": 51,
-   "price": 712.3,
-   "breakout": 714.6,
-   "breakdown": 708.0,
-   "target_up": 718.0,
-   "target_down": 703.0,
-   "levels_up": [
-    {
-     "price": 715.87,
-     "why": "gap fill to Thursday close"
-    },
-    {
-     "price": 720.0,
-     "why": "round number, 720 call strike"
-    },
-    {
-     "price": 730.2,
-     "why": "Wednesday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 705.0,
-     "why": "round number"
-    },
-    {
-     "price": 700.0,
-     "why": "round number, 700 put wall"
-    },
-    {
-     "price": 690.0,
-     "why": "round number, ~-3.6% from Thursday close"
-    }
-   ],
-   "reason": "Dow on its worst week since April 2025 and VIX near 30, but the S&P fund turned higher mid-morning; under 708 heads to 703/700, over 714.6 negates."
   },
   {
    "symbol": "ROST",
@@ -213,8 +217,8 @@
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 41,
-   "price": 465.0,
+   "confidence": 37,
+   "price": 456.0,
    "breakout": 470.0,
    "breakdown": 455.0,
    "target_up": 480.0,
@@ -247,24 +251,19 @@
      "why": "round number, ~-12% from Thursday close"
     }
    ],
-   "reason": "Hunterbrook short report keeps pressure on; the bounce call only triggers over 470, and under 455 it fails with a chip tape that is still falling."
+   "reason": "Chip index sliding hard plus the Hunterbrook short report; sitting on the 455 breakdown, the bounce call only works back over 470."
   }
  ],
  "sources": [
-  "https://invezz.com/ie/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
-  "https://www.nacionale.com/en/articles/why-is-sp-500-down-today-seventh-straight-loss-ai-selloff-november-20",
-  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-volatility-092827348.html",
-  "https://www.nasdaq.com/articles/stocks-pressured-renewed-weakness-chipmakers",
-  "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html",
-  "https://www.cbsnews.com/news/dow-tumbles-wall-street-ai-fears/",
-  "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
-  "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
-  "https://blockonomi.com/todays-market-movers-anthropic-nvidia-amd-intuit-bloom-energy-under-pressure",
-  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-  "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+  "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
   "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-  "https://journalarta.com/en/2026/11/20/stock-market-today-dow-rises-0-39-while-nasdaq-drops-1-39-at-open/",
-  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/",
-  "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450"
+  "https://www.benzinga.com/markets/equities/26/11/63492512/stock-market-today-nasdaq-100-nvidia-seventh-day-chipmakers-smh",
+  "https://www.ad-hoc-news.de/boerse/news/marktberichte/nasdaq-composite-drops-3-42-prozent-as-ai-sell-off-deepens-in-friday-trading/70540867",
+  "https://www.nacionale.com/en/articles/why-is-sp-500-down-today-seventh-straight-loss-ai-selloff-november-20",
+  "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+  "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+  "https://fresnochamber.com/news/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism/",
+  "https://www.whec.com/ap-top-news/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/",
+  "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/"
  ]
 }
