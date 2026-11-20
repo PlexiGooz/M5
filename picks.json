@@ -1,10 +1,50 @@
 {
- "generated_at": 1795188967,
+ "generated_at": 1795189894,
  "date": "2026-11-20",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:35 PT",
- "summary": "Risk-off opex: Nasdaq about -1.4% and S&P -0.5% while the Dow is up ~0.5-0.8%, with chips and Anthropic (-8 to -11%) leading the drop; bias stays bearish (5 puts, 1 call). Change: AMD trimmed its loss to about -5% (~465), nudging its bounce-call confidence up 3; rest unchanged.",
+ "run": "update 07:50 PT",
+ "summary": "Risk-off opex: chips and Anthropic keep leading the Nasdaq lower while the Dow holds up; bias stays bearish (5 puts, 1 call). Change: reports say chips kept falling after the open (NVDA headed for a 7th straight loss), so NVDA put +2 and AMD bounce call -2; quote pages were blocked, so levels are unchanged.",
  "picks": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 60,
+   "price": 140.6,
+   "breakout": 144.5,
+   "breakdown": 140.0,
+   "target_up": 146.0,
+   "target_down": 137.0,
+   "levels_up": [
+    {
+     "price": 145.98,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 150.0,
+     "why": "round number, 150 call wall"
+    },
+    {
+     "price": 151.9,
+     "why": "Wednesday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 140.0,
+     "why": "round number, 140 put wall"
+    },
+    {
+     "price": 137.5,
+     "why": "137.5 strike"
+    },
+    {
+     "price": 135.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Down for a 7th straight session at a 52-week low on the California probe and the chip rout, pressing 140; under 140 opens 137, over 144.5 fails."
+  },
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
@@ -48,46 +88,6 @@
     }
    ],
    "reason": "Gapping down ~1.5% with chips selling off worldwide and VIX over 30; under 632 the AI selloff extends, back over 641 negates."
-  },
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "direction": "put",
-   "confidence": 58,
-   "price": 140.6,
-   "breakout": 144.5,
-   "breakdown": 140.0,
-   "target_up": 146.0,
-   "target_down": 137.0,
-   "levels_up": [
-    {
-     "price": 145.98,
-     "why": "gap fill to Thursday close"
-    },
-    {
-     "price": 150.0,
-     "why": "round number, 150 call wall"
-    },
-    {
-     "price": 151.9,
-     "why": "Wednesday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 140.0,
-     "why": "round number, 140 put wall"
-    },
-    {
-     "price": 137.5,
-     "why": "137.5 strike"
-    },
-    {
-     "price": 135.0,
-     "why": "round number"
-    }
-   ],
-   "reason": "Opened ~-3.7% at a new 52-week low on the California probe and the global chip rout, pressing 140; under 140 opens 137, over 144.5 fails."
   },
   {
    "symbol": "SPY",
@@ -213,7 +213,7 @@
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 43,
+   "confidence": 41,
    "price": 465.0,
    "breakout": 470.0,
    "breakdown": 455.0,
@@ -247,10 +247,12 @@
      "why": "round number, ~-12% from Thursday close"
     }
    ],
-   "reason": "Pared an early ~7% drop to about -5% after the Hunterbrook short report, holding above 455; bounce call triggers over 470, under 455 it fails with the chip tape."
+   "reason": "Hunterbrook short report keeps pressure on; the bounce call only triggers over 470, and under 455 it fails with a chip tape that is still falling."
   }
  ],
  "sources": [
+  "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+  "https://blockonomi.com/todays-market-movers-anthropic-nvidia-amd-intuit-bloom-energy-under-pressure",
   "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
   "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
   "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
@@ -263,8 +265,6 @@
   "https://theadaptivetrader.substack.com/p/pre-market-note-november-20-2026",
   "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-20",
   "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-anthropic-slides-debut-105600121.html",
-  "https://coinpaper.com/39135/nvidia-faces-california-investigation-over-china-chip-risks-and-allegedly-misleading-investors",
-  "https://www.kucoin.com/news/flash/nvidia-stock-hits-52-week-low-amid-leadership-crisis-and-regulatory-pressures",
-  "https://www.forbes.com/sites/siladityaray/2026/11/20/nvidia-rival-amd-shares-slump-again-after-short-seller-says-it-has-its-own-china-problem/"
+  "https://coinpaper.com/39135/nvidia-faces-california-investigation-over-china-chip-risks-and-allegedly-misleading-investors"
  ]
 }
