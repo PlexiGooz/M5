@@ -1,29 +1,270 @@
-{"generated_at": 1795184542, "date": "2026-11-20", "model": "claude-opus-5-5 (routine)", "run": "morning",
-"summary": "Risk-off open on monthly opex: Nasdaq-100 futures down ~1.5-1.9%, S&P ~0.6-1%, VIX above 30, Asian chip markets down ~5%, Fed hike in December ~95% priced. Bias bearish (5 puts, 1 call); prices are premarket estimates from news, no live quote pages were reachable.",
-"picks": [
-{"symbol": "QQQ", "name": "Invesco QQQ Trust", "direction": "put", "confidence": 58, "price": 636.0, "breakout": 641.0, "breakdown": 632.0, "target_up": 645.0, "target_down": 625.0,
- "levels_up": [{"price": 639.6, "why": "premarket high area"}, {"price": 645.0, "why": "gap fill to Thursday close"}, {"price": 650.0, "why": "round number, 650 call strike"}, {"price": 656.0, "why": "Wednesday close"}],
- "levels_down": [{"price": 630.0, "why": "round number, 630 put strike"}, {"price": 625.0, "why": "~3% below Thursday close"}, {"price": 620.0, "why": "round number"}],
- "reason": "Gapping down ~1.5% with chips selling off worldwide and VIX over 30; under 632 the AI selloff extends, back over 641 negates."},
-{"symbol": "NVDA", "name": "Nvidia", "direction": "put", "confidence": 56, "price": 142.0, "breakout": 144.5, "breakdown": 140.0, "target_up": 146.0, "target_down": 137.0,
- "levels_up": [{"price": 145.98, "why": "gap fill to Thursday close"}, {"price": 150.0, "why": "round number, 150 call wall"}, {"price": 151.9, "why": "Wednesday close"}],
- "levels_down": [{"price": 140.0, "why": "round number, 140 put wall"}, {"price": 137.5, "why": "137.5 strike"}, {"price": 135.0, "why": "round number"}],
- "reason": "New 52-week low premarket (~141-142) on a California probe into China-risk disclosures and the global chip rout; under 140 opens 137, over 144.5 fails."},
-{"symbol": "SPY", "name": "SPDR S&P 500 ETF", "direction": "put", "confidence": 54, "price": 711.0, "breakout": 714.6, "breakdown": 708.0, "target_up": 718.0, "target_down": 703.0,
- "levels_up": [{"price": 715.87, "why": "gap fill to Thursday close"}, {"price": 720.0, "why": "round number, 720 call strike"}, {"price": 730.2, "why": "Wednesday close"}],
- "levels_down": [{"price": 705.0, "why": "round number"}, {"price": 700.0, "why": "round number, 700 put wall"}, {"price": 690.0, "why": "round number, ~-3.6% from Thursday close"}],
- "reason": "Sixth straight down day setup with the Dow on its worst week since April 2025 and VIX above 30; under 708 heads to 703/700, over 714.6 negates."},
-{"symbol": "INTU", "name": "Intuit", "direction": "put", "confidence": 52, "price": 280.0, "breakout": 287.0, "breakdown": 275.0, "target_up": 295.0, "target_down": 266.0,
- "levels_up": [{"price": 290.0, "why": "round number"}, {"price": 300.0, "why": "round number, 300 call wall"}, {"price": 311.0, "why": "gap fill to Thursday close (approx)"}],
- "levels_down": [{"price": 270.0, "why": "round number"}, {"price": 260.0, "why": "round number"}, {"price": 252.84, "why": "52-week low"}],
- "reason": "Down ~10% after an EPS guide below consensus, a Credit Karma outlook cut and the cheap Mailchimp sale; under 275 the gap-and-go extends, over 287 the put fails."},
-{"symbol": "ROST", "name": "Ross Stores", "direction": "put", "confidence": 50, "price": 212.5, "breakout": 215.5, "breakdown": 208.5, "target_up": 219.0, "target_down": 204.0,
- "levels_up": [{"price": 215.0, "why": "round number"}, {"price": 220.0, "why": "gap fill to Thursday close (approx)"}, {"price": 225.0, "why": "round number"}],
- "levels_down": [{"price": 208.75, "why": "after-hours low"}, {"price": 205.0, "why": "round number"}, {"price": 200.0, "why": "round number, 200 put wall"}],
- "reason": "Down ~3.5% premarket on a soft Q4 guide (comps 4-5% vs 8%) and Truist PT cut; under the 208.75 after-hours low it extends, over 215.5 negates."},
-{"symbol": "AMD", "name": "Advanced Micro Devices", "direction": "call", "confidence": 44, "price": 462.0, "breakout": 470.0, "breakdown": 455.0, "target_up": 480.0, "target_down": 445.0,
- "levels_up": [{"price": 475.0, "why": "475 strike"}, {"price": 489.19, "why": "gap fill to Thursday close"}, {"price": 500.0, "why": "round number, 500 call wall"}],
- "levels_down": [{"price": 450.0, "why": "round number, 450 put wall"}, {"price": 440.0, "why": "round number"}, {"price": 430.0, "why": "round number, ~-12% from Thursday close"}],
- "reason": "Down ~13% in two days on the Hunterbrook short report that AMD and analysts dismiss; oversold bounce only over 470, under 455 the call fails with the chip tape."}
-],
-"sources": ["https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7", "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus", "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026", "https://theadaptivetrader.substack.com/p/pre-market-note-november-20-2026", "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-20", "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-anthropic-slides-debut-105600121.html", "https://coinpaper.com/39135/nvidia-faces-california-investigation-over-china-chip-risks-and-allegedly-misleading-investors", "https://www.kucoin.com/news/flash/nvidia-stock-hits-52-week-low-amid-leadership-crisis-and-regulatory-pressures", "https://www.forbes.com/sites/siladityaray/2026/11/20/nvidia-rival-amd-shares-slump-again-after-short-seller-says-it-has-its-own-china-problem/", "https://www.openingbelldailynews.com/p/amd-stock-short-seller-nov-20-2026", "https://invezz.com/news/2026/11/20/intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/", "https://www.tradingkey.com/analysis/stocks/us-stocks/262314593-intuit-slides-toward-279-66-credit-karma-outlook-cut-mailchimp-sale-november-20-2026-tradingkey", "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session", "https://leprivatebanker.com/2026/11/19/treasury-10-year-yield-holds-near-5-09-as-futures-price-a-december-fed-hike-and-policymakers-flag-more-to-come/"]}
+{
+ "generated_at": 1795185392,
+ "date": "2026-11-20",
+ "model": "claude-opus-5-5 (routine)",
+ "run": "update 06:35 PT",
+ "summary": "Risk-off opex open after futures showed Nasdaq-100 -1.5%, S&P -0.6%, VIX ~30; bias stays bearish (5 puts, 1 call). No change: 5 minutes after the open no live quotes or new headlines were reachable, so levels and confidence are carried over from the morning run.",
+ "picks": [
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 58,
+   "price": 636.0,
+   "breakout": 641.0,
+   "breakdown": 632.0,
+   "target_up": 645.0,
+   "target_down": 625.0,
+   "levels_up": [
+    {
+     "price": 639.6,
+     "why": "premarket high area"
+    },
+    {
+     "price": 645.0,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 650.0,
+     "why": "round number, 650 call strike"
+    },
+    {
+     "price": 656.0,
+     "why": "Wednesday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 630.0,
+     "why": "round number, 630 put strike"
+    },
+    {
+     "price": 625.0,
+     "why": "~3% below Thursday close"
+    },
+    {
+     "price": 620.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Gapping down ~1.5% with chips selling off worldwide and VIX over 30; under 632 the AI selloff extends, back over 641 negates."
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 56,
+   "price": 142.0,
+   "breakout": 144.5,
+   "breakdown": 140.0,
+   "target_up": 146.0,
+   "target_down": 137.0,
+   "levels_up": [
+    {
+     "price": 145.98,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 150.0,
+     "why": "round number, 150 call wall"
+    },
+    {
+     "price": 151.9,
+     "why": "Wednesday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 140.0,
+     "why": "round number, 140 put wall"
+    },
+    {
+     "price": 137.5,
+     "why": "137.5 strike"
+    },
+    {
+     "price": 135.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "New 52-week low premarket (~141-142) on a California probe into China-risk disclosures and the global chip rout; under 140 opens 137, over 144.5 fails."
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "direction": "put",
+   "confidence": 54,
+   "price": 711.0,
+   "breakout": 714.6,
+   "breakdown": 708.0,
+   "target_up": 718.0,
+   "target_down": 703.0,
+   "levels_up": [
+    {
+     "price": 715.87,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 720.0,
+     "why": "round number, 720 call strike"
+    },
+    {
+     "price": 730.2,
+     "why": "Wednesday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 705.0,
+     "why": "round number"
+    },
+    {
+     "price": 700.0,
+     "why": "round number, 700 put wall"
+    },
+    {
+     "price": 690.0,
+     "why": "round number, ~-3.6% from Thursday close"
+    }
+   ],
+   "reason": "Sixth straight down day setup with the Dow on its worst week since April 2025 and VIX above 30; under 708 heads to 703/700, over 714.6 negates."
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "direction": "put",
+   "confidence": 52,
+   "price": 280.0,
+   "breakout": 287.0,
+   "breakdown": 275.0,
+   "target_up": 295.0,
+   "target_down": 266.0,
+   "levels_up": [
+    {
+     "price": 290.0,
+     "why": "round number"
+    },
+    {
+     "price": 300.0,
+     "why": "round number, 300 call wall"
+    },
+    {
+     "price": 311.0,
+     "why": "gap fill to Thursday close (approx)"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 270.0,
+     "why": "round number"
+    },
+    {
+     "price": 260.0,
+     "why": "round number"
+    },
+    {
+     "price": 252.84,
+     "why": "52-week low"
+    }
+   ],
+   "reason": "Down ~10% after an EPS guide below consensus, a Credit Karma outlook cut and the cheap Mailchimp sale; under 275 the gap-and-go extends, over 287 the put fails."
+  },
+  {
+   "symbol": "ROST",
+   "name": "Ross Stores",
+   "direction": "put",
+   "confidence": 50,
+   "price": 212.5,
+   "breakout": 215.5,
+   "breakdown": 208.5,
+   "target_up": 219.0,
+   "target_down": 204.0,
+   "levels_up": [
+    {
+     "price": 215.0,
+     "why": "round number"
+    },
+    {
+     "price": 220.0,
+     "why": "gap fill to Thursday close (approx)"
+    },
+    {
+     "price": 225.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 208.75,
+     "why": "after-hours low"
+    },
+    {
+     "price": 205.0,
+     "why": "round number"
+    },
+    {
+     "price": 200.0,
+     "why": "round number, 200 put wall"
+    }
+   ],
+   "reason": "Down ~3.5% premarket on a soft Q4 guide (comps 4-5% vs 8%) and Truist PT cut; under the 208.75 after-hours low it extends, over 215.5 negates."
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "direction": "call",
+   "confidence": 44,
+   "price": 462.0,
+   "breakout": 470.0,
+   "breakdown": 455.0,
+   "target_up": 480.0,
+   "target_down": 445.0,
+   "levels_up": [
+    {
+     "price": 475.0,
+     "why": "475 strike"
+    },
+    {
+     "price": 489.19,
+     "why": "gap fill to Thursday close"
+    },
+    {
+     "price": 500.0,
+     "why": "round number, 500 call wall"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 450.0,
+     "why": "round number, 450 put wall"
+    },
+    {
+     "price": 440.0,
+     "why": "round number"
+    },
+    {
+     "price": 430.0,
+     "why": "round number, ~-12% from Thursday close"
+    }
+   ],
+   "reason": "Down ~13% in two days on the Hunterbrook short report that AMD and analysts dismiss; oversold bounce only over 470, under 455 the call fails with the chip tape."
+  }
+ ],
+ "sources": [
+  "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
+  "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus",
+  "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+  "https://theadaptivetrader.substack.com/p/pre-market-note-november-20-2026",
+  "https://www.marketalleys.com/post/marketalleys-premarket-brief-2026-11-20",
+  "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-anthropic-slides-debut-105600121.html",
+  "https://coinpaper.com/39135/nvidia-faces-california-investigation-over-china-chip-risks-and-allegedly-misleading-investors",
+  "https://www.kucoin.com/news/flash/nvidia-stock-hits-52-week-low-amid-leadership-crisis-and-regulatory-pressures",
+  "https://www.forbes.com/sites/siladityaray/2026/11/20/nvidia-rival-amd-shares-slump-again-after-short-seller-says-it-has-its-own-china-problem/",
+  "https://www.openingbelldailynews.com/p/amd-stock-short-seller-nov-20-2026",
+  "https://invezz.com/news/2026/11/20/intuit-stock-falls-9-on-fy27-revenue-forecast-cut-mailchimp-sale-analysts-cut-pts/",
+  "https://www.tradingkey.com/analysis/stocks/us-stocks/262314593-intuit-slides-toward-279-66-credit-karma-outlook-cut-mailchimp-sale-november-20-2026-tradingkey",
+  "https://www.benzinga.com/trading-ideas/movers/26/11/63468329/ross-stores-intuit-anthropic-and-other-big-stocks-moving-lower-in-fridays-pre-market-session",
+  "https://leprivatebanker.com/2026/11/19/treasury-10-year-yield-holds-near-5-09-as-futures-price-a-december-fed-hike-and-policymakers-flag-more-to-come/",
+  "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
+ ]
+}
