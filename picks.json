@@ -1,9 +1,9 @@
 {
- "generated_at": 1795450900,
+ "generated_at": 1795451756,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:20 PT",
- "summary": "Rally holding near highs: live coverage has the Nasdaq ~+7% and S&P 500 ~+5% with NVDA +27-35% on Huang's reinstatement and AI names following. No change since 08:05: searches turned up no new catalyst and quote pages are blocked, so picks, levels and confidence kept.",
+ "run": "update 08:35 PT",
+ "summary": "Rally holding near highs: coverage still has the Nasdaq ~+6-7% and S&P 500 ~+5% with NVDA up ~28-35% on Huang's reinstatement. No change since 08:20: no new catalyst found and quote pages are blocked, so picks, levels and confidence kept.",
  "picks": [
   {
    "symbol": "QQQ",
