@@ -1,9 +1,9 @@
 {
- "generated_at": 1795462581,
+ "generated_at": 1795463457,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:35 PT",
- "summary": "Rally holding with a slight fade into the afternoon: Nasdaq ~+6.5-6.8%, S&P ~+5%, NVDA ~+31% on Huang's reinstatement. Since 11:20: no change; searches returned no fresh quotes or news, levels and confidence kept.",
+ "run": "update 11:50 PT",
+ "summary": "Rally holding with a slight afternoon fade: Nasdaq ~+6.5-6.8%, S&P ~+5%, NVDA ~+31% on Huang's reinstatement. Since 11:35: no change; searches returned no fresh quotes or news, levels and confidence kept.",
  "picks": [
   {
    "symbol": "QQQ",
