@@ -1,9 +1,9 @@
 {
- "generated_at": 1795466208,
+ "generated_at": 1795467044,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:35 PT",
- "summary": "Rally holding into the last 25 minutes: Reuters has the Nasdaq 100 ~+6.2%, S&P ~+4.8%, NVDA ~+31% on Huang's reinstatement. Since 12:20: no change; no fresh quotes found that move any pick through a level, so levels and confidence are unchanged.",
+ "run": "update 12:50 PT",
+ "summary": "Rally holding into the final 10 minutes, Nasdaq 100 ~+6%, S&P ~+5%, NVDA ~+31% on Huang's reinstatement. Since 12:35: no change. Searches turned up no newer quotes, so levels and confidence stay the same.",
  "picks": [
   {
    "symbol": "QQQ",
