@@ -1,9 +1,9 @@
 {
- "generated_at": 1795453593,
+ "generated_at": 1795454478,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:06 PT",
- "summary": "Rally holding: Nasdaq was up more than 7% midmorning and NVDA ~+30% on Huang's reinstatement. No change since 08:51: no new catalyst and live quotes unavailable, so picks, levels and confidence kept.",
+ "run": "update 09:20 PT",
+ "summary": "Rally holding into midday: Dow ~+3.2%, S&P ~+4.7-5%, Nasdaq near +7%, NVDA ~+30-34% on Huang's reinstatement. No change since 09:06: no new catalyst and live quotes unavailable, so picks, levels and confidence kept.",
  "picks": [
   {
    "symbol": "QQQ",
