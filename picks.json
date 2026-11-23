@@ -1,21 +1,25 @@
 {
- "generated_at": 1795459872,
+ "generated_at": 1795460804,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:50 PT",
- "summary": "Rally holding into the afternoon: Nasdaq 100 ~+7%, S&P ~+5%, NVDA +31-34% on Huang's reinstatement. Change since 10:36: CRWD slid to ~-10% (biggest S&P decliner), testing its 206 breakdown, so breakdown lowered to 204 and conf +2; MU eased to ~+18% near 700 (conf -1); others unchanged, live quotes unavailable.",
+ "run": "update 11:06 PT",
+ "summary": "Rally holding with a slight fade into the afternoon: Nasdaq ~+6.5-6.8% (from ~7%), S&P ~+5%, NVDA ~+31.6% at 1:30 ET on Huang's reinstatement. Change since 10:50: QQQ and SPY eased back under 660/725 (conf -1 each); other picks unchanged, live quotes unavailable.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "call",
-   "confidence": 63,
-   "price": 662.0,
+   "confidence": 62,
+   "price": 659.0,
    "breakout": 662.0,
    "breakdown": 652.0,
    "target_up": 670.0,
    "target_down": 645.0,
    "levels_up": [
+    {
+     "price": 660.0,
+     "why": "round number, retest after fade"
+    },
     {
      "price": 670.0,
      "why": "round number, pre-selloff range"
@@ -31,12 +35,8 @@
    ],
    "levels_down": [
     {
-     "price": 660.0,
-     "why": "round number (passed)"
-    },
-    {
      "price": 656.78,
-     "why": "Nov 17 price area (passed)"
+     "why": "Nov 17 price area"
     },
     {
      "price": 645.0,
@@ -48,50 +48,6 @@
     }
    ],
    "reason": "Nasdaq 100 up as much as ~7.9% on Huang's return and chip short-covering; at 662 breakout, holding above 652 keeps the trend day, target 670."
-  },
-  {
-   "symbol": "SPY",
-   "name": "SPDR S&P 500 ETF",
-   "direction": "call",
-   "confidence": 58,
-   "price": 725.0,
-   "breakout": 728.0,
-   "breakdown": 719.0,
-   "target_up": 734.0,
-   "target_down": 714.0,
-   "levels_up": [
-    {
-     "price": 730.0,
-     "why": "round number"
-    },
-    {
-     "price": 734.71,
-     "why": "Nov 17 price"
-    },
-    {
-     "price": 740.0,
-     "why": "round number"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 725.0,
-     "why": "round number (passed)"
-    },
-    {
-     "price": 720.0,
-     "why": "round number, 720 strike (passed)"
-    },
-    {
-     "price": 715.87,
-     "why": "Thursday close"
-    },
-    {
-     "price": 708.0,
-     "why": "Friday morning support"
-    }
-   ],
-   "reason": "S&P pushing ~+5.3-5.6% after a midmorning fade; over 728 the short-cover extends toward 734, losing 719 means the push failed."
   },
   {
    "symbol": "NVDA",
@@ -132,6 +88,50 @@
     }
    ],
    "reason": "Up as much as ~35% after the board reinstated Huang and cleared the 166.19 pre-resignation close; over 170 extends, back under 164 fades."
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "direction": "call",
+   "confidence": 57,
+   "price": 722.0,
+   "breakout": 728.0,
+   "breakdown": 719.0,
+   "target_up": 734.0,
+   "target_down": 714.0,
+   "levels_up": [
+    {
+     "price": 725.0,
+     "why": "round number, intraday high area"
+    },
+    {
+     "price": 730.0,
+     "why": "round number"
+    },
+    {
+     "price": 734.71,
+     "why": "Nov 17 price"
+    },
+    {
+     "price": 740.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 720.0,
+     "why": "round number, 720 strike (passed)"
+    },
+    {
+     "price": 715.87,
+     "why": "Thursday close"
+    },
+    {
+     "price": 708.0,
+     "why": "Friday morning support"
+    }
+   ],
+   "reason": "S&P ~+5% after slipping off a +5.6% push; reclaiming 728 extends toward 734, losing 719 means the push failed."
   },
   {
    "symbol": "UNH",
