@@ -1,25 +1,21 @@
 {
- "generated_at": 1795457189,
+ "generated_at": 1795458073,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:06 PT",
- "summary": "Rally holding into the afternoon: S&P ~+4.8%, Nasdaq near +7%, NVDA ~+30-34% on Huang's reinstatement. No change since 09:50: searches turned up no new catalyst and live quotes were unavailable, so picks, levels and confidence kept.",
+ "run": "update 10:20 PT",
+ "summary": "Rally pressing highs: midday reports put the S&P ~+5.3% (peak +5.6%) and Nasdaq 100 up as much as 7.9%, NVDA +30%+ on Huang's reinstatement. Change since 10:06: SPY and QQQ nudged up to their breakouts (725 and 660 passed), confidence +1 each; other picks unchanged, live quotes unavailable.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "call",
-   "confidence": 62,
-   "price": 659.0,
+   "confidence": 63,
+   "price": 662.0,
    "breakout": 662.0,
    "breakdown": 652.0,
    "target_up": 670.0,
    "target_down": 645.0,
    "levels_up": [
-    {
-     "price": 660.0,
-     "why": "round number"
-    },
     {
      "price": 670.0,
      "why": "round number, pre-selloff range"
@@ -27,9 +23,17 @@
     {
      "price": 680.0,
      "why": "round number"
+    },
+    {
+     "price": 690.0,
+     "why": "round number"
     }
    ],
    "levels_down": [
+    {
+     "price": 660.0,
+     "why": "round number (passed)"
+    },
     {
      "price": 656.78,
      "why": "Nov 17 price area (passed)"
@@ -43,23 +47,19 @@
      "why": "Friday premarket high"
     }
    ],
-   "reason": "Nasdaq 100 extended to ~+6.8% on Huang's return and chip short-covering; holding above 652 keeps the trend day, over 662 targets 670."
+   "reason": "Nasdaq 100 up as much as ~7.9% on Huang's return and chip short-covering; at 662 breakout, holding above 652 keeps the trend day, target 670."
   },
   {
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "call",
-   "confidence": 58,
-   "price": 724.5,
+   "confidence": 59,
+   "price": 727.0,
    "breakout": 728.0,
    "breakdown": 719.0,
    "target_up": 734.0,
    "target_down": 714.0,
    "levels_up": [
-    {
-     "price": 725.0,
-     "why": "round number"
-    },
     {
      "price": 730.0,
      "why": "round number"
@@ -67,9 +67,17 @@
     {
      "price": 734.71,
      "why": "Nov 17 price"
+    },
+    {
+     "price": 740.0,
+     "why": "round number"
     }
    ],
    "levels_down": [
+    {
+     "price": 725.0,
+     "why": "round number (passed)"
+    },
     {
      "price": 720.0,
      "why": "round number, 720 strike (passed)"
@@ -83,7 +91,7 @@
      "why": "Friday morning support"
     }
    ],
-   "reason": "S&P re-accelerated to ~+4.8% after a midmorning fade; over 728 the short-cover extends toward 734, losing 719 means the push failed."
+   "reason": "S&P pushing ~+5.3-5.6% after a midmorning fade; over 728 the short-cover extends toward 734, losing 719 means the push failed."
   },
   {
    "symbol": "NVDA",
@@ -247,6 +255,8 @@
   }
  ],
  "sources": [
+  "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+  "https://www.tipranks.com/news/nasdaq-surges-as-jensen-huang-returns-to-nvidia-and-ai-stocks-rally",
   "https://edition.cnn.com/2026/11/23/markets/us-stocks-rebound-intl",
   "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/23/us-futures-climb-and-world-shares-are-mixed-as-big-tech-stocks-fall-in-asia/",
   "https://cbsaustin.com/news/nation-world/nvidia-leads-wall-street-rebound-as-stocks-recover-from-steep-losses-jensen-huang-ceo-reinstated-sp-500-nasdaq-dow-jones-industrial-average-artificial-intelligence-ai-news",
@@ -259,8 +269,6 @@
   "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
   "https://finance.yahoo.com/markets/stocks/articles/nvidia-jumps-28-chip-stocks-141339800.html",
   "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html",
-  "https://www.business-standard.com/world-news/nvidia-stock-skyrockets-31-as-board-reinstates-jensen-huang-as-ceo-126112301215_1.html",
-  "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/",
-  "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html"
+  "https://www.business-standard.com/world-news/nvidia-stock-skyrockets-31-as-board-reinstates-jensen-huang-as-ceo-126112301215_1.html"
  ]
 }
