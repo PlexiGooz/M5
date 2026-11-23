@@ -1,9 +1,9 @@
 {
- "generated_at": 1795449073,
+ "generated_at": 1795450028,
  "date": "2026-11-23",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:50 PT",
- "summary": "Rally extended mid-morning: AP had the S&P 500 +4.8% and Nasdaq +6.8%, with NVDA up as much as ~35% on Huang's reinstatement. Change: QQQ, SPY and NVDA cleared their breakouts (estimated prices, quote pages blocked), so levels moved up and confidence nudged +2-3; UNH, CRWD, MU unchanged.",
+ "run": "update 08:05 PT",
+ "summary": "Rally holding near highs: live coverage has the Nasdaq ~+7% and S&P 500 ~+5% with NVDA +27-35% on Huang's reinstatement and AI names (CoreWeave ~+24%) following. No change since 07:50: no new catalyst, quote pages blocked, so picks, levels and confidence kept.",
  "picks": [
   {
    "symbol": "QQQ",
@@ -247,6 +247,8 @@
   }
  ],
  "sources": [
+  "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/23/us-futures-climb-and-world-shares-are-mixed-as-big-tech-stocks-fall-in-asia/",
+  "https://cbsaustin.com/news/nation-world/nvidia-leads-wall-street-rebound-as-stocks-recover-from-steep-losses-jensen-huang-ceo-reinstated-sp-500-nasdaq-dow-jones-industrial-average-artificial-intelligence-ai-news",
   "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
   "https://www.bostonglobe.com/2026/11/23/business/us-stocks-markets-nvidia/",
   "https://www.foxbusiness.com/markets/stocks-november-23-2026",
@@ -259,8 +261,6 @@
   "https://www.business-standard.com/world-news/nvidia-stock-skyrockets-31-as-board-reinstates-jensen-huang-as-ceo-126112301215_1.html",
   "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/",
   "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
-  "https://qz.com/unitedhealth-humana-cvs-stocks-medicare-advantage-ratings-112326",
-  "https://247wallst.com/investing/2026/11/23/nvidia-stock-soars-27-before-the-bell-after-its-board-reinstated-jensen-huang-as-ceo-it-still-needs-50-to-get-back-to-its-record/",
-  "https://www.fxstreet.com/news/jensen-huang-reinstated-at-nvidia-nvda-shares-spike-27-202611231416"
+  "https://qz.com/unitedhealth-humana-cvs-stocks-medicare-advantage-ratings-112326"
  ]
 }
