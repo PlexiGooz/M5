@@ -1,9 +1,9 @@
 {
- "generated_at": 1795548975,
+ "generated_at": 1795549865,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:35 PT",
- "summary": "AI selloff still the theme while the rest of the market holds up: reports now put Nvidia down about 7-7.4% and the Dow up ~340 points, S&P and Nasdaq still lower. Since 11:20: Nvidia slipped back a little from its bounce (price 154.2->153.5, confidence 57->58); other picks unchanged; prices estimated from percent moves because quote pages are blocked.",
+ "run": "update 11:50 PT",
+ "summary": "AI selloff still the theme while the Dow holds up: Nvidia about -7.2% near 153.2, Anthropic under its IPO price, semis ETFs down 7-8% and money rotating into health care and retailers. Since 11:35: Nvidia a touch lower (153.5->153.2), other picks unchanged; quote pages blocked, prices from news reports.",
  "picks": [
   {
    "symbol": "ADI",
@@ -54,7 +54,7 @@
    "name": "Nvidia",
    "direction": "put",
    "confidence": 58,
-   "price": 153.5,
+   "price": 153.2,
    "breakout": 155.5,
    "breakdown": 150.0,
    "target_up": 160.0,
@@ -91,7 +91,7 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~7% near $153.5 after Monday's +31.5% Huang-return surge, bounce stalling; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+   "reason": "Down ~7.2% near $153.2 after Monday's +31.5% Huang-return surge, bounce faded; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
   },
   {
    "symbol": "DLTR",
@@ -255,6 +255,7 @@
   }
  ],
  "sources": [
+  "https://www.tradingview.com/news/benzinga:10db8656d094b:0-anthropic-drops-below-ipo-prices-nvidia-sinks-7-after-record-rally-stock-market-today/",
   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
   "https://fvbb.com/ns/what-s-happening-in-the-us-stock-market/332479",
   "https://www.news-gazette.com/news/nation-world/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/article_25b815e3-e01d-5b6e-8fb2-bea996f85854.html",
@@ -268,7 +269,6 @@
   "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower",
   "https://finance.biggo.com/news/ab6457b2-1d9f-4a77-8d76-326eeca92d1d",
   "https://sellthenews.org/catalyx/market/2026-11-24",
-  "https://invezz.com/news/2026/11/24/nasdaq-opens-1-6-lower-as-nvidia-rally-fades-ai-stocks-slide/",
-  "https://www.mahoningmatters.com/news/nation-world/national/article318228328.html"
+  "https://invezz.com/news/2026/11/24/nasdaq-opens-1-6-lower-as-nvidia-rally-fades-ai-stocks-slide/"
  ]
 }
