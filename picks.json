@@ -1,9 +1,9 @@
 {
- "generated_at": 1795538179,
+ "generated_at": 1795539090,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:35 PT",
- "summary": "Risk-off holds: S&P about -1% and Nasdaq -1.5% or so as chips (Nvidia ~-8%, AMD -12%) give back Monday's Huang-return rally, while staples and healthcare keep the Dow near flat; bias stays with puts. Change since 08:20: no change (no fresh intraday quotes; picks still inside their levels).",
+ "run": "update 08:50 PT",
+ "summary": "Risk-off holds: S&P about -1% and Nasdaq -1.5% or so as chips (Nvidia ~-8%, AMD -12%) give back Monday's Huang-return rally, while staples and healthcare keep the Dow near flat; bias stays with puts. Change since 08:35: no change (no fresh intraday quotes; picks still inside their levels).",
  "picks": [
   {
    "symbol": "NVDA",
