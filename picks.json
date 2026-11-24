@@ -1,274 +1,42 @@
-{
- "generated_at": 1795553479,
- "date": "2026-11-24",
- "model": "claude-opus-5-5 (routine)",
- "run": "update 12:50 PT",
- "summary": "AI selloff into the last 10 minutes: Nvidia about -7.5% near 152.7, Nasdaq near -2%, Dow green on rotation into defensives. Since 12:36: no change, no new headlines found and quote pages blocked, so picks, levels and confidence are unchanged.",
+{"generated_at": 1795560092, "date": "2026-11-25", "model": "claude-opus-5-5 (routine)", "run": "morning",
+ "summary": "Built after Tuesday's close for Wednesday Nov 25 (pre-Thanksgiving). AI names sold off Tuesday (NVDA -6%, QQQ -2%) while the Dow rose; after hours Dell is up ~5% on a big beat and raise, Workday is down ~7% on soft Q4 subscription guidance, and Deere reports before the open. Mixed bias: 3 calls, 3 puts, modest confidence.",
  "picks": [
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "direction": "put",
-   "confidence": 60,
-   "price": 152.7,
-   "breakout": 155.5,
-   "breakdown": 150.0,
-   "target_up": 160.0,
-   "target_down": 146.0,
-   "levels_up": [
-    {
-     "price": 155.46,
-     "why": "Nov 17 close (passed)"
-    },
-    {
-     "price": 160.0,
-     "why": "round number, 160 strike"
-    },
-    {
-     "price": 165.05,
-     "why": "gap fill to Monday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 153.0,
-     "why": "morning breakdown level (passed)"
-    },
-    {
-     "price": 150.96,
-     "why": "Nov 18 close"
-    },
-    {
-     "price": 150.0,
-     "why": "round number, 150 put strike"
-    },
-    {
-     "price": 145.0,
-     "why": "round number, put strike"
-    }
-   ],
-   "reason": "Down ~7.5% near $152.7 after Monday's +31% Huang-return surge, holding weak into the last hour; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
-  },
-  {
-   "symbol": "ADI",
-   "name": "Analog Devices",
-   "direction": "put",
-   "confidence": 58,
-   "price": 313.0,
-   "breakout": 322.0,
-   "breakdown": 308.0,
-   "target_up": 330.0,
-   "target_down": 300.0,
-   "levels_up": [
-    {
-     "price": 315.0,
-     "why": "breakdown level (passed)"
-    },
-    {
-     "price": 325.0,
-     "why": "7-month low area (passed)"
-    },
-    {
-     "price": 330.0,
-     "why": "round number, put strike (passed)"
-    },
-    {
-     "price": 350.0,
-     "why": "round number, 350 strike"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 310.0,
-     "why": "round number"
-    },
-    {
-     "price": 300.0,
-     "why": "round number, put wall"
-    },
-    {
-     "price": 290.0,
-     "why": "round number, -23% extended move"
-    }
-   ],
-   "reason": "Down ~17% after a Q1 EPS guide below consensus and now under 315; below 308 extends to the 300 put wall, a reclaim of 322 would mean a bounce."
-  },
-  {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "direction": "call",
-   "confidence": 57,
-   "price": 151.0,
-   "breakout": 154.5,
-   "breakdown": 147.5,
-   "target_up": 158.0,
-   "target_down": 144.0,
-   "levels_up": [
-    {
-     "price": 154.0,
-     "why": "premarket high"
-    },
-    {
-     "price": 155.0,
-     "why": "round number, 155 call strike"
-    },
-    {
-     "price": 160.0,
-     "why": "round number, implied move extended"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 148.84,
-     "why": "early premarket print"
-    },
-    {
-     "price": 145.0,
-     "why": "round number"
-    },
-    {
-     "price": 139.1,
-     "why": "gap fill to Monday close"
-    }
-   ],
-   "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; staples/defensives bid as money rotates out of AI, over 154.5 extends."
-  },
-  {
-   "symbol": "QQQ",
-   "name": "Invesco QQQ Trust",
-   "direction": "put",
-   "confidence": 54,
-   "price": 645.0,
-   "breakout": 652.0,
-   "breakdown": 639.0,
-   "target_up": 658.0,
-   "target_down": 630.0,
-   "levels_up": [
-    {
-     "price": 650.0,
-     "why": "round number (passed)"
-    },
-    {
-     "price": 658.0,
-     "why": "gap fill to Monday close"
-    },
-    {
-     "price": 670.0,
-     "why": "round number, pre-selloff range"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 639.6,
-     "why": "Friday premarket high"
-    },
-    {
-     "price": 630.0,
-     "why": "round number"
-    },
-    {
-     "price": 620.0,
-     "why": "round number, Friday range"
-    }
-   ],
-   "reason": "Nasdaq loss re-widened to about -2% as chips slide again; under 652 the put stays on, a break below 639 opens 630."
-  },
-  {
-   "symbol": "HPE",
-   "name": "Hewlett Packard Enterprise",
-   "direction": "put",
-   "confidence": 53,
-   "price": 42.7,
-   "breakout": 44.5,
-   "breakdown": 42.0,
-   "target_up": 46.0,
-   "target_down": 40.9,
-   "levels_up": [
-    {
-     "price": 43.43,
-     "why": "earlier premarket print"
-    },
-    {
-     "price": 45.0,
-     "why": "round number"
-    },
-    {
-     "price": 48.03,
-     "why": "gap fill to Monday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 41.0,
-     "why": "Friday close, Monday's gap fill"
-    },
-    {
-     "price": 40.0,
-     "why": "round number, put wall"
-    },
-    {
-     "price": 38.5,
-     "why": "pre-rally range low"
-    }
-   ],
-   "reason": "Down ~10-11% after a Cloud & AI margin warning wipes out Monday's +17%; under 42 it heads to fill Monday's gap toward 41."
-  },
-  {
-   "symbol": "SPY",
-   "name": "SPDR S&P 500 ETF",
-   "direction": "put",
-   "confidence": 46,
-   "price": 715.5,
-   "breakout": 718.0,
-   "breakdown": 710.0,
-   "target_up": 722.0,
-   "target_down": 704.0,
-   "levels_up": [
-    {
-     "price": 722.0,
-     "why": "gap fill to Monday close"
-    },
-    {
-     "price": 728.0,
-     "why": "Monday intraday high area"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 715.87,
-     "why": "Thursday close (passed)"
-    },
-    {
-     "price": 708.0,
-     "why": "Friday morning support"
-    },
-    {
-     "price": 700.0,
-     "why": "round number, 700 put wall"
-    },
-    {
-     "price": 690.0,
-     "why": "round number, Friday low area"
-    }
-   ],
-   "reason": "S&P slipped back toward -0.9% as tech weakness deepened, but the Dow is green; a break below 710 opens 704, over 718 it fails toward 722."
-  }
+  {"symbol": "DELL", "name": "Dell Technologies", "direction": "call", "confidence": 60, "price": 310.92,
+   "breakout": 313.00, "breakdown": 302.00, "target_up": 322.30, "target_down": 295.30,
+   "levels_up": [{"price": 318.22, "why": "Tuesday high"}, {"price": 322.31, "why": "Monday low"}, {"price": 330.80, "why": "implied move +6.4%"}, {"price": 334.91, "why": "gap fill to Monday close"}],
+   "levels_down": [{"price": 305.00, "why": "round number, after-hours pullback"}, {"price": 295.28, "why": "Tuesday close"}, {"price": 290.78, "why": "Tuesday low"}, {"price": 287.00, "why": "after-hours low"}],
+   "reason": "Record Q3 (4.9B revenue, EPS 9.45 vs 6.59) and a higher AI-server outlook after a -12% day; over the 313 after-hours high it extends toward Monday's 322 low."},
+  {"symbol": "DLTR", "name": "Dollar Tree", "direction": "call", "confidence": 57, "price": 154.00,
+   "breakout": 157.00, "breakdown": 151.00, "target_up": 160.00, "target_down": 148.50,
+   "levels_up": [{"price": 156.99, "why": "Tuesday high, new 52-week high"}, {"price": 157.93, "why": "implied move +2.6%"}, {"price": 160.00, "why": "round number"}],
+   "levels_down": [{"price": 150.10, "why": "implied move -2.6%"}, {"price": 148.54, "why": "prior 52-week high"}, {"price": 147.83, "why": "Tuesday low"}, {"price": 139.77, "why": "gap fill to Monday high"}],
+   "reason": "Broke out to a 52-week high (+11%) on a Q3 beat and raised outlook, with money rotating into defensives; over 157 continues, losing 151 means the breakout is fading."},
+  {"symbol": "WDAY", "name": "Workday", "direction": "put", "confidence": 56, "price": 166.25,
+   "breakout": 171.50, "breakdown": 163.00, "target_up": 174.20, "target_down": 159.70,
+   "levels_up": [{"price": 172.63, "why": "13-week low (Nov 19)"}, {"price": 174.23, "why": "Tuesday low"}, {"price": 179.23, "why": "gap fill to Tuesday close"}],
+   "levels_down": [{"price": 160.00, "why": "round number, implied move -3.9%"}, {"price": 157.00, "why": "implied move this week -5.6%"}, {"price": 150.00, "why": "round number"}],
+   "reason": "Down ~7% after hours, under its 13-week low, on soft Q4 subscription guidance despite a Q3 beat; below the 163 after-hours low it heads for 160."},
+  {"symbol": "HPE", "name": "Hewlett Packard Enterprise", "direction": "put", "confidence": 53, "price": 40.43,
+   "breakout": 41.10, "breakdown": 39.40, "target_up": 42.50, "target_down": 38.50,
+   "levels_up": [{"price": 40.91, "why": "Friday close"}, {"price": 42.49, "why": "Tuesday high"}, {"price": 44.84, "why": "Friday high"}],
+   "levels_down": [{"price": 38.49, "why": "implied move -4.8%"}, {"price": 37.50, "why": "round number"}, {"price": 36.48, "why": "26-week low"}],
+   "reason": "Closed near the low after a -16% day on its Cloud & AI margin warning, under the 13-week low; below Tuesday's 39.41 low it extends, over 41.1 it squeezes."},
+  {"symbol": "NVDA", "name": "Nvidia", "direction": "put", "confidence": 52, "price": 154.07,
+   "breakout": 157.00, "breakdown": 150.50, "target_up": 159.90, "target_down": 147.60,
+   "levels_up": [{"price": 156.93, "why": "Monday low"}, {"price": 159.92, "why": "Tuesday high"}, {"price": 165.05, "why": "gap fill to Monday close"}, {"price": 171.50, "why": "Monday high"}],
+   "levels_down": [{"price": 147.62, "why": "implied move -4.2%"}, {"price": 145.98, "why": "Nov 19 close"}, {"price": 143.73, "why": "gap fill to Friday high"}],
+   "reason": "Faded ~6% after Monday's +31% Huang-return squeeze and sits mid-range; Dell's AI beat may lift it at the open, but under Tuesday's 150.50 low it fills toward 147.6."},
+  {"symbol": "SPY", "name": "SPDR S&P 500 ETF", "direction": "call", "confidence": 50, "price": 718.52,
+   "breakout": 721.00, "breakdown": 712.10, "target_up": 728.00, "target_down": 708.70,
+   "levels_up": [{"price": 722.29, "why": "gap fill to Monday close"}, {"price": 727.98, "why": "Monday high"}, {"price": 735.06, "why": "Nov 18 high"}],
+   "levels_down": [{"price": 715.87, "why": "Nov 19 close"}, {"price": 708.70, "why": "implied move -1.4%"}, {"price": 700.00, "why": "round number"}],
+   "reason": "Held up better than QQQ on rotation into the Dow; pre-holiday sessions usually drift higher, over Tuesday's 720.93 high it fills to Monday's 722, losing 712 reopens 708."}
  ],
- "sources": [
-  "https://www.irishexaminer.com/world/arid-41942073.html",
-  "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
-  "https://mlq.ai/news/nasdaq-falls-15-at-midday-as-nvidia-drops-nearly-7-and-the-dow-rises-08/",
-  "https://www.tradingview.com/news/benzinga:10db8656d094b:0-anthropic-drops-below-ipo-prices-nvidia-sinks-7-after-record-rally-stock-market-today/",
-  "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
-  "https://fvbb.com/ns/what-s-happening-in-the-us-stock-market/332479",
-  "https://www.news-gazette.com/news/nation-world/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/article_25b815e3-e01d-5b6e-8fb2-bea996f85854.html",
-  "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
-  "https://www.adn.com/nation-world/2026/11/24/nvidia-and-other-ai-stocks-fall-but-the-rest-of-wall-street-rises-with-confidence-in-us-economy/",
-  "https://www.benzinga.com/markets/equities/26/11/63596550/stock-market-today-anthropic-below-ipo-price-nvidia-record-rally-reversal",
-  "https://www.fxstreet.com/news/ai-trade-back-in-doldrums-as-anthropic-sinks-below-ipo-price-nvidia-sputters-202611241647",
-  "https://www.newsbytesapp.com/news/business/sp-500-drops-11-as-nvidia-drags-markets-lower/tldr",
-  "https://www.wishtv.com/news/national/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/",
-  "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
-  "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower"
- ]
-}
+ "sources": ["IBKR market data",
+  "https://www.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-5049079",
+  "https://www.investing.com/news/stock-market-news/dell-lifts-annual-forecasts-after-record-quarter-on-surging-ai-server-demand-5049024",
+  "https://www.fool.com/investing/2026/11/24/dell-just-reported-earnings-and-raised-its-forecast-by-usd10-billion-is-the-stock-a-buy-after-tuesday-s-selloff/",
+  "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+  "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+  "https://www.digrin.com/stocks/earnings_calendar/2026-11-25",
+  "https://news.ifyouspent.com/en/news/thanksgiving-week-earnings-dell-workday-zoom-hp-deere-november-2026"]}
