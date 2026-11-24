@@ -1,29 +1,266 @@
-{"generated_at": 1795530130, "date": "2026-11-24", "model": "claude-opus-5-5 (routine)", "run": "morning",
-"summary": "Risk-off open after Monday's Huang-reinstatement melt-up (S&P +4.7% to 7237, Nasdaq +6.5%): Nasdaq-100 futures about -2%, S&P about -1.2% at 8:30 ET, with NVDA -4% and chip earnings (ADI, HPE) selling off. Wednesday's inflation data and talk of Fed rate hikes weigh. Bias is to puts; the gap could fill if NVDA holds 155. Quote pages were blocked, so prices are estimated from premarket search results.",
-"picks": [
-{"symbol": "ADI", "name": "Analog Devices", "direction": "put", "confidence": 58, "price": 340.0, "breakout": 348.0, "breakdown": 335.0, "target_up": 356.0, "target_down": 326.0,
- "levels_up": [{"price": 350.0, "why": "round number, 350 strike"}, {"price": 360.0, "why": "round number, half-gap fill"}, {"price": 378.75, "why": "gap fill to Monday close"}],
- "levels_down": [{"price": 330.0, "why": "round number, put strike"}, {"price": 325.0, "why": "7-month low area"}, {"price": 315.0, "why": "implied earnings move extended"}],
- "reason": "Down ~10% premarket after its Q1 EPS guide (.62-4.02) came in under the .81 consensus despite a beat; chips weak, under 335 extends."},
-{"symbol": "NVDA", "name": "Nvidia", "direction": "put", "confidence": 57, "price": 158.5, "breakout": 162.0, "breakdown": 155.5, "target_up": 165.0, "target_down": 151.0,
- "levels_up": [{"price": 160.0, "why": "round number, 160 strike"}, {"price": 165.05, "why": "gap fill to Monday close"}, {"price": 170.0, "why": "round number, Monday high area"}],
- "levels_down": [{"price": 155.46, "why": "Nov 17 close"}, {"price": 150.96, "why": "Nov 18 close"}, {"price": 145.0, "why": "round number, put strike"}],
- "reason": "Giving back ~4% of Monday's +31.5% Huang-return surge, with probes still open; losing 155.5 opens 151, a reclaim of 162 points to a gap fill."},
-{"symbol": "QQQ", "name": "Invesco QQQ Trust", "direction": "put", "confidence": 56, "price": 645.0, "breakout": 652.0, "breakdown": 639.0, "target_up": 658.0, "target_down": 630.0,
- "levels_up": [{"price": 650.0, "why": "round number"}, {"price": 658.0, "why": "gap fill to Monday close"}, {"price": 670.0, "why": "round number, pre-selloff range"}],
- "levels_down": [{"price": 639.6, "why": "Friday premarket high"}, {"price": 630.0, "why": "round number"}, {"price": 620.0, "why": "round number, Friday range"}],
- "reason": "Nasdaq-100 futures about -2% as chips (NVDA, MU, ADI, HPE) fade Monday's +6.5%; under 639 the gap keeps running toward 630."},
-{"symbol": "DLTR", "name": "Dollar Tree", "direction": "call", "confidence": 56, "price": 151.0, "breakout": 154.5, "breakdown": 147.5, "target_up": 158.0, "target_down": 144.0,
- "levels_up": [{"price": 154.0, "why": "premarket high"}, {"price": 155.0, "why": "round number, 155 call strike"}, {"price": 160.0, "why": "round number, implied move extended"}],
- "levels_down": [{"price": 148.84, "why": "early premarket print"}, {"price": 145.0, "why": "round number"}, {"price": 139.1, "why": "gap fill to Monday close"}],
- "reason": "Up ~8-11% on a Q3 beat (.16 vs /bin/bash.91), 3.8% traffic growth and a raised FY outlook; a defensive retailer bid while tech fades, over 154.5 extends."},
-{"symbol": "HPE", "name": "Hewlett Packard Enterprise", "direction": "put", "confidence": 53, "price": 42.7, "breakout": 44.5, "breakdown": 42.0, "target_up": 46.0, "target_down": 40.9,
- "levels_up": [{"price": 43.43, "why": "earlier premarket print"}, {"price": 45.0, "why": "round number"}, {"price": 48.03, "why": "gap fill to Monday close"}],
- "levels_down": [{"price": 41.0, "why": "Friday close, Monday's gap fill"}, {"price": 40.0, "why": "round number, put wall"}, {"price": 38.5, "why": "pre-rally range low"}],
- "reason": "Down ~10-11% after a Cloud & AI margin warning wipes out Monday's +17%; under 42 it heads to fill Monday's gap toward 41."},
-{"symbol": "SPY", "name": "SPDR S&P 500 ETF", "direction": "put", "confidence": 52, "price": 713.5, "breakout": 718.0, "breakdown": 710.0, "target_up": 722.0, "target_down": 704.0,
- "levels_up": [{"price": 715.87, "why": "Thursday close"}, {"price": 722.0, "why": "gap fill to Monday close"}, {"price": 728.0, "why": "Monday intraday high area"}],
- "levels_down": [{"price": 708.0, "why": "Friday morning support"}, {"price": 700.0, "why": "round number, 700 put wall"}, {"price": 690.0, "why": "round number, Friday low area"}],
- "reason": "S&P futures about -1.2% after the biggest day since April 2025; inflation data Wednesday and rate-hike pricing cap it, under 710 extends to 704."}
-],
-"sources": ["https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html", "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html", "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia", "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-edge-higher-after-nvidia-driven-surge/", "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-slips-hpe-semtech-fall-5047572", "https://coincentral.com/todays-market-movers-nvidia-slips-hpe-falls-insmed-jumps-on-sanofis-41-billion-deal", "https://finance.biggo.com/news/61b277f6-94dd-4764-a6a9-d860717ad0c1", "https://seekingalpha.com/news/4676147-analog-devices-falls-10-in-premarket-on-quarterly-results?feed_item_type=news", "https://www.investing.com/news/earnings/analog-devices-earnings-beat-by-017-revenue-topped-estimates-5047913", "https://www.benzinga.com/markets/earnings/26/11/63576627/dollar-trees-customer-traffic-surges-as-discount-retailer-raises-profit-outlook", "https://blockonomi.com/dollar-tree-dltr-stock-jumps-11-as-customer-traffic-rebounds-outlook-rises", "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/", "https://krmg.com/2026/11/23/how-major-us-stock-indexes-fared-monday-11-23-2026/", "https://www.newsbeep.com/822380/", "https://mlq.ai/news/us-stock-futures-fall-as-nvidia-gives-back-part-of-mondays-rally-dollar-tree-and-dicks-jump-premarket/"]}
+{
+ "generated_at": 1795530997,
+ "date": "2026-11-24",
+ "model": "claude-opus-5-5 (routine)",
+ "run": "update 06:36 PT",
+ "summary": "Risk-off open as expected: early Nasdaq about -1.4%, S&P -1.1%, Dow -0.6%, with NVDA down ~5.6% premarket and chips (MU, MRVL, AMD) lagging; bias stays with puts. Change since last run: NVDA nudged up to 58 as it pressures 155.5, QQQ trimmed to 55 as it opened above its futures low; prices refreshed from search results (quote pages not checked).",
+ "picks": [
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "direction": "put",
+   "confidence": 58,
+   "price": 340.0,
+   "breakout": 348.0,
+   "breakdown": 335.0,
+   "target_up": 356.0,
+   "target_down": 326.0,
+   "levels_up": [
+    {
+     "price": 350.0,
+     "why": "round number, 350 strike"
+    },
+    {
+     "price": 360.0,
+     "why": "round number, half-gap fill"
+    },
+    {
+     "price": 378.75,
+     "why": "gap fill to Monday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 330.0,
+     "why": "round number, put strike"
+    },
+    {
+     "price": 325.0,
+     "why": "7-month low area"
+    },
+    {
+     "price": 315.0,
+     "why": "implied earnings move extended"
+    }
+   ],
+   "reason": "Down ~10% after a Q1 EPS guide below consensus despite a beat; chips weak, under 335 extends."
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 58,
+   "price": 156.2,
+   "breakout": 162.0,
+   "breakdown": 155.5,
+   "target_up": 165.0,
+   "target_down": 151.0,
+   "levels_up": [
+    {
+     "price": 160.0,
+     "why": "round number, 160 strike"
+    },
+    {
+     "price": 165.05,
+     "why": "gap fill to Monday close"
+    },
+    {
+     "price": 170.0,
+     "why": "round number, Monday high area"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 155.46,
+     "why": "Nov 17 close"
+    },
+    {
+     "price": 150.96,
+     "why": "Nov 18 close"
+    },
+    {
+     "price": 145.0,
+     "why": "round number, put strike"
+    }
+   ],
+   "reason": "Down ~5.6% premarket, giving back about a quarter of Monday's +31% Huang-return surge; losing 155.5 opens 151, a reclaim of 162 points to a gap fill."
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "direction": "call",
+   "confidence": 56,
+   "price": 151.0,
+   "breakout": 154.5,
+   "breakdown": 147.5,
+   "target_up": 158.0,
+   "target_down": 144.0,
+   "levels_up": [
+    {
+     "price": 154.0,
+     "why": "premarket high"
+    },
+    {
+     "price": 155.0,
+     "why": "round number, 155 call strike"
+    },
+    {
+     "price": 160.0,
+     "why": "round number, implied move extended"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 148.84,
+     "why": "early premarket print"
+    },
+    {
+     "price": 145.0,
+     "why": "round number"
+    },
+    {
+     "price": 139.1,
+     "why": "gap fill to Monday close"
+    }
+   ],
+   "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; a defensive retailer bid while tech fades, over 154.5 extends."
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 55,
+   "price": 649.0,
+   "breakout": 652.0,
+   "breakdown": 639.0,
+   "target_up": 658.0,
+   "target_down": 630.0,
+   "levels_up": [
+    {
+     "price": 650.0,
+     "why": "round number"
+    },
+    {
+     "price": 658.0,
+     "why": "gap fill to Monday close"
+    },
+    {
+     "price": 670.0,
+     "why": "round number, pre-selloff range"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 639.6,
+     "why": "Friday premarket high"
+    },
+    {
+     "price": 630.0,
+     "why": "round number"
+    },
+    {
+     "price": 620.0,
+     "why": "round number, Friday range"
+    }
+   ],
+   "reason": "Nasdaq opened about -1.4% as chips fade Monday's +6.5%; a failure at 652 keeps it heading for 639 and 630."
+  },
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "direction": "put",
+   "confidence": 53,
+   "price": 42.7,
+   "breakout": 44.5,
+   "breakdown": 42.0,
+   "target_up": 46.0,
+   "target_down": 40.9,
+   "levels_up": [
+    {
+     "price": 43.43,
+     "why": "earlier premarket print"
+    },
+    {
+     "price": 45.0,
+     "why": "round number"
+    },
+    {
+     "price": 48.03,
+     "why": "gap fill to Monday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 41.0,
+     "why": "Friday close, Monday's gap fill"
+    },
+    {
+     "price": 40.0,
+     "why": "round number, put wall"
+    },
+    {
+     "price": 38.5,
+     "why": "pre-rally range low"
+    }
+   ],
+   "reason": "Down ~10-11% after a Cloud & AI margin warning wipes out Monday's +17%; under 42 it heads to fill Monday's gap toward 41."
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "direction": "put",
+   "confidence": 52,
+   "price": 714.0,
+   "breakout": 718.0,
+   "breakdown": 710.0,
+   "target_up": 722.0,
+   "target_down": 704.0,
+   "levels_up": [
+    {
+     "price": 715.87,
+     "why": "Thursday close"
+    },
+    {
+     "price": 722.0,
+     "why": "gap fill to Monday close"
+    },
+    {
+     "price": 728.0,
+     "why": "Monday intraday high area"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 708.0,
+     "why": "Friday morning support"
+    },
+    {
+     "price": 700.0,
+     "why": "round number, 700 put wall"
+    },
+    {
+     "price": 690.0,
+     "why": "round number, Friday low area"
+    }
+   ],
+   "reason": "S&P futures about -1.2% after the biggest day since April 2025; inflation data Wednesday and rate-hike pricing cap it, under 710 extends to 704."
+  }
+ ],
+ "sources": [
+  "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+  "https://stockanalysis.com/news/nvidia-falls-premarket-after-huang-rally/",
+  "https://www.tradingview.com/news/seekingalpha:6d28701da094b:0-stock-futures-slide-after-nvidia-led-wall-street-rally/",
+  "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+  "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html",
+  "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia",
+  "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-us-futures-edge-higher-after-nvidia-driven-surge/",
+  "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-slips-hpe-semtech-fall-5047572",
+  "https://coincentral.com/todays-market-movers-nvidia-slips-hpe-falls-insmed-jumps-on-sanofis-41-billion-deal",
+  "https://finance.biggo.com/news/61b277f6-94dd-4764-a6a9-d860717ad0c1",
+  "https://seekingalpha.com/news/4676147-analog-devices-falls-10-in-premarket-on-quarterly-results?feed_item_type=news",
+  "https://www.investing.com/news/earnings/analog-devices-earnings-beat-by-017-revenue-topped-estimates-5047913",
+  "https://www.benzinga.com/markets/earnings/26/11/63576627/dollar-trees-customer-traffic-surges-as-discount-retailer-raises-profit-outlook",
+  "https://blockonomi.com/dollar-tree-dltr-stock-jumps-11-as-customer-traffic-rebounds-outlook-rises",
+  "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+ ]
+}
