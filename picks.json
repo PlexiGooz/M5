@@ -1,9 +1,9 @@
 {
- "generated_at": 1795542665,
+ "generated_at": 1795543592,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:50 PT",
- "summary": "AI/chip names still lower (Nvidia about -6 to -7%, AMD -9%, Micron -8%) but the Nasdaq's loss has narrowed to roughly -1.2% midday while the Dow holds green on defensives. Change since 09:35: losses narrowing, so NVDA marked to ~154 and QQQ to ~650 with put confidence trimmed 2 points each; no level broken.",
+ "run": "update 10:05 PT",
+ "summary": "Tech selling resumed a bit into early afternoon: snapshots show the Nasdaq about -1.7% and Analog Devices -17 to -18%, while the Dow holds up on defensives and staples. Change since 09:50: ADI marked through its 315 breakdown (~313, confidence +2), QQQ marked to ~648 (+1); other picks unchanged. Quote pages blocked, prices from search snapshots.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -16,10 +16,6 @@
    "target_up": 160.0,
    "target_down": 146.0,
    "levels_up": [
-    {
-     "price": 153.0,
-     "why": "morning breakdown level (passed)"
-    },
     {
      "price": 155.46,
      "why": "Nov 17 close (passed)"
@@ -35,6 +31,10 @@
    ],
    "levels_down": [
     {
+     "price": 153.0,
+     "why": "morning breakdown level"
+    },
+    {
      "price": 150.96,
      "why": "Nov 18 close"
     },
@@ -48,6 +48,50 @@
     }
    ],
    "reason": "Down ~6-7% giving back part of Monday's +31.5% Huang-return surge, but off the lows; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "direction": "put",
+   "confidence": 58,
+   "price": 313.0,
+   "breakout": 322.0,
+   "breakdown": 308.0,
+   "target_up": 330.0,
+   "target_down": 300.0,
+   "levels_up": [
+    {
+     "price": 315.0,
+     "why": "breakdown level (passed)"
+    },
+    {
+     "price": 325.0,
+     "why": "7-month low area (passed)"
+    },
+    {
+     "price": 330.0,
+     "why": "round number, put strike (passed)"
+    },
+    {
+     "price": 350.0,
+     "why": "round number, 350 strike"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 310.0,
+     "why": "round number"
+    },
+    {
+     "price": 300.0,
+     "why": "round number, put wall"
+    },
+    {
+     "price": 290.0,
+     "why": "round number, -23% extended move"
+    }
+   ],
+   "reason": "Down ~17% after a Q1 EPS guide below consensus and now under 315; below 308 extends to the 300 put wall, a reclaim of 322 would mean a bounce."
   },
   {
    "symbol": "DLTR",
@@ -88,46 +132,6 @@
     }
    ],
    "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; staples/defensives bid as money rotates out of AI, over 154.5 extends."
-  },
-  {
-   "symbol": "ADI",
-   "name": "Analog Devices",
-   "direction": "put",
-   "confidence": 56,
-   "price": 320.0,
-   "breakout": 330.0,
-   "breakdown": 315.0,
-   "target_up": 336.0,
-   "target_down": 305.0,
-   "levels_up": [
-    {
-     "price": 325.0,
-     "why": "7-month low area (passed)"
-    },
-    {
-     "price": 330.0,
-     "why": "round number, put strike (passed)"
-    },
-    {
-     "price": 350.0,
-     "why": "round number, 350 strike"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 315.0,
-     "why": "implied earnings move extended"
-    },
-    {
-     "price": 310.0,
-     "why": "round number"
-    },
-    {
-     "price": 300.0,
-     "why": "round number, put wall"
-    }
-   ],
-   "reason": "Down ~15% after a Q1 EPS guide below consensus, already through 335 and the 326 target; under 315 extends to 305, a reclaim of 330 would mean a bounce."
   },
   {
    "symbol": "HPE",
@@ -173,8 +177,8 @@
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 51,
-   "price": 650.0,
+   "confidence": 52,
+   "price": 648.0,
    "breakout": 652.0,
    "breakdown": 639.0,
    "target_up": 658.0,
@@ -207,7 +211,7 @@
      "why": "round number, Friday range"
     }
    ],
-   "reason": "Nasdaq still the weakest index as AI stocks fade Monday's rally, but losses narrowing as breadth improves; under 639 heads for 630, over 652 the put fails."
+   "reason": "Nasdaq still the weakest index (about -1.7%) as AI stocks fade Monday's rally; under 639 heads for 630, over 652 the put fails."
   },
   {
    "symbol": "SPY",
@@ -251,6 +255,9 @@
   }
  ],
  "sources": [
+  "https://sellthenews.org/catalyx/market/2026-11-24",
+  "https://invezz.com/news/2026/11/24/nasdaq-opens-1-6-lower-as-nvidia-rally-fades-ai-stocks-slide/",
+  "https://www.mahoningmatters.com/news/nation-world/national/article318228328.html",
   "https://gulfnews.com/technology/nvidia-shares-tumble-weighing-on-nasdaq-1.500759598",
   "https://www.newslooks.com/nvidia-falls-6-6-as-ai-stocks-drag-markets-lower-nasdaq-sinks-dow-rises/",
   "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
@@ -259,12 +266,9 @@
   "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
   "https://kstp.com/kstp-news/business-news/nvidia-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower/",
   "https://detroitnews.com/story/business/2026/11/24/nasdaq-sp-500-ease-as-nvidia-driven-ai-rally-fizzles/92941644007",
-  "https://sellthenews.org/catalyx/market/2026-11-24",
   "https://aroundprague.cz/en/news/us/why-is-amd-stock-down-today-shares-fall-12-on-337-million-share-resale-filing",
   "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html",
   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
-  "https://hdfcsky.com/news/nasdaq-tumbles-1-70percent-as-nvidia-slips-6-19percent-and-anthropic-breaks-below-ipo-price-testing-mondays-6-51percent-ai-fuelled-rally",
-  "https://fourweekmba.com/ai-analog-devices-drops-15-6-at-the-open-after-its-results/",
-  "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+  "https://hdfcsky.com/news/nasdaq-tumbles-1-70percent-as-nvidia-slips-6-19percent-and-anthropic-breaks-below-ipo-price-testing-mondays-6-51percent-ai-fuelled-rally"
  ]
 }
