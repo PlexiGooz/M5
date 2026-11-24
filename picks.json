@@ -1,16 +1,16 @@
 {
- "generated_at": 1795550888,
+ "generated_at": 1795551671,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:06 PT",
- "summary": "AI selloff deepened into the 3 PM hour: Nasdaq about -2% (from -1.5%), Nvidia about -7.7% near 152.3, while the Dow stays green on rotation into defensives and retail. Since 11:50: Nvidia, QQQ and SPY a bit lower, put confidence nudged up; other picks unchanged. Quote pages blocked, prices from news reports.",
+ "run": "update 12:20 PT",
+ "summary": "AI selloff holding into the last hour: Nvidia about -7.5% near 152.7, Nasdaq near -2%, Dow up about 0.5-0.7% on rotation into defensives; CoreWeave -13%, Anthropic below its IPO price. Since 12:06: no material change, Nvidia slightly off its low; levels and confidence unchanged. Quote pages blocked, prices from news reports.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
    "confidence": 60,
-   "price": 152.3,
+   "price": 152.7,
    "breakout": 155.5,
    "breakdown": 150.0,
    "target_up": 160.0,
@@ -47,7 +47,7 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~7.7% near $152.3 after Monday's +31% Huang-return surge, weakness deepening into the afternoon; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+   "reason": "Down ~7.5% near $152.7 after Monday's +31% Huang-return surge, holding weak into the last hour; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
   },
   {
    "symbol": "ADI",
@@ -255,6 +255,7 @@
   }
  ],
  "sources": [
+  "https://www.irishexaminer.com/world/arid-41942073.html",
   "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
   "https://mlq.ai/news/nasdaq-falls-15-at-midday-as-nvidia-drops-nearly-7-and-the-dow-rises-08/",
   "https://www.tradingview.com/news/benzinga:10db8656d094b:0-anthropic-drops-below-ipo-prices-nvidia-sinks-7-after-record-rally-stock-market-today/",
@@ -268,7 +269,6 @@
   "https://www.newsbytesapp.com/news/business/sp-500-drops-11-as-nvidia-drags-markets-lower/tldr",
   "https://www.wishtv.com/news/national/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/",
   "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
-  "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower",
-  "https://finance.biggo.com/news/ab6457b2-1d9f-4a77-8d76-326eeca92d1d"
+  "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower"
  ]
 }
