@@ -1,9 +1,9 @@
 {
- "generated_at": 1795543592,
+ "generated_at": 1795544441,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:05 PT",
- "summary": "Tech selling resumed a bit into early afternoon: snapshots show the Nasdaq about -1.7% and Analog Devices -17 to -18%, while the Dow holds up on defensives and staples. Change since 09:50: ADI marked through its 315 breakdown (~313, confidence +2), QQQ marked to ~648 (+1); other picks unchanged. Quote pages blocked, prices from search snapshots.",
+ "run": "update 10:20 PT",
+ "summary": "Tech still under pressure into the afternoon (Nasdaq roughly -1.5 to -1.8%, Nvidia about -6 to -7%, Anthropic below its $83 IPO price) while the Dow holds up on defensives. No change since 10:05: no new data on the picks, so levels and confidence are kept. Quote pages blocked, prices from search snapshots.",
  "picks": [
   {
    "symbol": "NVDA",
