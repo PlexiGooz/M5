@@ -1,54 +1,10 @@
 {
- "generated_at": 1795547197,
+ "generated_at": 1795548109,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:05 PT",
- "summary": "AI selloff still the theme (Nvidia down roughly 6-8.5% after Monday's +31.5%, S&P headed for an 8th loss in 9 days), but most non-AI stocks are holding up. Since 10:50: no fresh quotes (quote pages blocked); SPY put trimmed 49->47 on positive breadth, other picks unchanged.",
+ "run": "update 11:20 PT",
+ "summary": "AI selloff still the theme, but the market is recovering into the afternoon: Nvidia's loss narrowed to about -6.6% (from -8.5%), S&P about -0.5% (from -1%), Dow up ~270 points. Since 11:05: bearish picks trimmed on the bounce (NVDA 61->57, QQQ 55->51, SPY 47->43); prices estimated from index/percent moves because quote pages are blocked.",
  "picks": [
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "direction": "put",
-   "confidence": 61,
-   "price": 151.0,
-   "breakout": 155.5,
-   "breakdown": 150.0,
-   "target_up": 160.0,
-   "target_down": 146.0,
-   "levels_up": [
-    {
-     "price": 153.0,
-     "why": "morning breakdown level (passed)"
-    },
-    {
-     "price": 155.46,
-     "why": "Nov 17 close (passed)"
-    },
-    {
-     "price": 160.0,
-     "why": "round number, 160 strike"
-    },
-    {
-     "price": 165.05,
-     "why": "gap fill to Monday close"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 150.96,
-     "why": "Nov 18 close"
-    },
-    {
-     "price": 150.0,
-     "why": "round number, 150 put strike"
-    },
-    {
-     "price": 145.0,
-     "why": "round number, put strike"
-    }
-   ],
-   "reason": "Down ~8.5% near $151, extending the giveback of Monday's +31.5% Huang-return surge; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
-  },
   {
    "symbol": "ADI",
    "name": "Analog Devices",
@@ -94,6 +50,50 @@
    "reason": "Down ~17% after a Q1 EPS guide below consensus and now under 315; below 308 extends to the 300 put wall, a reclaim of 322 would mean a bounce."
   },
   {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 57,
+   "price": 154.2,
+   "breakout": 155.5,
+   "breakdown": 150.0,
+   "target_up": 160.0,
+   "target_down": 146.0,
+   "levels_up": [
+    {
+     "price": 155.46,
+     "why": "Nov 17 close (passed)"
+    },
+    {
+     "price": 160.0,
+     "why": "round number, 160 strike"
+    },
+    {
+     "price": 165.05,
+     "why": "gap fill to Monday close"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 153.0,
+     "why": "morning breakdown level (passed)"
+    },
+    {
+     "price": 150.96,
+     "why": "Nov 18 close"
+    },
+    {
+     "price": 150.0,
+     "why": "round number, 150 put strike"
+    },
+    {
+     "price": 145.0,
+     "why": "round number, put strike"
+    }
+   ],
+   "reason": "Down ~6.6% near $154 after Monday's +31.5% Huang-return surge, bouncing off the lows; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+  },
+  {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
@@ -132,46 +132,6 @@
     }
    ],
    "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; staples/defensives bid as money rotates out of AI, over 154.5 extends."
-  },
-  {
-   "symbol": "QQQ",
-   "name": "Invesco QQQ Trust",
-   "direction": "put",
-   "confidence": 55,
-   "price": 643.0,
-   "breakout": 652.0,
-   "breakdown": 639.0,
-   "target_up": 658.0,
-   "target_down": 630.0,
-   "levels_up": [
-    {
-     "price": 650.0,
-     "why": "round number"
-    },
-    {
-     "price": 658.0,
-     "why": "gap fill to Monday close"
-    },
-    {
-     "price": 670.0,
-     "why": "round number, pre-selloff range"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 639.6,
-     "why": "Friday premarket high"
-    },
-    {
-     "price": 630.0,
-     "why": "round number"
-    },
-    {
-     "price": 620.0,
-     "why": "round number, Friday range"
-    }
-   ],
-   "reason": "Nasdaq slide deepened to about -2.4% as AI stocks keep fading Monday's rally; under 639 heads for 630, over 652 the put fails."
   },
   {
    "symbol": "HPE",
@@ -214,20 +174,56 @@
    "reason": "Down ~10-11% after a Cloud & AI margin warning wipes out Monday's +17%; under 42 it heads to fill Monday's gap toward 41."
   },
   {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 51,
+   "price": 649.0,
+   "breakout": 652.0,
+   "breakdown": 639.0,
+   "target_up": 658.0,
+   "target_down": 630.0,
+   "levels_up": [
+    {
+     "price": 650.0,
+     "why": "round number"
+    },
+    {
+     "price": 658.0,
+     "why": "gap fill to Monday close"
+    },
+    {
+     "price": 670.0,
+     "why": "round number, pre-selloff range"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 639.6,
+     "why": "Friday premarket high"
+    },
+    {
+     "price": 630.0,
+     "why": "round number"
+    },
+    {
+     "price": 620.0,
+     "why": "round number, Friday range"
+    }
+   ],
+   "reason": "Nasdaq loss has narrowed from -2.4% to roughly -1.5% as dip buyers step in; still under 652, the put needs a break below 639 toward 630."
+  },
+  {
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
-   "confidence": 47,
-   "price": 714.0,
+   "confidence": 43,
+   "price": 717.0,
    "breakout": 718.0,
    "breakdown": 710.0,
    "target_up": 722.0,
    "target_down": 704.0,
    "levels_up": [
-    {
-     "price": 715.87,
-     "why": "Thursday close (passed)"
-    },
     {
      "price": 722.0,
      "why": "gap fill to Monday close"
@@ -238,6 +234,10 @@
     }
    ],
    "levels_down": [
+    {
+     "price": 715.87,
+     "why": "Thursday close (passed)"
+    },
     {
      "price": 708.0,
      "why": "Friday morning support"
@@ -251,10 +251,12 @@
      "why": "round number, Friday low area"
     }
    ],
-   "reason": "S&P down about 1% on tech selling but breadth is positive and the Dow is green; the put needs a break under 710, over 718 it fails toward 722."
+   "reason": "S&P loss halved to about -0.5% with the Dow green and breadth positive; the put weakens, over 718 it fails toward 722."
   }
  ],
  "sources": [
+  "https://www.news-gazette.com/news/nation-world/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/article_25b815e3-e01d-5b6e-8fb2-bea996f85854.html",
+  "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
   "https://www.adn.com/nation-world/2026/11/24/nvidia-and-other-ai-stocks-fall-but-the-rest-of-wall-street-rises-with-confidence-in-us-economy/",
   "https://www.benzinga.com/markets/equities/26/11/63596550/stock-market-today-anthropic-below-ipo-price-nvidia-record-rally-reversal",
   "https://www.fxstreet.com/news/ai-trade-back-in-doldrums-as-anthropic-sinks-below-ipo-price-nvidia-sputters-202611241647",
@@ -267,8 +269,6 @@
   "https://invezz.com/news/2026/11/24/nasdaq-opens-1-6-lower-as-nvidia-rally-fades-ai-stocks-slide/",
   "https://www.mahoningmatters.com/news/nation-world/national/article318228328.html",
   "https://gulfnews.com/technology/nvidia-shares-tumble-weighing-on-nasdaq-1.500759598",
-  "https://www.newslooks.com/nvidia-falls-6-6-as-ai-stocks-drag-markets-lower-nasdaq-sinks-dow-rises/",
-  "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
-  "https://247wallst.com/cards/the-dow-is-green-at-midday-while-the-nasdaq-is-down-2-4-an-gspc-market-bell-01m8783yprb721wq30yw34g3az"
+  "https://www.newslooks.com/nvidia-falls-6-6-as-ai-stocks-drag-markets-lower-nasdaq-sinks-dow-rises/"
  ]
 }
