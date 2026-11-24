@@ -1,16 +1,16 @@
 {
- "generated_at": 1795539988,
+ "generated_at": 1795540929,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:05 PT",
- "summary": "Risk-off holds but eases a bit: Nasdaq about -1.8% as chips (Nvidia ~-8%, AMD -12%) fade Monday's Huang rally, S&P trimmed to about -0.8% with the Dow slightly green on staples and healthcare; bias stays with puts. Change since 08:50: S&P loss narrowed, SPY confidence trimmed 1 point; picks still inside their levels (no fresh intraday quotes).",
+ "run": "update 09:21 PT",
+ "summary": "AI names still lead lower (Nvidia about -6.6%, CoreWeave -9%) but the rest of the market firms on economic confidence: Dow up about 0.5%, defensives (staples, healthcare) bid, so the S&P loss narrows. Change since 09:05: broad tape improved, NVDA bounced off its lows toward 154, SPY and QQQ put confidence trimmed, DLTR call nudged up.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 63,
-   "price": 152.2,
+   "confidence": 60,
+   "price": 154.2,
    "breakout": 155.5,
    "breakdown": 150.0,
    "target_up": 160.0,
@@ -47,7 +47,47 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~7.8%, giving back part of Monday's +31% Huang-return surge as chips slide; already through 153, under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+   "reason": "Down ~6.6% (off the -7.8% low) giving back part of Monday's +31% Huang-return surge; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "direction": "call",
+   "confidence": 57,
+   "price": 151.0,
+   "breakout": 154.5,
+   "breakdown": 147.5,
+   "target_up": 158.0,
+   "target_down": 144.0,
+   "levels_up": [
+    {
+     "price": 154.0,
+     "why": "premarket high"
+    },
+    {
+     "price": 155.0,
+     "why": "round number, 155 call strike"
+    },
+    {
+     "price": 160.0,
+     "why": "round number, implied move extended"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 148.84,
+     "why": "early premarket print"
+    },
+    {
+     "price": 145.0,
+     "why": "round number"
+    },
+    {
+     "price": 139.1,
+     "why": "gap fill to Monday close"
+    }
+   ],
+   "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; staples/defensives bid as money rotates out of AI, over 154.5 extends."
   },
   {
    "symbol": "ADI",
@@ -90,51 +130,11 @@
    "reason": "Down ~15% after a Q1 EPS guide below consensus, already through 335 and the 326 target; under 315 extends to 305, a reclaim of 330 would mean a bounce."
   },
   {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "direction": "call",
-   "confidence": 56,
-   "price": 151.0,
-   "breakout": 154.5,
-   "breakdown": 147.5,
-   "target_up": 158.0,
-   "target_down": 144.0,
-   "levels_up": [
-    {
-     "price": 154.0,
-     "why": "premarket high"
-    },
-    {
-     "price": 155.0,
-     "why": "round number, 155 call strike"
-    },
-    {
-     "price": 160.0,
-     "why": "round number, implied move extended"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 148.84,
-     "why": "early premarket print"
-    },
-    {
-     "price": 145.0,
-     "why": "round number"
-    },
-    {
-     "price": 139.1,
-     "why": "gap fill to Monday close"
-    }
-   ],
-   "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; a defensive retailer bid while tech fades, over 154.5 extends."
-  },
-  {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 56,
-   "price": 646.0,
+   "confidence": 53,
+   "price": 649.0,
    "breakout": 652.0,
    "breakdown": 639.0,
    "target_up": 658.0,
@@ -167,7 +167,7 @@
      "why": "round number, Friday range"
     }
    ],
-   "reason": "Nasdaq down about 1.6-1.8% as chips fade Monday's rally and tariff headlines weigh; under 639 it heads for 630."
+   "reason": "Nasdaq still the weakest index as AI stocks fade Monday's rally, but losses narrowing as breadth improves; under 639 heads for 630, over 652 the put fails."
   },
   {
    "symbol": "HPE",
@@ -213,17 +213,13 @@
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
-   "confidence": 51,
-   "price": 713.5,
+   "confidence": 47,
+   "price": 716.0,
    "breakout": 718.0,
    "breakdown": 710.0,
    "target_up": 722.0,
    "target_down": 704.0,
    "levels_up": [
-    {
-     "price": 715.87,
-     "why": "Thursday close"
-    },
     {
      "price": 722.0,
      "why": "gap fill to Monday close"
@@ -234,6 +230,10 @@
     }
    ],
    "levels_down": [
+    {
+     "price": 715.87,
+     "why": "Thursday close (passed)"
+    },
     {
      "price": 708.0,
      "why": "Friday morning support"
@@ -247,10 +247,13 @@
      "why": "round number, Friday low area"
     }
    ],
-   "reason": "S&P futures about -1.2% after the biggest day since April 2025; inflation data Wednesday and rate-hike pricing cap it, under 710 extends to 704."
+   "reason": "S&P loss narrowing as the Dow turns green on economic confidence and defensives; put needs a break under 710, over 718 it fails toward 722."
   }
  ],
  "sources": [
+  "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
+  "https://kstp.com/kstp-news/business-news/nvidia-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower/",
+  "https://detroitnews.com/story/business/2026/11/24/nasdaq-sp-500-ease-as-nvidia-driven-ai-rally-fizzles/92941644007",
   "https://sellthenews.org/catalyx/market/2026-11-24",
   "https://aroundprague.cz/en/news/us/why-is-amd-stock-down-today-shares-fall-12-on-337-million-share-resale-filing",
   "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html",
@@ -262,9 +265,6 @@
   "https://finwire.io/news/stock-markets-news/nasdaq-opens-16-lower-as-nvidia-rally-fades-ai-stocks-slide",
   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
   "https://qz.com/nvidia-stocks-fall-monday-rally-anthropic-tariffs-112426",
-  "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
-  "https://stockanalysis.com/news/nvidia-falls-premarket-after-huang-rally/",
-  "https://www.tradingview.com/news/seekingalpha:6d28701da094b:0-stock-futures-slide-after-nvidia-led-wall-street-rally/",
-  "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+  "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
  ]
 }
