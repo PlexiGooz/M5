@@ -1,9 +1,9 @@
 {
- "generated_at": 1795535455,
+ "generated_at": 1795536427,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:50 PT",
- "summary": "Risk-off holds: Nasdaq about -1.8% near 10:40 ET as chips fade Monday's rally; bias stays with puts. Change: NVDA slid to about -7.8% (~152), through its 153 breakdown, so its breakdown/breakout were moved lower and confidence nudged up; other picks unchanged (no fresh quotes found).",
+ "run": "update 08:05 PT",
+ "summary": "Risk-off holds: Nasdaq about -1.8% as chips (SOX -4%) give back Monday's Huang-return rally; bias stays with puts. Change since 07:50: no change (no fresh quotes found; NVDA still near 152 below its old 153 breakdown).",
  "picks": [
   {
    "symbol": "NVDA",
