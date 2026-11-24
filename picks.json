@@ -1,9 +1,9 @@
 {
- "generated_at": 1795545419,
+ "generated_at": 1795546272,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:35 PT",
- "summary": "AI selloff deepening into the afternoon: later reports have Nvidia about -8.5% near $151 and the Nasdaq about -2.4 to -2.5%, while the Dow's gain has faded toward flat. Changed: NVDA and QQQ lower with put confidence nudged up, SPY lower; other picks unchanged (no new data). Quote pages blocked, prices from search snapshots.",
+ "run": "update 10:50 PT",
+ "summary": "AI selloff still the theme: last reports had Nvidia about -8.5% near $151 and the Nasdaq about -2.4%, Dow near flat. No change since 10:35: no fresh quotes or news found (quote pages blocked), picks and levels carried over.",
  "picks": [
   {
    "symbol": "NVDA",
