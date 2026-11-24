@@ -1,16 +1,16 @@
 {
- "generated_at": 1795540929,
+ "generated_at": 1795541796,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:21 PT",
- "summary": "AI names still lead lower (Nvidia about -6.6%, CoreWeave -9%) but the rest of the market firms on economic confidence: Dow up about 0.5%, defensives (staples, healthcare) bid, so the S&P loss narrows. Change since 09:05: broad tape improved, NVDA bounced off its lows toward 154, SPY and QQQ put confidence trimmed, DLTR call nudged up.",
+ "run": "update 09:35 PT",
+ "summary": "AI/chip names still lead lower (Nvidia roughly -7 to -8%, Nasdaq about -1.6 to -2.4%) while the Dow holds slightly green on defensives; midday snapshots conflict, so no level was clearly broken. Change since 09:21: essentially no change; NVDA price marked to ~153 (still between 150 breakdown and 155.5 breakout), all levels and confidence held.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
    "confidence": 60,
-   "price": 154.2,
+   "price": 153.0,
    "breakout": 155.5,
    "breakdown": 150.0,
    "target_up": 160.0,
@@ -47,7 +47,7 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~6.6% (off the -7.8% low) giving back part of Monday's +31% Huang-return surge; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+   "reason": "Down ~7-8% giving back part of Monday's +31.5% Huang-return surge amid governance doubts; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
   },
   {
    "symbol": "DLTR",
@@ -251,6 +251,9 @@
   }
  ],
  "sources": [
+  "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
+  "https://247wallst.com/cards/the-dow-is-green-at-midday-while-the-nasdaq-is-down-2-4-an-gspc-market-bell-01m8783yprb721wq30yw34g3az",
+  "https://sg.news.yahoo.com/huangs-return-fails-dispel-doubts-164158834.html",
   "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
   "https://kstp.com/kstp-news/business-news/nvidia-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower/",
   "https://detroitnews.com/story/business/2026/11/24/nasdaq-sp-500-ease-as-nvidia-driven-ai-rally-fizzles/92941644007",
@@ -262,9 +265,6 @@
   "https://fourweekmba.com/ai-analog-devices-drops-15-6-at-the-open-after-its-results/",
   "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
   "https://www.tipranks.com/news/u-s-tech-stocks-fall-as-nvidia-shares-slip-after-mondays-spike",
-  "https://finwire.io/news/stock-markets-news/nasdaq-opens-16-lower-as-nvidia-rally-fades-ai-stocks-slide",
-  "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
-  "https://qz.com/nvidia-stocks-fall-monday-rally-anthropic-tariffs-112426",
-  "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+  "https://finwire.io/news/stock-markets-news/nasdaq-opens-16-lower-as-nvidia-rally-fades-ai-stocks-slide"
  ]
 }
