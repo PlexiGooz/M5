@@ -1,21 +1,25 @@
 {
- "generated_at": 1795544441,
+ "generated_at": 1795545419,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:20 PT",
- "summary": "Tech still under pressure into the afternoon (Nasdaq roughly -1.5 to -1.8%, Nvidia about -6 to -7%, Anthropic below its $83 IPO price) while the Dow holds up on defensives. No change since 10:05: no new data on the picks, so levels and confidence are kept. Quote pages blocked, prices from search snapshots.",
+ "run": "update 10:35 PT",
+ "summary": "AI selloff deepening into the afternoon: later reports have Nvidia about -8.5% near $151 and the Nasdaq about -2.4 to -2.5%, while the Dow's gain has faded toward flat. Changed: NVDA and QQQ lower with put confidence nudged up, SPY lower; other picks unchanged (no new data). Quote pages blocked, prices from search snapshots.",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 58,
-   "price": 154.0,
+   "confidence": 61,
+   "price": 151.0,
    "breakout": 155.5,
    "breakdown": 150.0,
    "target_up": 160.0,
    "target_down": 146.0,
    "levels_up": [
+    {
+     "price": 153.0,
+     "why": "morning breakdown level (passed)"
+    },
     {
      "price": 155.46,
      "why": "Nov 17 close (passed)"
@@ -31,10 +35,6 @@
    ],
    "levels_down": [
     {
-     "price": 153.0,
-     "why": "morning breakdown level"
-    },
-    {
      "price": 150.96,
      "why": "Nov 18 close"
     },
@@ -47,7 +47,7 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~6-7% giving back part of Monday's +31.5% Huang-return surge, but off the lows; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
+   "reason": "Down ~8.5% near $151, extending the giveback of Monday's +31.5% Huang-return surge; under 150 targets 146, a reclaim of 155.5 would squeeze toward 160."
   },
   {
    "symbol": "ADI",
@@ -134,6 +134,46 @@
    "reason": "Up ~8-11% on a Q3 beat, 3.8% traffic growth and a raised FY outlook; staples/defensives bid as money rotates out of AI, over 154.5 extends."
   },
   {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 55,
+   "price": 643.0,
+   "breakout": 652.0,
+   "breakdown": 639.0,
+   "target_up": 658.0,
+   "target_down": 630.0,
+   "levels_up": [
+    {
+     "price": 650.0,
+     "why": "round number"
+    },
+    {
+     "price": 658.0,
+     "why": "gap fill to Monday close"
+    },
+    {
+     "price": 670.0,
+     "why": "round number, pre-selloff range"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 639.6,
+     "why": "Friday premarket high"
+    },
+    {
+     "price": 630.0,
+     "why": "round number"
+    },
+    {
+     "price": 620.0,
+     "why": "round number, Friday range"
+    }
+   ],
+   "reason": "Nasdaq slide deepened to about -2.4% as AI stocks keep fading Monday's rally; under 639 heads for 630, over 652 the put fails."
+  },
+  {
    "symbol": "HPE",
    "name": "Hewlett Packard Enterprise",
    "direction": "put",
@@ -174,56 +214,20 @@
    "reason": "Down ~10-11% after a Cloud & AI margin warning wipes out Monday's +17%; under 42 it heads to fill Monday's gap toward 41."
   },
   {
-   "symbol": "QQQ",
-   "name": "Invesco QQQ Trust",
-   "direction": "put",
-   "confidence": 52,
-   "price": 648.0,
-   "breakout": 652.0,
-   "breakdown": 639.0,
-   "target_up": 658.0,
-   "target_down": 630.0,
-   "levels_up": [
-    {
-     "price": 650.0,
-     "why": "round number"
-    },
-    {
-     "price": 658.0,
-     "why": "gap fill to Monday close"
-    },
-    {
-     "price": 670.0,
-     "why": "round number, pre-selloff range"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 639.6,
-     "why": "Friday premarket high"
-    },
-    {
-     "price": 630.0,
-     "why": "round number"
-    },
-    {
-     "price": 620.0,
-     "why": "round number, Friday range"
-    }
-   ],
-   "reason": "Nasdaq still the weakest index (about -1.7%) as AI stocks fade Monday's rally; under 639 heads for 630, over 652 the put fails."
-  },
-  {
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
-   "confidence": 47,
-   "price": 717.0,
+   "confidence": 49,
+   "price": 714.0,
    "breakout": 718.0,
    "breakdown": 710.0,
    "target_up": 722.0,
    "target_down": 704.0,
    "levels_up": [
+    {
+     "price": 715.87,
+     "why": "Thursday close (passed)"
+    },
     {
      "price": 722.0,
      "why": "gap fill to Monday close"
@@ -234,10 +238,6 @@
     }
    ],
    "levels_down": [
-    {
-     "price": 715.87,
-     "why": "Thursday close (passed)"
-    },
     {
      "price": 708.0,
      "why": "Friday morning support"
@@ -251,10 +251,13 @@
      "why": "round number, Friday low area"
     }
    ],
-   "reason": "S&P loss narrowing as the Dow turns green on economic confidence and defensives; put needs a break under 710, over 718 it fails toward 722."
+   "reason": "S&P slipping again as the Dow's gain fades toward flat and tech selling deepens; put needs a break under 710, over 718 it fails toward 722."
   }
  ],
  "sources": [
+  "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+  "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower",
+  "https://finance.biggo.com/news/ab6457b2-1d9f-4a77-8d76-326eeca92d1d",
   "https://sellthenews.org/catalyx/market/2026-11-24",
   "https://invezz.com/news/2026/11/24/nasdaq-opens-1-6-lower-as-nvidia-rally-fades-ai-stocks-slide/",
   "https://www.mahoningmatters.com/news/nation-world/national/article318228328.html",
@@ -266,9 +269,6 @@
   "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
   "https://kstp.com/kstp-news/business-news/nvidia-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower/",
   "https://detroitnews.com/story/business/2026/11/24/nasdaq-sp-500-ease-as-nvidia-driven-ai-rally-fizzles/92941644007",
-  "https://aroundprague.cz/en/news/us/why-is-amd-stock-down-today-shares-fall-12-on-337-million-share-resale-filing",
-  "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html",
-  "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
-  "https://hdfcsky.com/news/nasdaq-tumbles-1-70percent-as-nvidia-slips-6-19percent-and-anthropic-breaks-below-ipo-price-testing-mondays-6-51percent-ai-fuelled-rally"
+  "https://aroundprague.cz/en/news/us/why-is-amd-stock-down-today-shares-fall-12-on-337-million-share-resale-filing"
  ]
 }
