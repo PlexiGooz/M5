@@ -1,9 +1,9 @@
 {
- "generated_at": 1795552587,
+ "generated_at": 1795553479,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:36 PT",
- "summary": "AI selloff holding into the final 25 minutes: Nvidia about -7.5% near 152.7, Nasdaq near -2%, Dow green on rotation into defensives. Since 12:20: no change found, no new headlines and quote pages blocked, so picks, levels and confidence are unchanged.",
+ "run": "update 12:50 PT",
+ "summary": "AI selloff into the last 10 minutes: Nvidia about -7.5% near 152.7, Nasdaq near -2%, Dow green on rotation into defensives. Since 12:36: no change, no new headlines found and quote pages blocked, so picks, levels and confidence are unchanged.",
  "picks": [
   {
    "symbol": "NVDA",
