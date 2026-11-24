@@ -1,9 +1,9 @@
 {
- "generated_at": 1795546272,
+ "generated_at": 1795547197,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:50 PT",
- "summary": "AI selloff still the theme: last reports had Nvidia about -8.5% near $151 and the Nasdaq about -2.4%, Dow near flat. No change since 10:35: no fresh quotes or news found (quote pages blocked), picks and levels carried over.",
+ "run": "update 11:05 PT",
+ "summary": "AI selloff still the theme (Nvidia down roughly 6-8.5% after Monday's +31.5%, S&P headed for an 8th loss in 9 days), but most non-AI stocks are holding up. Since 10:50: no fresh quotes (quote pages blocked); SPY put trimmed 49->47 on positive breadth, other picks unchanged.",
  "picks": [
   {
    "symbol": "NVDA",
@@ -217,7 +217,7 @@
    "symbol": "SPY",
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
-   "confidence": 49,
+   "confidence": 47,
    "price": 714.0,
    "breakout": 718.0,
    "breakdown": 710.0,
@@ -251,10 +251,15 @@
      "why": "round number, Friday low area"
     }
    ],
-   "reason": "S&P slipping again as the Dow's gain fades toward flat and tech selling deepens; put needs a break under 710, over 718 it fails toward 722."
+   "reason": "S&P down about 1% on tech selling but breadth is positive and the Dow is green; the put needs a break under 710, over 718 it fails toward 722."
   }
  ],
  "sources": [
+  "https://www.adn.com/nation-world/2026/11/24/nvidia-and-other-ai-stocks-fall-but-the-rest-of-wall-street-rises-with-confidence-in-us-economy/",
+  "https://www.benzinga.com/markets/equities/26/11/63596550/stock-market-today-anthropic-below-ipo-price-nvidia-record-rally-reversal",
+  "https://www.fxstreet.com/news/ai-trade-back-in-doldrums-as-anthropic-sinks-below-ipo-price-nvidia-sputters-202611241647",
+  "https://www.newsbytesapp.com/news/business/sp-500-drops-11-as-nvidia-drags-markets-lower/tldr",
+  "https://www.wishtv.com/news/national/wall-streets-sugar-high-quickly-disappears-as-nvidia-and-other-ai-stocks-tumble-again/",
   "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
   "https://www.koreatimes.co.kr/world/20261125/nvidia-anthropic-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower",
   "https://finance.biggo.com/news/ab6457b2-1d9f-4a77-8d76-326eeca92d1d",
@@ -264,11 +269,6 @@
   "https://gulfnews.com/technology/nvidia-shares-tumble-weighing-on-nasdaq-1.500759598",
   "https://www.newslooks.com/nvidia-falls-6-6-as-ai-stocks-drag-markets-lower-nasdaq-sinks-dow-rises/",
   "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-nvidia-stock-falls-as-exuberance-fades-after-jensen-huangs-return-as-ceo-142100906.html",
-  "https://247wallst.com/cards/the-dow-is-green-at-midday-while-the-nasdaq-is-down-2-4-an-gspc-market-bell-01m8783yprb721wq30yw34g3az",
-  "https://sg.news.yahoo.com/huangs-return-fails-dispel-doubts-164158834.html",
-  "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/",
-  "https://kstp.com/kstp-news/business-news/nvidia-and-other-ai-stocks-get-back-to-tumbling-and-drag-the-us-market-lower/",
-  "https://detroitnews.com/story/business/2026/11/24/nasdaq-sp-500-ease-as-nvidia-driven-ai-rally-fizzles/92941644007",
-  "https://aroundprague.cz/en/news/us/why-is-amd-stock-down-today-shares-fall-12-on-337-million-share-resale-filing"
+  "https://247wallst.com/cards/the-dow-is-green-at-midday-while-the-nasdaq-is-down-2-4-an-gspc-market-bell-01m8783yprb721wq30yw34g3az"
  ]
 }
