@@ -1,16 +1,16 @@
 {
- "generated_at": 1795531898,
+ "generated_at": 1795532819,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 06:51 PT",
- "summary": "Risk-off tape holds: S&P about -1.1/-1.2%, Nasdaq about -1.4% as chips give back Monday's surge; bias stays with puts. Change since last run: NVDA (154.85 at 9:41 ET, -6.2%) broke 155.5, so its breakdown moves to 153 and confidence rises to 60; other picks unchanged (index/stock quote pages not checked, prices from search results).",
+ "run": "update 07:06 PT",
+ "summary": "Risk-off deepens slightly: Nasdaq about -1.6/-1.8%, S&P about -1.2% as chips (NVDA, AMD, MU, AVGO) slide and a WSJ report says the U.S. plans higher tariffs on China and others; bias stays with puts. Change since last run: NVDA eased to about 154.2 (-6.6%), confidence 61; QQQ about 646, confidence 56; other picks unchanged (quote pages not checked, prices from search results).",
  "picks": [
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
-   "confidence": 60,
-   "price": 154.85,
+   "confidence": 61,
+   "price": 154.2,
    "breakout": 158.5,
    "breakdown": 153.0,
    "target_up": 162.0,
@@ -43,7 +43,7 @@
      "why": "round number, put strike"
     }
    ],
-   "reason": "Down ~6% after open, through 155.5, giving back part of Monday's +31% Huang-return surge; under 153 targets 150-151, a reclaim of 158.5 would squeeze toward 162."
+   "reason": "Down ~6.6%, giving back part of Monday's +31% Huang-return surge as chips slide on tariff news; under 153 targets 150-151, a reclaim of 158.5 would squeeze toward 162."
   },
   {
    "symbol": "ADI",
@@ -129,8 +129,8 @@
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
-   "confidence": 55,
-   "price": 649.0,
+   "confidence": 56,
+   "price": 646.0,
    "breakout": 652.0,
    "breakdown": 639.0,
    "target_up": 658.0,
@@ -163,7 +163,7 @@
      "why": "round number, Friday range"
     }
    ],
-   "reason": "Nasdaq opened about -1.4% as chips fade Monday's +6.5%; a failure at 652 keeps it heading for 639 and 630."
+   "reason": "Nasdaq down about 1.6-1.8% as chips fade Monday's rally and tariff headlines weigh; under 639 it heads for 630."
   },
   {
    "symbol": "HPE",
@@ -210,7 +210,7 @@
    "name": "SPDR S&P 500 ETF",
    "direction": "put",
    "confidence": 52,
-   "price": 714.0,
+   "price": 713.5,
    "breakout": 718.0,
    "breakdown": 710.0,
    "target_up": 722.0,
@@ -247,6 +247,9 @@
   }
  ],
  "sources": [
+  "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+  "https://www.tipranks.com/news/u-s-tech-stocks-fall-as-nvidia-shares-slip-after-mondays-spike",
+  "https://finwire.io/news/stock-markets-news/nasdaq-opens-16-lower-as-nvidia-rally-fades-ai-stocks-slide",
   "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
   "https://qz.com/nvidia-stocks-fall-monday-rally-anthropic-tariffs-112426",
   "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
@@ -258,9 +261,6 @@
   "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-slips-hpe-semtech-fall-5047572",
   "https://coincentral.com/todays-market-movers-nvidia-slips-hpe-falls-insmed-jumps-on-sanofis-41-billion-deal",
   "https://finance.biggo.com/news/61b277f6-94dd-4764-a6a9-d860717ad0c1",
-  "https://seekingalpha.com/news/4676147-analog-devices-falls-10-in-premarket-on-quarterly-results?feed_item_type=news",
-  "https://www.investing.com/news/earnings/analog-devices-earnings-beat-by-017-revenue-topped-estimates-5047913",
-  "https://www.benzinga.com/markets/earnings/26/11/63576627/dollar-trees-customer-traffic-surges-as-discount-retailer-raises-profit-outlook",
-  "https://blockonomi.com/dollar-tree-dltr-stock-jumps-11-as-customer-traffic-rebounds-outlook-rises"
+  "https://seekingalpha.com/news/4676147-analog-devices-falls-10-in-premarket-on-quarterly-results?feed_item_type=news"
  ]
 }
