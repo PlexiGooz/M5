@@ -1,9 +1,9 @@
 {
- "generated_at": 1795532819,
+ "generated_at": 1795533713,
  "date": "2026-11-24",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:06 PT",
- "summary": "Risk-off deepens slightly: Nasdaq about -1.6/-1.8%, S&P about -1.2% as chips (NVDA, AMD, MU, AVGO) slide and a WSJ report says the U.S. plans higher tariffs on China and others; bias stays with puts. Change since last run: NVDA eased to about 154.2 (-6.6%), confidence 61; QQQ about 646, confidence 56; other picks unchanged (quote pages not checked, prices from search results).",
+ "run": "update 07:21 PT",
+ "summary": "Risk-off holds: Nasdaq about -1.8%, S&P about -1.2%, Dow about -0.4% as chips (NVDA, INTC, MU, MRVL) fade Monday's rally and a WSJ report on higher tariffs on China and others weighs; bias stays with puts. Change since last run: no change (no fresh quotes found; prices from earlier search results).",
  "picks": [
   {
    "symbol": "NVDA",
