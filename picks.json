@@ -1,29 +1,21 @@
 {
- "generated_at": 1795638972,
+ "generated_at": 1795639901,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 12:35 PT",
- "summary": "Rally fading off the highs into the holiday (IBKR realtime): SPY 714.78 (high 718.43), QQQ 630.55 (high 634.89), no new market news. Since 12:20: QQQ lost 631.15 (-3 to 56), AMD broke 400 (-4 to 49), MU, DELL and NVDA slipped under nearby levels (-1 to -2); DLTR unchanged.",
+ "run": "update 12:50 PT",
+ "summary": "Late bounce into the final minutes (IBKR realtime): SPY 717.32 near its 718.43 high, QQQ 633.46 (high 634.89); no new market news, holiday-thin tape with the market closed Thursday. Since 12:35: everything recovered the levels lost last update (QQQ back over 631.15, AMD over 400, NVDA at its high), confidence +2 on the five tech/AI calls; DLTR unchanged.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "call",
-   "confidence": 56,
-   "price": 630.55,
+   "confidence": 58,
+   "price": 633.46,
    "breakout": 634.89,
-   "breakdown": 629.43,
+   "breakdown": 631.15,
    "target_up": 638.1,
    "target_down": 624.59,
    "levels_up": [
-    {
-     "price": 631.15,
-     "why": "Tuesday low, lost again (passed)"
-    },
-    {
-     "price": 633.34,
-     "why": "earlier day high, resistance"
-    },
     {
      "price": 634.89,
      "why": "day high"
@@ -35,35 +27,35 @@
    ],
    "levels_down": [
     {
+     "price": 633.34,
+     "why": "earlier day high (passed)"
+    },
+    {
+     "price": 631.15,
+     "why": "Tuesday low, reclaimed (passed)"
+    },
+    {
      "price": 629.43,
      "why": "earlier day high"
     },
     {
      "price": 624.59,
      "why": "earlier day high, support"
-    },
-    {
-     "price": 617.08,
-     "why": "opening print"
     }
    ],
-   "reason": "Rally fading late: slipped back under Tuesday's 631.15 low to 630.55, -3 to 56; puts still lead (4.60M vs 4.15M, ~0.9x a full day) and IV ~99th percentile; losing 629.43 opens 624.59, back over 631.15 repairs it."
+   "reason": "Late bounce reclaimed Tuesday's 631.15 low and 633.34 to 633.46 near the 634.89 high, +2 to 58; options ~1x a full day with puts slightly ahead and IV ~99th percentile; minutes left, over 634.89 opens 638.10, back under 631.15 fails it."
   },
   {
    "symbol": "DELL",
    "name": "Dell Technologies",
    "direction": "call",
-   "confidence": 52,
-   "price": 292.03,
+   "confidence": 54,
+   "price": 294.62,
    "breakout": 295.28,
    "breakdown": 290.78,
    "target_up": 296.48,
    "target_down": 287.58,
    "levels_up": [
-    {
-     "price": 293.17,
-     "why": "earlier day high, resistance (passed)"
-    },
     {
      "price": 295.28,
      "why": "Tuesday close, gap-fill line"
@@ -79,6 +71,10 @@
    ],
    "levels_down": [
     {
+     "price": 293.17,
+     "why": "earlier day high (passed)"
+    },
+    {
      "price": 290.78,
      "why": "Tuesday low"
     },
@@ -91,25 +87,21 @@
      "why": "round number"
     }
    ],
-   "reason": "Raised guidance; slipped back under 293.17 to 292.03 with the market, -2 to 52; calls still 2.2x average (119k vs 54k); over 295.28 opens 296.48, losing 290.78 opens 287.58."
+   "reason": "Raised guidance; back over 293.17 to 294.62 with the market bounce, +2 to 54; calls 2.3x average (124k vs 54k); over 295.28 opens 296.48, losing 290.78 opens 287.58."
   },
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "call",
-   "confidence": 52,
-   "price": 147.73,
-   "breakout": 148.83,
-   "breakdown": 146.58,
+   "confidence": 54,
+   "price": 149.21,
+   "breakout": 149.25,
+   "breakdown": 147.88,
    "target_up": 150.0,
-   "target_down": 145.15,
+   "target_down": 146.58,
    "levels_up": [
     {
-     "price": 147.88,
-     "why": "earlier day high, resistance (passed)"
-    },
-    {
-     "price": 148.83,
+     "price": 149.25,
      "why": "day high"
     },
     {
@@ -123,35 +115,35 @@
    ],
    "levels_down": [
     {
+     "price": 148.83,
+     "why": "earlier day high (passed)"
+    },
+    {
+     "price": 147.88,
+     "why": "earlier day high (passed)"
+    },
+    {
      "price": 146.58,
      "why": "earlier day high, support"
     },
     {
      "price": 145.15,
      "why": "pre-market low"
-    },
-    {
-     "price": 144.13,
-     "why": "opening print"
     }
    ],
-   "reason": "Dipped back under 147.88 to 147.73 as QQQ faded, -1 to 52; calls lead 2.89M vs 2.21M but total options ~0.7x a full day; IV at the 100th percentile, losing 146.58 breaks it."
+   "reason": "Pushed through 147.88 and 148.83 to 149.21 at the day high as QQQ bounced, +2 to 54; calls lead 3.00M vs 2.28M but total ~0.7x a full day and IV ~100th percentile; over 149.25 opens 150, under 147.88 fails."
   },
   {
    "symbol": "MU",
    "name": "Micron Technology",
    "direction": "call",
-   "confidence": 51,
-   "price": 593.09,
+   "confidence": 53,
+   "price": 599.92,
    "breakout": 602.1,
    "breakdown": 591.09,
    "target_up": 608.0,
    "target_down": 584.49,
    "levels_up": [
-    {
-     "price": 594.43,
-     "why": "earlier day high, resistance (passed)"
-    },
     {
      "price": 600.0,
      "why": "round number"
@@ -167,6 +159,10 @@
    ],
    "levels_down": [
     {
+     "price": 594.43,
+     "why": "earlier day high (passed)"
+    },
+    {
      "price": 591.09,
      "why": "earlier day high, support"
     },
@@ -179,23 +175,19 @@
      "why": "opening print"
     }
    ],
-   "reason": "Lost 594.43 to 593.09 after the 602.10 rejection, -2 to 51; calls 712k vs 524k puts (~1.1x a full day), IV at its 13-week high keeps it under 55; losing 591.09 opens 585.25."
+   "reason": "Back over 594.43 to 599.92 under 600, +2 to 53; calls 735k vs 541k puts (~1.1x a full day), IV at its 13-week high keeps it under 55; over 602.10 opens 608, losing 591.09 opens 585.25."
   },
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 49,
-   "price": 398.85,
+   "confidence": 51,
+   "price": 402.32,
    "breakout": 402.38,
    "breakdown": 397.4,
    "target_up": 407.77,
    "target_down": 382.84,
    "levels_up": [
-    {
-     "price": 400.0,
-     "why": "round number (passed)"
-    },
     {
      "price": 402.38,
      "why": "earlier day high"
@@ -211,6 +203,10 @@
    ],
    "levels_down": [
     {
+     "price": 400.0,
+     "why": "round number, reclaimed (passed)"
+    },
+    {
      "price": 397.4,
      "why": "earlier day high, support"
     },
@@ -223,14 +219,14 @@
      "why": "day low"
     }
    ],
-   "reason": "Broke the 400 breakdown to 398.85 as chips faded, -4 to 49; calls and puts even (433k vs 415k, ~0.8x a full day), IV at its 13-week high; back over 402.38 repairs it, under 397.40 opens 382.84."
+   "reason": "Reclaimed 400 to 402.32 at the 402.38 breakout, +2 to 51; calls and puts even (451k vs 425k, ~0.8x a full day), IV at its 13-week high; over 402.38 opens 404.08, under 397.40 opens 382.84."
   },
   {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 40,
-   "price": 151.27,
+   "price": 152.16,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
