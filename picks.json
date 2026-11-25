@@ -1,112 +1,72 @@
 {
- "generated_at": 1795618337,
+ "generated_at": 1795619220,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 06:51 PT",
- "summary": "Risk-off holds (IBKR realtime): QQQ 609.86 is about -4.4% vs Tuesday, through 610 to a 607.74 low with puts 623k vs calls 423k, and SPY 697 sits near its 695.45 low under the 703.2 open. Since 06:35: QQQ and MU broke 610/560 so their breakdowns moved to the new day lows; AMD, NVDA and DELL bounced (DELL briefly cleared 278 to 279.55 on 2:1 call flow) and DLTR lost its day low, so those were trimmed; no confidence raised ahead of the 10:00 ET data.",
+ "run": "update 07:06 PT",
+ "summary": "Post-PCE relief bounce (IBKR realtime): core PCE ran hot at 3.3% and a December hike is priced, yet SPY 703.99 is back over its 703.21 open and QQQ 617.05 reclaimed 617.8 to 619.39, above VWAP 613.35. Since 06:51: NVDA, QQQ, AMD, MU and DELL all traded through their breakouts, so put confidence was cut 4-8 points and breakouts moved to the new day highs; DELL flipped to a call (reversal 265 to 281 on 2:1 call flow, ~6x normal pace).",
  "picks": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "direction": "put",
-   "confidence": 53,
-   "price": 142.25,
-   "breakout": 145.05,
-   "breakdown": 140.0,
-   "target_up": 148.75,
-   "target_down": 137.3,
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "direction": "call",
+   "confidence": 54,
+   "price": 279.44,
+   "breakout": 281.2,
+   "breakdown": 274.35,
+   "target_up": 290.78,
+   "target_down": 266.7,
    "levels_up": [
     {
-     "price": 143.73,
-     "why": "Nov 20 high (passed)"
+     "price": 281.17,
+     "why": "day high"
     },
     {
-     "price": 145.15,
-     "why": "pre-market low (passed), opening high 145.04"
+     "price": 283.0,
+     "why": "pre-market shelf"
     },
     {
-     "price": 150.5,
-     "why": "Tuesday low, 150 put wall (21k OI)"
-    },
-    {
-     "price": 152.5,
-     "why": "pre-market high"
+     "price": 290.78,
+     "why": "Tuesday low, gap-fill start"
     }
    ],
    "levels_down": [
     {
-     "price": 140.0,
-     "why": "140 put wall, round number"
+     "price": 274.35,
+     "why": "Friday low"
     },
     {
-     "price": 137.3,
-     "why": "implied move -4.7% from open"
+     "price": 266.7,
+     "why": "opening print"
     },
     {
-     "price": 134.0,
-     "why": "implied move this week -8%"
-    }
-   ],
-   "reason": "AI unwind and Fed-hike repricing: holding under the 145 opening high after a 141.17 low, but option flow tilts to calls on the bounce (468k vs 409k, about 2x normal pace), -1; IV at the 100th percentile, still needs the 140 put wall to break."
-  },
-  {
-   "symbol": "QQQ",
-   "name": "Invesco QQQ Trust",
-   "direction": "put",
-   "confidence": 53,
-   "price": 609.86,
-   "breakout": 617.8,
-   "breakdown": 607.74,
-   "target_up": 621.2,
-   "target_down": 600.0,
-   "levels_up": [
-    {
-     "price": 610.0,
-     "why": "round number (passed)"
+     "price": 265.0,
+     "why": "day low"
     },
     {
-     "price": 616.5,
-     "why": "pre-market low (passed)"
-    },
-    {
-     "price": 625.0,
-     "why": "round number, pre-market pivot"
-    },
-    {
-     "price": 631.15,
-     "why": "Tuesday low"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 606.22,
-     "why": "Nov 20 low / 13-week low"
-    },
-    {
-     "price": 600.0,
+     "price": 260.0,
      "why": "round number"
     }
    ],
-   "reason": "Nasdaq about -4.4% and through 610 to a 607.74 low, puts outpacing calls 623k to 423k (about 2x normal pace); move is well past the implied move into a holiday and the 10:00 ET data is next, so held at 53, reclaiming 617.8 means a fade."
+   "reason": "Flipped to call: raised full-year guidance after a record quarter, the opening sell-off failed and it reversed from 265 to 281.17; calls 42k vs puts 20k, about 6x a normal day's pace. Kept below 55 (IV 95th percentile, no spread check this run)."
   },
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "put",
-   "confidence": 52,
-   "price": 378.12,
-   "breakout": 382.85,
-   "breakdown": 370.0,
-   "target_up": 392.17,
+   "confidence": 48,
+   "price": 381.28,
+   "breakout": 389.4,
+   "breakdown": 371.5,
+   "target_up": 396.01,
    "target_down": 363.5,
    "levels_up": [
     {
-     "price": 380.0,
-     "why": "round number (passed)"
+     "price": 382.01,
+     "why": "pre-market low, open 382.84"
     },
     {
-     "price": 382.01,
-     "why": "pre-market low (passed), open 382.84"
+     "price": 389.4,
+     "why": "day high"
     },
     {
      "price": 396.01,
@@ -119,8 +79,12 @@
    ],
    "levels_down": [
     {
-     "price": 370.0,
-     "why": "round number, under day low 372.67"
+     "price": 380.0,
+     "why": "round number (passed)"
+    },
+    {
+     "price": 371.5,
+     "why": "day low"
     },
     {
      "price": 363.5,
@@ -131,58 +95,62 @@
      "why": "round number"
     }
    ],
-   "reason": "Chip sell-off: puts still lead (75k vs 63k, about 2.5x normal pace) but it bounced 1.8% off the 371.5 low back toward 380, -2; IV at its 52-week high, needs 370 to break."
+   "reason": "Chip sell-off: spiked through 382.85 to 389.4 on the post-PCE bounce and faded back to 381, flow now even (105k puts vs 103k calls, ~2x pace), -4; IV at its 52-week high, put needs the 371.5 low to go."
   },
   {
-   "symbol": "MU",
-   "name": "Micron Technology",
+   "symbol": "NVDA",
+   "name": "Nvidia",
    "direction": "put",
-   "confidence": 52,
-   "price": 561.0,
-   "breakout": 579.0,
-   "breakdown": 557.33,
-   "target_up": 585.25,
-   "target_down": 550.0,
+   "confidence": 47,
+   "price": 144.49,
+   "breakout": 146.0,
+   "breakdown": 143.2,
+   "target_up": 148.75,
+   "target_down": 141.17,
    "levels_up": [
     {
-     "price": 568.06,
-     "why": "pre-market low (passed)"
+     "price": 145.15,
+     "why": "pre-market low, opening high 145.04"
     },
     {
-     "price": 579.0,
-     "why": "opening high"
+     "price": 145.98,
+     "why": "day high"
     },
     {
-     "price": 585.25,
-     "why": "Nov 20 low, 13-week low"
+     "price": 150.5,
+     "why": "Tuesday low, 150 put wall (21k OI)"
     },
     {
-     "price": 597.72,
-     "why": "pre-market resistance"
+     "price": 152.5,
+     "why": "pre-market high"
     }
    ],
    "levels_down": [
     {
-     "price": 560.0,
-     "why": "round number (pierced, low 557.33)"
+     "price": 143.73,
+     "why": "Nov 20 high (passed)"
     },
     {
-     "price": 550.0,
-     "why": "round number"
+     "price": 143.25,
+     "why": "session VWAP"
     },
     {
-     "price": 542.2,
-     "why": "implied move -5.6%"
+     "price": 140.0,
+     "why": "140 put wall, round number"
+    },
+    {
+     "price": 137.3,
+     "why": "implied move -4.7% from open"
     }
    ],
-   "reason": "Weakest chip: broke 560 to a 557.33 low, puts now ahead 91k vs 82k (about 2.5x normal pace); held at 52 ahead of the 10:00 ET data and with the move already past the implied move."
+   "reason": "AI unwind plus hot core PCE (3.3%) and a priced-in December hike, but it bounced through 145.05 to 145.98 and holds above VWAP 143.25 with calls ahead 695k vs 552k (~1.8x normal pace), -6; IV at the 100th percentile, put needs VWAP to fail."
   },
   {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 47,
-   "price": 152.29,
+   "price": 152.97,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
@@ -190,7 +158,7 @@
    "levels_up": [
     {
      "price": 153.67,
-     "why": "early day low (passed)"
+     "why": "early day low, now resistance"
     },
     {
      "price": 156.1,
@@ -215,51 +183,99 @@
      "why": "Tuesday low"
     }
    ],
-   "reason": "Defensive call is weakening: lost the 153.67 early low and is -1.5% vs Tuesday's 154.65 close, options still very thin (443 contracts vs ~3.3k a day), -5; 150.15 is the failure line."
+   "reason": "Defensive call is soft: -1% vs Tuesday's 154.65 close, holding 151.51 day low, options still very thin (660 contracts vs ~3.3k a day); 150.15 is the failure line."
   },
   {
-   "symbol": "DELL",
-   "name": "Dell Technologies",
+   "symbol": "MU",
+   "name": "Micron Technology",
    "direction": "put",
-   "confidence": 47,
-   "price": 273.36,
-   "breakout": 279.6,
-   "breakdown": 265.0,
-   "target_up": 283.0,
-   "target_down": 260.0,
+   "confidence": 46,
+   "price": 573.42,
+   "breakout": 584.5,
+   "breakdown": 568.0,
+   "target_up": 597.72,
+   "target_down": 557.33,
    "levels_up": [
     {
-     "price": 274.35,
-     "why": "Friday low"
+     "price": 579.0,
+     "why": "opening high (pierced)"
     },
     {
-     "price": 279.55,
-     "why": "day high, failed breakout"
+     "price": 584.49,
+     "why": "day high"
     },
     {
-     "price": 283.0,
-     "why": "pre-market shelf"
+     "price": 585.25,
+     "why": "Nov 20 low, 13-week low"
     },
     {
-     "price": 290.78,
+     "price": 597.72,
+     "why": "pre-market resistance"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 568.06,
+     "why": "pre-market low (passed)"
+    },
+    {
+     "price": 560.0,
+     "why": "round number"
+    },
+    {
+     "price": 557.33,
+     "why": "day low"
+    },
+    {
+     "price": 550.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Rebounded 5% off the 557.33 low through 579 to 584.49, and calls now lead 141k vs 120k (~2.4x pace), -6; put only on a loss of the 568 pre-market low."
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "direction": "put",
+   "confidence": 45,
+   "price": 617.05,
+   "breakout": 619.4,
+   "breakdown": 613.3,
+   "target_up": 625.0,
+   "target_down": 607.74,
+   "levels_up": [
+    {
+     "price": 619.39,
+     "why": "day high"
+    },
+    {
+     "price": 625.0,
+     "why": "round number, pre-market pivot"
+    },
+    {
+     "price": 631.15,
      "why": "Tuesday low"
     }
    ],
    "levels_down": [
     {
-     "price": 265.0,
-     "why": "day low, below 266.21 pre-market low"
+     "price": 616.5,
+     "why": "pre-market low (passed)"
     },
     {
-     "price": 260.0,
+     "price": 613.35,
+     "why": "session VWAP"
+    },
+    {
+     "price": 610.0,
      "why": "round number"
     },
     {
-     "price": 250.0,
-     "why": "round number"
+     "price": 606.22,
+     "why": "Nov 20 low / 13-week low"
     }
    ],
-   "reason": "Post-earnings reversal (raised guidance sold at the open) but it bounced from 265 to 279.55 and option flow is call-heavy (29k calls vs 14k puts, already 43% of a normal day), -3; put needs a loss of 265."
+   "reason": "Post-PCE relief rally: reclaimed 617.8 to 619.39 and sits above VWAP 613.35, so the fade scenario is in play, -8; puts still lead 976k vs 760k (~1.9x pace) and the index is still about -3% on the day, put only below VWAP."
   }
  ],
  "sources": [
@@ -273,6 +289,7 @@
   "https://www.benzinga.com/markets/earnings/26/11/63620352/deere-stock-slips-as-large-agriculture-weakness-overshadows-revenue-beat",
   "https://www.tipranks.com/news/the-fly/morning-movers-ambarella-and-deere-sink-after-quarterly-results-thefly-news",
   "https://www.financecalendar.com/events/category/economic-indicators/day/2026-11-25/",
-  "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/"
+  "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/",
+  "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
  ]
 }
