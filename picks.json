@@ -1,16 +1,16 @@
 {
- "generated_at": 1795620143,
+ "generated_at": 1795620969,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:21 PT",
- "summary": "Post-PCE bounce faded (IBKR realtime): SPY 699.69 slipped back under its 703.21 open from a 705.05 high, and QQQ 612.11 lost its ~613 VWAP after topping at 619.39; puts lead calls in both (SPY 1.79M vs 1.19M). Since 07:06: QQQ/AMD/MU put confidence +5-6 as MU broke its 568 pre-market low; DELL's call reversal failed back below the 274.35 Friday low (-10).",
+ "run": "update 07:35 PT",
+ "summary": "Indexes chop below their opens (IBKR realtime): SPY 700.99 (open 703.21, high 705.05), QQQ 612.65 just under its ~613 VWAP; puts still lead calls in both (SPY 2.08M vs 1.43M, QQQ 1.50M vs 1.08M). Since 07:21: no change - every pick is inside its breakout/breakdown range (NVDA slipped back under 143.73 toward VWAP, MU drifted to 565); confidence unchanged.",
  "picks": [
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "put",
    "confidence": 51,
-   "price": 376.26,
+   "price": 377.7,
    "breakout": 383.0,
    "breakdown": 371.5,
    "target_up": 389.4,
@@ -54,7 +54,7 @@
    "name": "Invesco QQQ Trust",
    "direction": "put",
    "confidence": 51,
-   "price": 612.11,
+   "price": 612.65,
    "breakout": 617.1,
    "breakdown": 607.7,
    "target_up": 619.4,
@@ -102,7 +102,7 @@
    "name": "Micron Technology",
    "direction": "put",
    "confidence": 50,
-   "price": 567.27,
+   "price": 565.32,
    "breakout": 575.0,
    "breakdown": 557.3,
    "target_up": 584.5,
@@ -146,12 +146,16 @@
    "name": "Nvidia",
    "direction": "put",
    "confidence": 47,
-   "price": 144.58,
+   "price": 143.67,
    "breakout": 146.0,
    "breakdown": 143.2,
    "target_up": 148.75,
    "target_down": 141.17,
    "levels_up": [
+    {
+     "price": 143.73,
+     "why": "Nov 20 high (passed)"
+    },
     {
      "price": 145.15,
      "why": "pre-market low, opening high 145.04"
@@ -163,17 +167,9 @@
     {
      "price": 150.5,
      "why": "Tuesday low, 150 put wall (21k OI)"
-    },
-    {
-     "price": 152.5,
-     "why": "pre-market high"
     }
    ],
    "levels_down": [
-    {
-     "price": 143.73,
-     "why": "Nov 20 high (passed)"
-    },
     {
      "price": 143.25,
      "why": "session VWAP"
@@ -187,14 +183,14 @@
      "why": "implied move -4.7% from open"
     }
    ],
-   "reason": "AI unwind plus hot core PCE (3.3%), but it holds above VWAP 143.25 while the indexes fade, and calls still lead 814k vs 680k (~1.6x pace); unchanged, put needs VWAP to fail. IV at the 100th percentile."
+   "reason": "AI unwind plus hot core PCE (3.3%); slipped back under the 143.73 Nov 20 high and now sits just above the 143.25 VWAP, calls still lead 919k vs 753k (~1.4x pace), unchanged; put needs VWAP to fail. IV at the 100th percentile."
   },
   {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 45,
-   "price": 151.94,
+   "price": 152.47,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
@@ -234,7 +230,7 @@
    "name": "Dell Technologies",
    "direction": "call",
    "confidence": 44,
-   "price": 273.92,
+   "price": 273.76,
    "breakout": 274.4,
    "breakdown": 266.7,
    "target_up": 281.2,
