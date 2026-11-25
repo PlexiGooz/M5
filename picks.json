@@ -1,23 +1,23 @@
 {
- "generated_at": 1795632675,
+ "generated_at": 1795633601,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 10:50 PT",
- "summary": "Risk-on rally extending (IBKR realtime): SPY 717.56 (new high 718.16), QQQ 632.61 (high 633.34); no new market news found. Since 10:35: QQQ, DELL, MU, NVDA and AMD all broke their day highs (AMD through 400), each +2 to +3; DLTR unchanged.",
+ "run": "update 11:05 PT",
+ "summary": "Risk-on rally keeps extending (IBKR realtime): SPY 718.05 (high 718.18), QQQ 634.18 (high 634.28), recovering most of the gap-down; no new market news. Since 10:50: QQQ, DELL, MU, NVDA and AMD all made new day highs again (DELL back above Tuesday's 295.28 close, AMD past its 404 implied move); breakouts moved up to the new highs, QQQ and DELL +1, DLTR unchanged.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "call",
-   "confidence": 59,
-   "price": 632.61,
-   "breakout": 633.34,
-   "breakdown": 629.43,
+   "confidence": 60,
+   "price": 634.18,
+   "breakout": 634.28,
+   "breakdown": 631.15,
    "target_up": 638.1,
-   "target_down": 624.59,
+   "target_down": 629.43,
    "levels_up": [
     {
-     "price": 633.34,
+     "price": 634.28,
      "why": "day high"
     },
     {
@@ -31,88 +31,100 @@
    ],
    "levels_down": [
     {
-     "price": 631.15,
-     "why": "Tuesday low, gap-fill start (passed)"
-    },
-    {
-     "price": 629.43,
+     "price": 633.34,
      "why": "earlier day high (passed)"
     },
     {
-     "price": 628.4,
-     "why": "implied move +1.8% from open (passed)"
+     "price": 631.15,
+     "why": "Tuesday low (passed)"
+    },
+    {
+     "price": 629.43,
+     "why": "earlier day high"
     },
     {
      "price": 624.59,
      "why": "earlier day high, support"
     }
    ],
-   "reason": "Breakout followed through: cleared 629.43 and the 631.15 Tuesday low to a 633.34 high with SPY at a new 718.16 high, +2 to 59; puts still lead 3.60M vs 3.28M and IV ~98th percentile cap it; back under 629.43 weakens it."
+   "reason": "Rally extending: new 634.28 high with SPY at 718, +1 to 60; puts still slightly lead (3.75M vs 3.44M) and IV ~98th percentile cap it; back under 631.15 weakens it."
   },
   {
    "symbol": "DELL",
    "name": "Dell Technologies",
    "direction": "call",
-   "confidence": 59,
-   "price": 292.73,
-   "breakout": 293.17,
-   "breakdown": 290.78,
-   "target_up": 300.0,
-   "target_down": 287.58,
+   "confidence": 60,
+   "price": 296.24,
+   "breakout": 296.27,
+   "breakdown": 293.17,
+   "target_up": 303.6,
+   "target_down": 290.78,
    "levels_up": [
-    {
-     "price": 293.17,
-     "why": "day high"
-    },
     {
      "price": 300.0,
      "why": "round number"
+    },
+    {
+     "price": 303.6,
+     "why": "Nov 20 high"
+    },
+    {
+     "price": 311.0,
+     "why": "Tuesday open"
     }
    ],
    "levels_down": [
     {
-     "price": 292.0,
+     "price": 295.28,
+     "why": "Tuesday close, gap filled (passed)"
+    },
+    {
+     "price": 293.17,
      "why": "earlier day high (passed)"
     },
     {
      "price": 290.78,
-     "why": "Tuesday low, gap-fill start"
+     "why": "Tuesday low"
     },
     {
      "price": 287.58,
      "why": "earlier day high, support"
-    },
-    {
-     "price": 283.0,
-     "why": "pre-market shelf, support"
     }
    ],
-   "reason": "Raised guidance; broke the 292.00 high to 293.17 and is holding near it, +2 to 59; calls 98k vs 54k average (1.8x a full day, ~2.7x pace); IV 95th percentile, back under 290.78 weakens it."
+   "reason": "Raised guidance; full reversal from 265 to a new 296.27 high, back above Tuesday's 295.28 close, +1 to 60; calls 102k vs 54k average (1.9x a full day); IV 94th percentile, back under 293.17 weakens it."
   },
   {
    "symbol": "MU",
    "name": "Micron Technology",
    "direction": "call",
    "confidence": 54,
-   "price": 590.18,
-   "breakout": 591.09,
-   "breakdown": 584.49,
+   "price": 594.36,
+   "breakout": 594.43,
+   "breakdown": 591.09,
    "target_up": 600.0,
-   "target_down": 575.0,
+   "target_down": 584.49,
    "levels_up": [
-    {
-     "price": 591.09,
-     "why": "day high"
-    },
     {
      "price": 600.0,
      "why": "round number"
+    },
+    {
+     "price": 622.22,
+     "why": "Tuesday low, gap-fill start"
+    },
+    {
+     "price": 629.79,
+     "why": "Tuesday close, full gap fill"
     }
    ],
    "levels_down": [
     {
-     "price": 584.49,
+     "price": 591.09,
      "why": "earlier day high (passed)"
+    },
+    {
+     "price": 585.25,
+     "why": "Nov 20 low, 13-week low"
     },
     {
      "price": 575.0,
@@ -121,38 +133,42 @@
     {
      "price": 568.06,
      "why": "pre-market low"
-    },
-    {
-     "price": 557.0,
-     "why": "intraday support"
     }
    ],
-   "reason": "Call working: cleared the 584.49 high to 591.09 as chips extend, +2 to 54; calls lead 542k vs 419k (~0.83x a full day's call average), IV at its 13-week high keeps it under 55; back under 584.49 weakens it."
+   "reason": "Call still working: new 594.43 high as chips extend, unchanged at 54; calls lead 567k vs 432k puts (~0.87x a full day's call average), IV at its 13-week high keeps it under 55; back under 591.09 weakens it."
   },
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "call",
    "confidence": 54,
-   "price": 148.13,
-   "breakout": 148.36,
-   "breakdown": 146.58,
+   "price": 148.45,
+   "breakout": 148.51,
+   "breakdown": 147.88,
    "target_up": 150.0,
-   "target_down": 145.15,
+   "target_down": 146.58,
    "levels_up": [
-    {
-     "price": 148.36,
-     "why": "day high"
-    },
     {
      "price": 150.0,
      "why": "round number, implied move +4.1% from open"
+    },
+    {
+     "price": 150.5,
+     "why": "Tuesday low, gap-fill start"
+    },
+    {
+     "price": 155.38,
+     "why": "Tuesday close, full gap fill"
     }
    ],
    "levels_down": [
     {
-     "price": 147.88,
+     "price": 148.36,
      "why": "earlier day high (passed)"
+    },
+    {
+     "price": 147.88,
+     "why": "earlier day high"
     },
     {
      "price": 146.58,
@@ -161,60 +177,60 @@
     {
      "price": 145.15,
      "why": "pre-market low"
-    },
-    {
-     "price": 143.73,
-     "why": "Nov 20 high"
     }
    ],
-   "reason": "Broke the 147.88 high to 148.36 with QQQ at new highs, +2 to 54; calls lead 2.28M vs 1.79M but total options only ~0.6x a full day; IV at the 100th percentile keeps it under 55, losing 146.58 weakens it."
+   "reason": "New 148.51 high with QQQ, unchanged at 54; calls lead 2.39M vs 1.85M but total options only ~0.6x a full day; IV at the 100th percentile keeps it under 55, losing 146.58 weakens it."
   },
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
    "confidence": 53,
-   "price": 401.7,
-   "breakout": 402.38,
-   "breakdown": 397.4,
-   "target_up": 404.08,
-   "target_down": 393.49,
+   "price": 404.77,
+   "breakout": 404.83,
+   "breakdown": 400.0,
+   "target_up": 410.0,
+   "target_down": 397.4,
    "levels_up": [
     {
-     "price": 402.38,
-     "why": "day high"
+     "price": 410.0,
+     "why": "round number"
     },
     {
-     "price": 404.08,
-     "why": "implied move +5.5% from open"
+     "price": 413.27,
+     "why": "Tuesday close, full gap fill"
+    },
+    {
+     "price": 418.76,
+     "why": "Nov 20 low"
     }
    ],
    "levels_down": [
     {
-     "price": 400.0,
-     "why": "round number (passed)"
+     "price": 404.08,
+     "why": "implied move +5.5% from open (passed)"
     },
     {
-     "price": 397.4,
+     "price": 402.38,
      "why": "earlier day high (passed)"
     },
     {
-     "price": 396.01,
-     "why": "Tuesday low, 13-week low"
+     "price": 400.0,
+     "why": "round number"
     },
     {
-     "price": 393.49,
-     "why": "earlier day high, support"
+     "price": 397.4,
+     "why": "earlier day high"
     }
    ],
-   "reason": "Cleared 397.40 and 400 to a 402.38 high with the Nasdaq, +3 to 53; calls and puts even (348k vs 347k) and IV at its 13-week high keep it under 55; back under 397.40 weakens it."
+   "reason": "New 404.83 high, past its implied move from the open, unchanged at 53; calls and puts even (363k vs 356k) and IV at its 13-week high keep it under 55; back under 400 weakens it."
   },
   {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 40,
-   "price": 152.41,
+   "price": 151.81,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
@@ -251,7 +267,7 @@
      "why": "Tuesday low"
     }
    ],
-   "reason": "Defensive call still stuck under 153.67 while money rotates into tech; options thin (2.0k contracts, ~0.6x a full day), unchanged at 40; 150.15 is the failure line."
+   "reason": "Defensive call still stuck under 153.67 and drifting toward the 150.95 low while money rotates into tech; options thin (2.1k contracts, ~0.6x a full day), unchanged at 40; 150.15 is the failure line."
   }
  ],
  "sources": [
