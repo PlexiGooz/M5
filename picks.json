@@ -1,16 +1,16 @@
 {
- "generated_at": 1795636320,
+ "generated_at": 1795637193,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 11:51 PT",
- "summary": "Risk-on rally holding but fading off the highs (IBKR realtime): SPY 715.80 (high 718.43), QQQ 631.78 (high 634.89), no new market news. Since 11:35: chips set new highs (MU 602.10, AMD 407.77, NVDA 148.83) then pulled back, each -1; DELL lost 293.17 and sits on its 290.78 Tuesday low, cut 60 to 54; QQQ -1 to 59.",
+ "run": "update 12:06 PT",
+ "summary": "Risk-on rally holding near the highs (IBKR realtime): SPY 715.74 (high 718.43), QQQ 631.99 (high 634.89), no new market news. Since 11:51: little change; MU bounced back over 594.43 to 596.75 and DELL held its 290.78 Tuesday low (292.00), all confidences unchanged.",
  "picks": [
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "call",
    "confidence": 59,
-   "price": 631.78,
+   "price": 631.99,
    "breakout": 634.89,
    "breakdown": 631.15,
    "target_up": 638.1,
@@ -54,7 +54,7 @@
    "name": "Dell Technologies",
    "direction": "call",
    "confidence": 54,
-   "price": 290.8,
+   "price": 292.0,
    "breakout": 293.17,
    "breakdown": 290.78,
    "target_up": 296.48,
@@ -91,23 +91,19 @@
      "why": "round number"
     }
    ],
-   "reason": "Raised guidance, but price slipped back under 293.17 to sit on Tuesday's 290.78 low, cut to 54 (below the trade line); calls still 2.1x average (113k vs 54k); losing 290.78 opens 287.58."
+   "reason": "Raised guidance; held Tuesday's 290.78 low and bounced to 292, still under 293.17 so stays 54 (below the trade line); calls 2.2x average (116k vs 54k); reclaiming 293.17 reopens 296.48, losing 290.78 opens 287.58."
   },
   {
    "symbol": "MU",
    "name": "Micron Technology",
    "direction": "call",
    "confidence": 53,
-   "price": 593.91,
+   "price": 596.75,
    "breakout": 602.1,
    "breakdown": 591.09,
    "target_up": 608.0,
    "target_down": 584.49,
    "levels_up": [
-    {
-     "price": 594.43,
-     "why": "earlier day high, resistance"
-    },
     {
      "price": 600.0,
      "why": "round number"
@@ -123,6 +119,10 @@
    ],
    "levels_down": [
     {
+     "price": 594.43,
+     "why": "earlier day high, resistance (passed)"
+    },
+    {
      "price": 591.09,
      "why": "earlier day high, support"
     },
@@ -135,14 +135,14 @@
      "why": "opening print"
     }
    ],
-   "reason": "Tagged 602.10 then rejected back under 600, -1 to 53; calls 656k vs 484k puts (~1.0x a full day's call average), IV at its 13-week high keeps it under 55; back under 591.09 weakens it."
+   "reason": "Bounced back over 594.43 to 596.75 after the 602.10 rejection, holds 53; calls 677k vs 498k puts (~1.0x a full day's call average), IV at its 13-week high keeps it under 55; back under 591.09 weakens it."
   },
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
    "confidence": 52,
-   "price": 402.33,
+   "price": 402.25,
    "breakout": 407.77,
    "breakdown": 400.0,
    "target_up": 410.0,
@@ -182,7 +182,7 @@
    "name": "Nvidia",
    "direction": "call",
    "confidence": 52,
-   "price": 147.53,
+   "price": 147.68,
    "breakout": 148.83,
    "breakdown": 146.58,
    "target_up": 150.0,
@@ -226,7 +226,7 @@
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 40,
-   "price": 151.62,
+   "price": 151.58,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
