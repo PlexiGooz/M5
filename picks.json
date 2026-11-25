@@ -145,10 +145,6 @@
    "target_down": 550.0,
    "levels_up": [
     {
-     "price": 560.0,
-     "why": "round number (passed)"
-    },
-    {
      "price": 568.06,
      "why": "pre-market low (passed)"
     },
@@ -159,9 +155,17 @@
     {
      "price": 585.25,
      "why": "Nov 20 low, 13-week low"
+    },
+    {
+     "price": 597.72,
+     "why": "pre-market resistance"
     }
    ],
    "levels_down": [
+    {
+     "price": 560.0,
+     "why": "round number (pierced, low 557.33)"
+    },
     {
      "price": 550.0,
      "why": "round number"
@@ -202,10 +206,6 @@
     }
    ],
    "levels_down": [
-    {
-     "price": 153.67,
-     "why": "day low"
-    },
     {
      "price": 150.15,
      "why": "implied move -2.7%"
