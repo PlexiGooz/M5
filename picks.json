@@ -1,16 +1,60 @@
 {
- "generated_at": 1795623674,
+ "generated_at": 1795624567,
  "date": "2026-11-25",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 08:20 PT",
- "summary": "Tape still heavy (IBKR realtime): SPY 698.26 off its 695.45 low, QQQ 609.75 under 610 and its ~613 VWAP, puts lead in both (SPY 2.80M vs 2.03M, QQQ 1.92M vs 1.53M). Since 08:06: MU broke 557 to a new low 553.37 (+2), QQQ lost 610 (+1), NVDA pressing its 141.17 low (+1); no fresh news.",
+ "run": "update 08:35 PT",
+ "summary": "Tape still heavy (IBKR realtime): SPY 698.34 near its 695.45 low, QQQ 609.90 under 610 and the ~613 VWAP, puts lead in both (SPY 3.08M vs 2.24M, QQQ 2.07M vs 1.67M). Since 08:20: MU broke 553.37 to a new low 552.34 (+1), DELL reclaimed 274.35 on heavy calls (+4); others unchanged, no fresh news.",
  "picks": [
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "direction": "put",
+   "confidence": 54,
+   "price": 552.36,
+   "breakout": 568.06,
+   "breakdown": 550.0,
+   "target_up": 575.0,
+   "target_down": 544.1,
+   "levels_up": [
+    {
+     "price": 553.37,
+     "why": "earlier day low (passed)"
+    },
+    {
+     "price": 557.0,
+     "why": "earlier day low (passed)"
+    },
+    {
+     "price": 568.06,
+     "why": "pre-market low (passed)"
+    },
+    {
+     "price": 575.0,
+     "why": "opening print"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 550.0,
+     "why": "round number"
+    },
+    {
+     "price": 544.1,
+     "why": "implied move -5.4% from open (575)"
+    },
+    {
+     "price": 524.4,
+     "why": "implied move -5.1% from current (daily IV)"
+    }
+   ],
+   "reason": "Failed bounce (584.49) rolled into a new low at 552.34 under the 575 open, +1 for the break of 553.37; options ~1.4x normal pace (calls 279k vs puts 248k); IV at its 13-week high keeps it under 55, 550 is the trigger."
+  },
   {
    "symbol": "QQQ",
    "name": "Invesco QQQ Trust",
    "direction": "put",
    "confidence": 53,
-   "price": 609.75,
+   "price": 609.9,
    "breakout": 617.1,
    "breakdown": 607.7,
    "target_up": 619.4,
@@ -50,55 +94,11 @@
    "reason": "Post-PCE relief rally faded: lost 610 under the 617.08 open and ~613 VWAP, puts lead 1.92M vs 1.53M (~1.3x pace), +1; hot core PCE and a priced December hike, put targets the 607.74 low then 606.22."
   },
   {
-   "symbol": "MU",
-   "name": "Micron Technology",
-   "direction": "put",
-   "confidence": 53,
-   "price": 555.7,
-   "breakout": 568.06,
-   "breakdown": 553.37,
-   "target_up": 575.0,
-   "target_down": 544.1,
-   "levels_up": [
-    {
-     "price": 557.0,
-     "why": "earlier day low (passed)"
-    },
-    {
-     "price": 568.06,
-     "why": "pre-market low (passed)"
-    },
-    {
-     "price": 575.0,
-     "why": "opening print"
-    },
-    {
-     "price": 584.49,
-     "why": "day high"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 553.37,
-     "why": "day low"
-    },
-    {
-     "price": 550.0,
-     "why": "round number"
-    },
-    {
-     "price": 544.1,
-     "why": "implied move -5.4% from open (575)"
-    }
-   ],
-   "reason": "Failed bounce (584.49) rolled into a new low at 553.37 under the 575 open; options ~1.5x normal pace with puts 231k vs 250k calls, +2 for the break; IV at its 13-week high keeps it under 55."
-  },
-  {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "put",
    "confidence": 51,
-   "price": 374.19,
+   "price": 373.9,
    "breakout": 383.0,
    "breakdown": 371.5,
    "target_up": 389.4,
@@ -142,7 +142,7 @@
    "name": "Nvidia",
    "direction": "put",
    "confidence": 51,
-   "price": 141.7,
+   "price": 141.91,
    "breakout": 143.73,
    "breakdown": 141.17,
    "target_up": 145.98,
@@ -182,11 +182,55 @@
    "reason": "AI unwind plus hot core PCE (3.3%): under the ~143.25 VWAP and 144.13 open, now pressing the 141.17 low, +1; calls still lead 1.22M vs 977k (~1.1x pace), so the put needs 141.17 to go. IV at the 100th percentile."
   },
   {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "direction": "call",
+   "confidence": 46,
+   "price": 274.5,
+   "breakout": 281.17,
+   "breakdown": 266.7,
+   "target_up": 283.0,
+   "target_down": 260.0,
+   "levels_up": [
+    {
+     "price": 281.17,
+     "why": "day high"
+    },
+    {
+     "price": 283.0,
+     "why": "pre-market shelf"
+    },
+    {
+     "price": 290.78,
+     "why": "Tuesday low, gap-fill start"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 274.35,
+     "why": "Friday low (passed), now support"
+    },
+    {
+     "price": 266.7,
+     "why": "opening print"
+    },
+    {
+     "price": 265.0,
+     "why": "day low"
+    },
+    {
+     "price": 260.0,
+     "why": "round number"
+    }
+   ],
+   "reason": "Raised guidance; reclaimed the 274.35 Friday low despite a weak market, +4, calls lead 66k vs 32k puts (~3.8x normal call pace); needs the 281.17 high to run, IV 97th percentile keeps it under 55."
+  },
+  {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "direction": "call",
    "confidence": 42,
-   "price": 152.43,
+   "price": 153.37,
    "breakout": 157.0,
    "breakdown": 150.15,
    "target_up": 160.0,
@@ -220,50 +264,6 @@
     }
    ],
    "reason": "Defensive call stalled: bounced to 152.4 off a 150.95 low but still under Tuesday's 154.65 close, options thin (1.3k contracts, ~1.4x pace), unchanged; 150.15 is the failure line."
-  },
-  {
-   "symbol": "DELL",
-   "name": "Dell Technologies",
-   "direction": "call",
-   "confidence": 42,
-   "price": 271.6,
-   "breakout": 274.4,
-   "breakdown": 266.7,
-   "target_up": 281.2,
-   "target_down": 260.0,
-   "levels_up": [
-    {
-     "price": 274.35,
-     "why": "Friday low, now resistance"
-    },
-    {
-     "price": 281.17,
-     "why": "day high"
-    },
-    {
-     "price": 283.0,
-     "why": "pre-market shelf"
-    },
-    {
-     "price": 290.78,
-     "why": "Tuesday low, gap-fill start"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 266.7,
-     "why": "opening print"
-    },
-    {
-     "price": 265.0,
-     "why": "day low"
-    },
-    {
-     "price": 260.0,
-     "why": "round number"
-    }
-   ],
-   "reason": "Raised guidance, but stuck in 265-281 with the market weak, unchanged; calls lead 63k vs 31k (~3x normal pace), a call only on a reclaim of 274.35. IV 97th percentile."
   }
  ],
  "sources": [
