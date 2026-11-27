@@ -1,29 +1,281 @@
-{"generated_at": 1795790236, "date": "2026-11-27", "model": "claude-opus-5-5 (routine)", "run": "update 06:35 PT",
-"summary": "Black Friday half-day (NYSE closes 1 PM ET): the open is fading the pre-market gap, SPY 722.4 (open 725.9) and QQQ 639.9 (open 645.5), still about +0.8-0.9% on the day; SPY puts outnumber calls 1.7 to 1. Change since the morning run: chips sold off hard in the first 5 minutes with no new headline, so the NVDA and AMD calls failed and are flipped to puts, MU's put hit its first target, and AMZN's call was cut to 45. IBKR data REALTIME.",
-"picks": [
-{"symbol": "MU", "name": "Micron Technology", "direction": "put", "confidence": 53, "price": 616.68, "breakout": 630.76, "breakdown": 613.03, "target_up": 644.77, "target_down": 604.95,
- "levels_up": [{"price": 622.90, "why": "pre-market low (passed)"}, {"price": 629.79, "why": "Nov 24 close (passed)"}, {"price": 644.77, "why": "pre-market lower high"}, {"price": 660.00, "why": "round number"}],
- "levels_down": [{"price": 604.95, "why": "Wednesday high"}, {"price": 601.25, "why": "gap fill to Wednesday close"}, {"price": 599.47, "why": "implied move -5.7% today"}],
- "reason": "The gap fade is working: it broke 629.79 and the 622.90 pre-market low, falling from 630.76 to 613 right after the open, and options volume is running about 1.6x a normal pace. Rated 53, not 55, because calls still outnumber puts 1.7 to 1 and IV is at its 13-week high. Losing the 613.03 day low targets the 604.95-601.25 gap fill."},
-{"symbol": "NVDA", "name": "Nvidia", "direction": "put", "confidence": 49, "price": 147.39, "breakout": 149.30, "breakdown": 147.00, "target_up": 151.98, "target_down": 142.97,
- "levels_up": [{"price": 149.30, "why": "gap fill to Wednesday close (passed)"}, {"price": 150.37, "why": "Wednesday high (passed)"}, {"price": 151.98, "why": "opening high"}, {"price": 156.99, "why": "pre-market high"}],
- "levels_down": [{"price": 145.29, "why": "implied move -4.4% from pre-market"}, {"price": 142.97, "why": "implied move -4.2% from Wednesday close"}, {"price": 141.17, "why": "Wednesday low"}],
- "reason": "Flipped from call: the gap fully filled on 9.8M shares in the first 5 minutes, and the stock is now red on the day while QQQ is still up about 0.9%, with no new headline. Calls still lead puts 1.5 to 1 and IV is in the 97th percentile, so this is under 50. Losing 147.00 (just under the 147.12 day low) targets 143; a reclaim of 149.30 cancels it."},
-{"symbol": "AMD", "name": "Advanced Micro Devices", "direction": "put", "confidence": 48, "price": 410.75, "breakout": 420.27, "breakdown": 406.03, "target_up": 428.87, "target_down": 397.66,
- "levels_up": [{"price": 413.27, "why": "Nov 24 close (passed)"}, {"price": 420.27, "why": "opening high"}, {"price": 428.87, "why": "Nov 24 high"}, {"price": 435.54, "why": "pre-market high"}],
- "levels_down": [{"price": 409.13, "why": "day low"}, {"price": 407.77, "why": "Wednesday high"}, {"price": 406.03, "why": "gap fill to Wednesday close"}, {"price": 397.66, "why": "implied move -5.5% today"}],
- "reason": "Flipped from call: it rejected 420 at the open and broke the 413.27 breakdown, following NVDA's gap fill. Options volume is only at a normal pace and IV is in the 97th percentile (13-week), so confidence is modest. A break of 406.03 (Wednesday close) fills the gap and targets 397.7."},
-{"symbol": "AMZN", "name": "Amazon", "direction": "call", "confidence": 45, "price": 249.12, "breakout": 250.47, "breakdown": 246.56, "target_up": 255.56, "target_down": 244.43,
- "levels_up": [{"price": 255.56, "why": "Nov 24 high"}, {"price": 256.73, "why": "implied move +2.6% today"}, {"price": 262.48, "why": "Nov 23 high"}],
- "levels_down": [{"price": 246.56, "why": "Wednesday high"}, {"price": 244.43, "why": "gap fill to Wednesday close"}, {"price": 243.93, "why": "implied move -2.6% today"}, {"price": 240.00, "why": "240 put wall (Dec 4)"}],
- "reason": "Black Friday kickoff, and calls still outnumber puts 2.3 to 1, but it slipped under the 249.40 pre-market low with the tape. Cut from 54 to 45, with levels moved to the new opening range: it needs to reclaim the 250.47 opening high, and losing 246.56 opens the gap fill."},
-{"symbol": "AVGO", "name": "Broadcom", "direction": "put", "confidence": 45, "price": 306.40, "breakout": 310.75, "breakdown": 302.25, "target_up": 316.00, "target_down": 297.80,
- "levels_up": [{"price": 309.18, "why": "Nov 24 high"}, {"price": 316.00, "why": "pre-market high"}, {"price": 318.70, "why": "implied move +4.5% today"}],
- "levels_down": [{"price": 300.86, "why": "gap fill to Wednesday close"}, {"price": 297.80, "why": "Nov 24 low"}, {"price": 291.30, "why": "implied move -4.5% today"}],
- "reason": "Laggard after the reported Google TPU order cut, but it is holding up better than NVDA and AMD in the opening fade (304.75-308.49 range), and options volume is light (about 0.8x pace, calls ahead). Trimmed to 45. Losing 302.25 targets the 300.86 gap fill. Earnings are on Dec 9."},
-{"symbol": "WMT", "name": "Walmart", "direction": "put", "confidence": 40, "price": 131.96, "breakout": 133.19, "breakdown": 131.00, "target_up": 133.92, "target_down": 129.92,
- "levels_up": [{"price": 132.31, "why": "Nov 24 close"}, {"price": 133.19, "why": "Wednesday high, 13-week high"}, {"price": 135.15, "why": "52-week high"}],
- "levels_down": [{"price": 131.21, "why": "Wednesday low"}, {"price": 129.92, "why": "implied move -1.5% today"}, {"price": 129.74, "why": "Nov 24 low"}, {"price": 127.18, "why": "Nov 20 low"}],
- "reason": "Flat in a tight 131.68-132.32 range with no catalyst. The rotation-out thesis is weaker now that the tech gap is fading (defensives may catch a bid), so trimmed to 40. A break of the 131.00 pre-market low still targets 129.9."}
-],
-"sources": ["IBKR market data", "https://stockinvest.us/digest/digest-us-premarket-2026-11-27", "https://www.benzinga.com/markets/tech/26/11/63629268/amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving", "https://www.benzinga.com/trading-ideas/movers/26/11/63620882/why-is-broadcom-stock-falling-on-wednesday-2", "https://pomegra.io/news/october-pce-inflation-38-locks-in-december-fed-rate-hike", "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"]}
+{
+ "generated_at": 1795791120,
+ "date": "2026-11-27",
+ "model": "claude-opus-5-5 (routine)",
+ "run": "update 06:50 PT",
+ "summary": "Black Friday half-day (NYSE closes 1 PM ET): the gap fade keeps going, SPY 721.9 (day low 720.5, open 725.9) and QQQ 639.5 (low 637.2, open 645.5), and SPY puts lead calls 1.5 to 1. Since 06:35: the chip puts followed through (AMD filled its gap to 400.10, NVDA made a new low at 145.39, MU tagged 607.27), so their breakdowns move down to the new lows. AMZN set a higher high at 251.35, and AVGO was trimmed for holding up. No new headlines. IBKR data REALTIME.",
+ "picks": [
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "direction": "put",
+   "confidence": 53,
+   "price": 615.2,
+   "breakout": 630.76,
+   "breakdown": 607.0,
+   "target_up": 644.77,
+   "target_down": 601.25,
+   "levels_up": [
+    {
+     "price": 622.9,
+     "why": "pre-market low (passed)"
+    },
+    {
+     "price": 629.79,
+     "why": "Nov 24 close (passed)"
+    },
+    {
+     "price": 644.77,
+     "why": "pre-market lower high"
+    },
+    {
+     "price": 660.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 604.95,
+     "why": "Wednesday high"
+    },
+    {
+     "price": 601.25,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 599.47,
+     "why": "implied move -5.7% today"
+    }
+   ],
+   "reason": "The gap fade is working: it dropped from 630.76 to a 607.27 low, then bounced to 615. Options volume is about 1.35x a half-day pace, but calls still lead puts 1.25 to 1 and IV is at its 13-week high, so it stays at 53. Losing the 607 day low targets the 601.25 gap fill to Wednesday's close."
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 51,
+   "price": 146.92,
+   "breakout": 149.3,
+   "breakdown": 145.3,
+   "target_up": 151.98,
+   "target_down": 142.97,
+   "levels_up": [
+    {
+     "price": 149.3,
+     "why": "gap fill to Wednesday close (passed)"
+    },
+    {
+     "price": 150.37,
+     "why": "Wednesday high (passed)"
+    },
+    {
+     "price": 151.98,
+     "why": "opening high"
+    },
+    {
+     "price": 156.99,
+     "why": "pre-market high"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 145.29,
+     "why": "day low, implied move -4.4% from pre-market"
+    },
+    {
+     "price": 142.97,
+     "why": "implied move -4.2% from Wednesday close"
+    },
+    {
+     "price": 141.17,
+     "why": "Wednesday low"
+    }
+   ],
+   "reason": "Gap fully filled and still red while QQQ is up. It broke 147.00 to a new 145.39 low on 48M shares, and the call lead narrowed to 1.24 to 1 (normally 1.36). Raised 49 to 51. IV is in the 97th percentile, which keeps it under 55. Losing 145.30 targets 143; a reclaim of 149.30 cancels it."
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "direction": "put",
+   "confidence": 51,
+   "price": 404.23,
+   "breakout": 413.27,
+   "breakdown": 400.0,
+   "target_up": 420.27,
+   "target_down": 396.01,
+   "levels_up": [
+    {
+     "price": 406.03,
+     "why": "Wednesday close, gap fill (passed)"
+    },
+    {
+     "price": 407.77,
+     "why": "Wednesday high (passed)"
+    },
+    {
+     "price": 413.27,
+     "why": "Nov 24 close"
+    },
+    {
+     "price": 420.27,
+     "why": "opening high"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 400.1,
+     "why": "day low, round 400"
+    },
+    {
+     "price": 397.66,
+     "why": "implied move -5.5% today"
+    },
+    {
+     "price": 396.01,
+     "why": "Nov 24 low"
+    },
+    {
+     "price": 383.0,
+     "why": "Wednesday open area"
+    }
+   ],
+   "reason": "The gap filled: it fell from 420.27 through 406.03 to a 400.10 low, following NVDA. Options volume is at a normal pace with calls and puts even (normally calls lead 1.2 to 1). IV is at its 13-week high. Raised 48 to 51. Losing 400 targets the 396 Nov 24 low; a reclaim of 413.27 cancels it."
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "direction": "call",
+   "confidence": 47,
+   "price": 250.19,
+   "breakout": 251.35,
+   "breakdown": 246.56,
+   "target_up": 255.56,
+   "target_down": 244.43,
+   "levels_up": [
+    {
+     "price": 255.56,
+     "why": "Nov 24 high"
+    },
+    {
+     "price": 256.73,
+     "why": "implied move +2.6% today"
+    },
+    {
+     "price": 262.48,
+     "why": "Nov 23 high"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 246.56,
+     "why": "Wednesday high"
+    },
+    {
+     "price": 244.43,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 243.93,
+     "why": "implied move -2.6% today"
+    },
+    {
+     "price": 240.0,
+     "why": "240 put wall (Dec 4)"
+    }
+   ],
+   "reason": "Black Friday kickoff, and it is holding green against a fading tape: it went through 250.47 to a 251.35 high and calls lead puts 2.5 to 1, though options volume is only about 1.2x pace. Raised 45 to 47. A break of 251.35 targets the 255.56 Nov 24 high; losing 246.56 opens the gap fill."
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "direction": "put",
+   "confidence": 43,
+   "price": 307.69,
+   "breakout": 310.75,
+   "breakdown": 302.25,
+   "target_up": 316.0,
+   "target_down": 297.8,
+   "levels_up": [
+    {
+     "price": 309.31,
+     "why": "day high, Nov 24 high 309.18"
+    },
+    {
+     "price": 316.0,
+     "why": "pre-market high"
+    },
+    {
+     "price": 318.7,
+     "why": "implied move +4.5% today"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 300.86,
+     "why": "gap fill to Wednesday close"
+    },
+    {
+     "price": 297.8,
+     "why": "Nov 24 low"
+    },
+    {
+     "price": 291.3,
+     "why": "implied move -4.5% today"
+    }
+   ],
+   "reason": "Laggard after the reported Google TPU order cut, but it is showing relative strength in the chip fade (307.7, near the 309.31 high) on light options volume (about 0.8x pace, calls lead 1.7 to 1). Trimmed 45 to 43. Losing 302.25 targets the 300.86 gap fill. Earnings are Dec 9."
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "direction": "put",
+   "confidence": 40,
+   "price": 131.83,
+   "breakout": 133.19,
+   "breakdown": 131.0,
+   "target_up": 133.92,
+   "target_down": 129.92,
+   "levels_up": [
+    {
+     "price": 132.31,
+     "why": "Nov 24 close"
+    },
+    {
+     "price": 133.19,
+     "why": "Wednesday high, 13-week high"
+    },
+    {
+     "price": 135.15,
+     "why": "52-week high"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 131.21,
+     "why": "Wednesday low"
+    },
+    {
+     "price": 129.92,
+     "why": "implied move -1.5% today"
+    },
+    {
+     "price": 129.74,
+     "why": "Nov 24 low"
+    },
+    {
+     "price": 127.18,
+     "why": "Nov 20 low"
+    }
+   ],
+   "reason": "Flat in a tight 131.68-132.32 range with no catalyst. The rotation-out thesis is weaker now that the tech gap is fading (defensives may catch a bid), so trimmed to 40. A break of the 131.00 pre-market low still targets 129.9."
+  }
+ ],
+ "sources": [
+  "IBKR market data",
+  "https://stockinvest.us/digest/digest-us-premarket-2026-11-27",
+  "https://www.benzinga.com/markets/tech/26/11/63629268/amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving",
+  "https://www.benzinga.com/trading-ideas/movers/26/11/63620882/why-is-broadcom-stock-falling-on-wednesday-2",
+  "https://pomegra.io/news/october-pce-inflation-38-locks-in-december-fed-rate-hike",
+  "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"
+ ]
+}
