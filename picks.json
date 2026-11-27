@@ -253,10 +253,6 @@
     {
      "price": 129.74,
      "why": "Nov 24 low"
-    },
-    {
-     "price": 127.18,
-     "why": "Nov 20 low"
     }
    ],
    "reason": "Put fading: drifted up to a new 132.50 day high through the 132.31 Nov 24 close as the tape rallies, options thin (about 0.4x pace). Trimmed 40 to 38. A break of the 131.00 pre-market low still targets 129.9; above 133.19 it cancels."
