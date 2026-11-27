@@ -1,19 +1,19 @@
 {
- "generated_at": 1795799247,
+ "generated_at": 1795800120,
  "date": "2026-11-27",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 09:06 PT",
- "summary": "Black Friday half-day (NYSE closes 1 PM ET, about 55 minutes left): SPY and QQQ set new highs at 728.00 and 648.47, then eased to 726.01 and 645.79. Since 08:50 MU (51 to 48) and AMD (48 to 46) broke their breakouts to 647.24 and 421.90 and failed back, NVDA put 46 to 47, WMT put 38 to 37, AMZN and AVGO unchanged. No new headlines. IBKR data REALTIME.",
+ "run": "update 09:21 PT",
+ "summary": "Black Friday half-day (NYSE closes 1 PM ET, about 40 minutes left): SPY 727.26 and QQQ 647.48 grinding back toward their 728.00 and 648.47 highs. Since 09:06 AMZN broke 254.50 to a new 254.76 high (breakout moved to 255.56), NVDA reclaimed the 149.30 gap fill so its put was cut 47 to 43, AMD 46 to 47, AVGO 43 to 44, WMT put 37 to 35 on a new day high; MU unchanged. No new headlines. IBKR data REALTIME.",
  "picks": [
   {
    "symbol": "AMZN",
    "name": "Amazon",
    "direction": "call",
    "confidence": 54,
-   "price": 253.65,
-   "breakout": 254.5,
+   "price": 254.76,
+   "breakout": 255.56,
    "breakdown": 252.13,
-   "target_up": 255.56,
+   "target_up": 256.73,
    "target_down": 248.45,
    "levels_up": [
     {
@@ -31,6 +31,10 @@
    ],
    "levels_down": [
     {
+     "price": 254.5,
+     "why": "prior day high, earlier breakout level (passed)"
+    },
+    {
      "price": 252.13,
      "why": "prior breakout level, earlier high (passed)"
     },
@@ -41,20 +45,16 @@
     {
      "price": 246.56,
      "why": "Wednesday high"
-    },
-    {
-     "price": 244.43,
-     "why": "gap fill to Wednesday close"
     }
    ],
-   "reason": "Black Friday kickoff: still capped at the 254.50 day high (253.65) as SPY and QQQ ease off fresh highs; calls lead 2 to 1, options at about 0.5x a full day's average. Held at 54. A push through 254.50 targets the 255.56 Nov 24 high; back under 252.13 opens the 248.45 day low."
+   "reason": "Black Friday kickoff: broke the 254.50 high to 254.76 as SPY and QQQ firm toward their highs; calls lead 2 to 1, options about 0.5x a full day's average. Held at 54 with under 40 minutes left. Above 255.56 (Nov 24 high) targets 256.73; back under 252.13 opens 248.45."
   },
   {
    "symbol": "MU",
    "name": "Micron Technology",
    "direction": "call",
    "confidence": 48,
-   "price": 639.09,
+   "price": 640.44,
    "breakout": 647.24,
    "breakdown": 629.79,
    "target_up": 660.0,
@@ -95,58 +95,14 @@
      "why": "intraday pullback low area"
     }
    ],
-   "reason": "Call: broke 644.77 to a 647.24 high, then failed and slipped back to 639 as QQQ eased off its high; calls still ahead 1.4 to 1 at about 0.55x a full day's options average. Cut 51 to 48. A reclaim of 647.24 targets 660; losing 629.79 cancels it."
-  },
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "direction": "put",
-   "confidence": 47,
-   "price": 148.47,
-   "breakout": 149.3,
-   "breakdown": 145.3,
-   "target_up": 151.98,
-   "target_down": 142.97,
-   "levels_up": [
-    {
-     "price": 149.3,
-     "why": "gap fill to Wednesday close"
-    },
-    {
-     "price": 150.37,
-     "why": "Wednesday high"
-    },
-    {
-     "price": 151.98,
-     "why": "opening high"
-    },
-    {
-     "price": 156.99,
-     "why": "pre-market high"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 145.29,
-     "why": "day low, implied move -4.4% from pre-market"
-    },
-    {
-     "price": 142.97,
-     "why": "implied move -4.2% from Wednesday close"
-    },
-    {
-     "price": 141.17,
-     "why": "Wednesday low"
-    }
-   ],
-   "reason": "Put: rejected again under the 149.30 gap-fill level and eased to 148.47 as QQQ came off its 648.47 high; options light (about 0.35x a full day's average, calls 1.5 to 1), IV 95th+ percentile. Nudged 46 to 47. Losing 145.30 targets 143; a reclaim of 149.30 cancels it."
+   "reason": "Call: holding 640 under the 647.24 day high after the earlier failed breakout; calls ahead 1.4 to 1 at about 0.6x a full day's options average. Held at 48. A reclaim of 647.24 targets 660; losing 629.79 cancels it."
   },
   {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
-   "confidence": 46,
-   "price": 416.64,
+   "confidence": 47,
+   "price": 419.9,
    "breakout": 421.9,
    "breakdown": 406.03,
    "target_up": 430.0,
@@ -183,14 +139,14 @@
      "why": "day low"
     }
    ],
-   "reason": "Call: poked through 420.27 to a 421.90 high, then failed back to 416.6; calls lead 1.3 to 1 but options are only about 0.4x a full day's average, IV 95th percentile (13-week). Cut 48 to 46: above 421.90 targets 430; losing 406.03 cancels it."
+   "reason": "Call: back up to 419.90 under the 420.27 opening high and 421.90 day high; calls lead 1.3 to 1, options about 0.4x a full day's average, IV 95th percentile. Nudged 46 to 47: above 421.90 targets 430; losing 406.03 cancels it."
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
    "direction": "call",
-   "confidence": 43,
-   "price": 311.12,
+   "confidence": 44,
+   "price": 312.56,
    "breakout": 313.12,
    "breakdown": 304.75,
    "target_up": 316.0,
@@ -227,14 +183,58 @@
      "why": "Nov 24 low"
     }
    ],
-   "reason": "Call: drifting at 311.12 under the 313.12 day high with the chip bounce despite the reported Google TPU order cut; options light (about 0.3x a full day's average, calls 1.6 to 1). Held at 43. Above 313.12 targets 316; losing 304.75 cancels it. Earnings Dec 9."
+   "reason": "Call: pressing the 313.12 day high (312.56) with the chip bounce despite the reported Google TPU order cut; options light (about 0.3x a full day's average, calls 1.6 to 1). Nudged 43 to 44. Above 313.12 targets 316; losing 304.75 cancels it. Earnings Dec 9."
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "direction": "put",
+   "confidence": 43,
+   "price": 149.37,
+   "breakout": 150.37,
+   "breakdown": 145.3,
+   "target_up": 151.98,
+   "target_down": 142.97,
+   "levels_up": [
+    {
+     "price": 150.37,
+     "why": "Wednesday high"
+    },
+    {
+     "price": 151.98,
+     "why": "opening high"
+    },
+    {
+     "price": 156.99,
+     "why": "pre-market high"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 149.3,
+     "why": "gap fill to Wednesday close (passed)"
+    },
+    {
+     "price": 145.29,
+     "why": "day low, implied move -4.4% from pre-market"
+    },
+    {
+     "price": 142.97,
+     "why": "implied move -4.2% from Wednesday close"
+    },
+    {
+     "price": 141.17,
+     "why": "Wednesday low"
+    }
+   ],
+   "reason": "Put weakening: reclaimed the 149.30 gap-fill level (149.37) as QQQ pushes back toward its high; calls lead 1.5 to 1, options light (about 0.37x a full day's average), IV 95th+ percentile. Cut 47 to 43. Above 150.37 (Wednesday high) cancels it; losing 145.30 still targets 143."
   },
   {
    "symbol": "WMT",
    "name": "Walmart",
    "direction": "put",
-   "confidence": 37,
-   "price": 132.58,
+   "confidence": 35,
+   "price": 132.69,
    "breakout": 133.19,
    "breakdown": 131.0,
    "target_up": 133.92,
@@ -267,7 +267,7 @@
      "why": "Nov 24 low"
     }
    ],
-   "reason": "Put fading: a new 132.59 day high, still above the 132.31 Nov 24 close; options thin (about 0.3x a full day's average). Trimmed 38 to 37. A break of the 131.00 pre-market low still targets 129.9; above 133.19 it cancels."
+   "reason": "Put fading: a new 132.73 day high, above the 132.31 Nov 24 close; options thin (about 0.3x a full day's average). Cut 37 to 35. A break of the 131.00 pre-market low still targets 129.9; above 133.19 it cancels."
   }
  ],
  "sources": [
