@@ -75,10 +75,6 @@
     {
      "price": 647.24,
      "why": "day high"
-    },
-    {
-     "price": 660.0,
-     "why": "round number"
     }
    ],
    "levels_down": [
