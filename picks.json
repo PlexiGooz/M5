@@ -1,17 +1,17 @@
 {
- "generated_at": 1795794693,
+ "generated_at": 1795795624,
  "date": "2026-11-27",
  "model": "claude-opus-5-5 (routine)",
- "run": "update 07:50 PT",
- "summary": "Black Friday half-day (NYSE closes 1 PM ET): risk-on into midday, SPY 725.1 and QQQ 644.7 near their highs (646.6). Since 07:35 the chip bounce extended: MU, AMD and AVGO broke their put-cancel levels, so they flip to low-confidence calls (47/45/42); AMZN broke out to 254.3 and rises to 53; NVDA trimmed to 48. No new headlines. IBKR data REALTIME.",
+ "run": "update 08:05 PT",
+ "summary": "Black Friday half-day (NYSE closes 1 PM ET): risk-on holds, SPY 725.3 and QQQ 645.2 just under their highs (726.6/646.6). Since 07:50 MU cleared its 638.44 breakout to 639.6 (call 47 to 49) and AMZN pushed to 254.50 (53 to 54); NVDA, AMD, AVGO and WMT unchanged. No new headlines. IBKR data REALTIME.",
  "picks": [
   {
    "symbol": "AMZN",
    "name": "Amazon",
    "direction": "call",
-   "confidence": 53,
-   "price": 254.04,
-   "breakout": 254.34,
+   "confidence": 54,
+   "price": 254.19,
+   "breakout": 254.5,
    "breakdown": 252.13,
    "target_up": 255.56,
    "target_down": 248.45,
@@ -47,14 +47,54 @@
      "why": "gap fill to Wednesday close"
     }
    ],
-   "reason": "Black Friday kickoff: it broke out above 252.13 to a 254.34 high as QQQ hit 646.6, with calls leading 2.5 to 1 at about 0.8x a half-day options pace. Raised 50 to 53. A push through 254.34 targets the 255.56 Nov 24 high; back under 252.13 opens the 248.45 day low."
+   "reason": "Black Friday kickoff: it broke out above 252.13 and extended to a 254.50 high as QQQ holds near 646, calls leading 2.4 to 1 at about 0.8x a half-day options pace. Raised 53 to 54. A push through 254.50 targets the 255.56 Nov 24 high; back under 252.13 opens the 248.45 day low."
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "direction": "call",
+   "confidence": 49,
+   "price": 639.0,
+   "breakout": 644.77,
+   "breakdown": 629.79,
+   "target_up": 660.0,
+   "target_down": 622.9,
+   "levels_up": [
+    {
+     "price": 644.77,
+     "why": "pre-market lower high"
+    },
+    {
+     "price": 660.0,
+     "why": "round number"
+    }
+   ],
+   "levels_down": [
+    {
+     "price": 638.44,
+     "why": "earlier day high (passed)"
+    },
+    {
+     "price": 630.76,
+     "why": "earlier day high (passed)"
+    },
+    {
+     "price": 629.79,
+     "why": "Nov 24 close (passed)"
+    },
+    {
+     "price": 622.9,
+     "why": "pre-market low"
+    }
+   ],
+   "reason": "Call: it cleared the 638.44 breakout to a 639.61 high, the whole gap-down recovered, calls ahead 1.4 to 1 at about 0.8x a half-day options pace. Raised 47 to 49: above 644.77 targets 660; losing 629.79 cancels it."
   },
   {
    "symbol": "NVDA",
    "name": "Nvidia",
    "direction": "put",
    "confidence": 48,
-   "price": 147.71,
+   "price": 148.13,
    "breakout": 149.3,
    "breakdown": 145.3,
    "target_up": 151.98,
@@ -94,55 +134,11 @@
    "reason": "Still between 145.30 and 149.30 at 147.7 on 93M shares; options about 0.65x a half-day pace with calls ahead 1.37 to 1, and IV in the 97th percentile keeps it under 55. Trimmed 49 to 48 as QQQ makes new highs. Losing 145.30 targets 143; a reclaim of 149.30 cancels it."
   },
   {
-   "symbol": "MU",
-   "name": "Micron Technology",
-   "direction": "call",
-   "confidence": 47,
-   "price": 634.25,
-   "breakout": 638.44,
-   "breakdown": 629.79,
-   "target_up": 644.77,
-   "target_down": 622.9,
-   "levels_up": [
-    {
-     "price": 638.44,
-     "why": "day high"
-    },
-    {
-     "price": 644.77,
-     "why": "pre-market lower high"
-    },
-    {
-     "price": 660.0,
-     "why": "round number"
-    }
-   ],
-   "levels_down": [
-    {
-     "price": 630.76,
-     "why": "earlier day high (passed)"
-    },
-    {
-     "price": 629.79,
-     "why": "Nov 24 close (passed)"
-    },
-    {
-     "price": 622.9,
-     "why": "pre-market low"
-    },
-    {
-     "price": 607.27,
-     "why": "day low"
-    }
-   ],
-   "reason": "Put cancelled: it broke the 630.76 breakout and reached 638.44, recovering the whole gap-down with calls ahead 1.4 to 1 at about 0.9x pace. Flipped to a call at 47: above 638.44 targets the 644.77 pre-market high; losing 629.79 cancels it."
-  },
-  {
    "symbol": "AMD",
    "name": "Advanced Micro Devices",
    "direction": "call",
    "confidence": 45,
-   "price": 414.01,
+   "price": 415.95,
    "breakout": 420.27,
    "breakdown": 406.03,
    "target_up": 430.0,
@@ -182,7 +178,7 @@
    "name": "Broadcom",
    "direction": "call",
    "confidence": 42,
-   "price": 310.9,
+   "price": 311.33,
    "breakout": 313.12,
    "breakdown": 304.75,
    "target_up": 316.0,
@@ -226,7 +222,7 @@
    "name": "Walmart",
    "direction": "put",
    "confidence": 40,
-   "price": 132.05,
+   "price": 131.97,
    "breakout": 133.19,
    "breakdown": 131.0,
    "target_up": 133.92,
